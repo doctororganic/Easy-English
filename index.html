@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI English Speaking Tutor</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <h2>Loading AI English Tutor...</h2>
+            <p>Preparing your personalized learning experience</p>
+        </div>
+    </div>
+
+    <!-- Main Application -->
+    <div id="app" class="app">
+        <!-- Navigation Sidebar -->
+        <nav class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>English Tutor AI</span>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li class="nav-item active" data-section="dashboard">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </li>
+                <li class="nav-item" data-section="speaking">
+                    <i class="fas fa-microphone"></i>
+                    <span>Speaking Practice</span>
+                </li>
+                <li class="nav-item" data-section="conversation">
+                    <i class="fas fa-comments"></i>
+                    <span>Conversation</span>
+                </li>
+                <li class="nav-item" data-section="podcast">
+                    <i class="fas fa-podcast"></i>
+                    <span>Podcast Studio</span>
+                </li>
+                <li class="nav-item" data-section="pronunciation">
+                    <i class="fas fa-volume-up"></i>
+                    <span>Pronunciation</span>
+                </li>
+                <li class="nav-item" data-section="vocabulary">
+                    <i class="fas fa-book"></i>
+                    <span>Vocabulary</span>
+                </li>
+                <li class="nav-item" data-section="analytics">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Progress</span>
+                </li>
+            </ul>
+            
+            <div class="sidebar-footer">
+                <div class="language-toggle">
+                    <button id="lang-toggle" class="lang-btn">
+                        <i class="fas fa-globe"></i>
+                        <span>العربية</span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Dashboard Section -->
+            <section id="dashboard-section" class="content-section active">
+                <div class="section-header">
+                    <h1 id="greeting">Good Morning, Student!</h1>
+                    <p id="greeting-subtitle">Ready to improve your English speaking today?</p>
+                </div>
+
+                <div class="dashboard-grid">
+                    <!-- Progress Cards -->
+                    <div class="progress-card">
+                        <h3>Overall Progress</h3>
+                        <div class="progress-ring">
+                            <svg width="120" height="120">
+                                <circle cx="60" cy="60" r="50" fill="none" stroke="#CED4DA" stroke-width="8"/>
+                                <circle cx="60" cy="60" r="50" fill="none" stroke="#0066FF" stroke-width="8" 
+                                        stroke-dasharray="314" stroke-dashoffset="62.8" class="progress-ring-fill"/>
+                            </svg>
+                            <div class="progress-text">80%</div>
+                        </div>
+                        <p>Keep up the great work!</p>
+                    </div>
+
+                    <div class="progress-card">
+                        <h3>Speaking Score</h3>
+                        <div class="progress-ring">
+                            <svg width="120" height="120">
+                                <circle cx="60" cy="60" r="50" fill="none" stroke="#CED4DA" stroke-width="8"/>
+                                <circle cx="60" cy="60" r="50" fill="none" stroke="#198754" stroke-width="8" 
+                                        stroke-dasharray="314" stroke-dashoffset="31.4" class="progress-ring-fill"/>
+                            </svg>
+                            <div class="progress-text">90%</div>
+                        </div>
+                        <p>Excellent pronunciation!</p>
+                    </div>
+
+                    <!-- Quick Actions -->
+                    <div class="quick-actions">
+                        <h3>Quick Start</h3>
+                        <div class="action-buttons">
+                            <button class="action-btn primary" data-section="speaking">
+                                <i class="fas fa-microphone"></i>
+                                <span>Start Speaking</span>
+                            </button>
+                            <button class="action-btn" data-section="conversation">
+                                <i class="fas fa-comments"></i>
+                                <span>AI Conversation</span>
+                            </button>
+                            <button class="action-btn" data-section="podcast">
+                                <i class="fas fa-podcast"></i>
+                                <span>Create Podcast</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Recent Activity -->
+                    <div class="recent-activity">
+                        <h3>Recent Sessions</h3>
+                        <div class="activity-list">
+                            <div class="activity-item">
+                                <i class="fas fa-microphone"></i>
+                                <div class="activity-info">
+                                    <span>Daily Pronunciation Practice</span>
+                                    <small>2 hours ago • Score: 87%</small>
+                                </div>
+                            </div>
+                            <div class="activity-item">
+                                <i class="fas fa-comments"></i>
+                                <div class="activity-info">
+                                    <span>Business English Conversation</span>
+                                    <small>Yesterday • Score: 92%</small>
+                                </div>
+                            </div>
+                            <div class="activity-item">
+                                <i class="fas fa-volume-up"></i>
+                                <div class="activity-info">
+                                    <span>Listening Comprehension</span>
+                                    <small>2 days ago • Score: 85%</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Speaking Practice Section -->
+            <section id="speaking-section" class="content-section">
+                <div class="section-header">
+                    <h1>Speaking Practice</h1>
+                    <p>Improve your pronunciation and fluency with AI-powered feedback</p>
+                </div>
+
+                <div class="practice-modules">
+                    <div class="practice-card">
+                        <h3>Daily Conversation</h3>
+                        <p>Practice everyday phrases and expressions</p>
+                        <button class="start-btn" data-module="daily">
+                            <i class="fas fa-play"></i>
+                            Start Practice
+                        </button>
+                    </div>
+
+                    <div class="practice-card">
+                        <h3>Business English</h3>
+                        <p>Professional communication skills</p>
+                        <button class="start-btn" data-module="business">
+                            <i class="fas fa-play"></i>
+                            Start Practice
+                        </button>
+                    </div>
+
+                    <div class="practice-card">
+                        <h3>Pronunciation Drill</h3>
+                        <p>Focus on specific sounds and words</p>
+                        <button class="start-btn" data-module="pronunciation">
+                            <i class="fas fa-play"></i>
+                            Start Practice
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Practice Interface -->
+                <div id="practice-interface" class="practice-interface hidden">
+                    <div class="practice-header">
+                        <h2 id="practice-title">Daily Conversation Practice</h2>
+                        <button id="close-practice" class="close-btn">
+                            <i class="fas fa-times"></i>
+                        </button>
+                    </div>
+
+                    <div class="practice-content">
+                        <div class="script-display">
+                            <p id="current-script">Please read the following text aloud...</p>
+                        </div>
+
+                        <div class="audio-controls">
+                            <button id="start-recording" class="record-btn">
+                                <i class="fas fa-microphone"></i>
+                                Start Recording
+                            </button>
+                            <button id="stop-recording" class="stop-btn hidden">
+                                <i class="fas fa-stop"></i>
+                                Stop Recording
+                            </button>
+                            <button id="play-audio" class="play-btn hidden">
+                                <i class="fas fa-play"></i>
+                                Play Recording
+                            </button>
+                        </div>
+
+                        <div id="feedback-display" class="feedback-display hidden">
+                            <h3>Real-time Feedback</h3>
+                            <div id="feedback-text" class="feedback-text"></div>
+                        </div>
+
+                        <div class="practice-footer">
+                            <div class="score-display">
+                                <span>Score: </span>
+                                <span id="current-score">--</span>
+                            </div>
+                            <button id="next-phrase" class="next-btn">
+                                Next Phrase
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Conversation Section -->
+            <section id="conversation-section" class="content-section">
+                <div class="section-header">
+                    <h1>AI Conversation Partner</h1>
+                    <p>Have natural conversations to improve your speaking skills</p>
+                </div>
+
+                <div class="conversation-container">
+                    <div class="conversation-sidebar">
+                        <h3>Conversation Topics</h3>
+                        <ul class="topic-list">
+                            <li class="topic-item active" data-topic="general">General Discussion</li>
+                            <li class="topic-item" data-topic="travel">Travel & Culture</li>
+                            <li class="topic-item" data-topic="business">Business Meeting</li>
+                            <li class="topic-item" data-topic="casual">Casual Chat</li>
+                        </ul>
+                    </div>
+
+                    <div class="chat-interface">
+                        <div id="chat-messages" class="chat-messages">
+                            <div class="message ai-message">
+                                <div class="message-avatar">
+                                    <i class="fas fa-robot"></i>
+                                </div>
+                                <div class="message-content">
+                                    <p>Hello! I'm your AI conversation partner. What would you like to talk about today?</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="chat-input-area">
+                            <div class="input-controls">
+                                <button id="toggle-language" class="lang-toggle-btn">
+                                    <i class="fas fa-language"></i>
+                                    EN
+                                </button>
+                                <button id="voice-input" class="voice-input-btn">
+                                    <i class="fas fa-microphone"></i>
+                                </button>
+                            </div>
+                            <div class="input-container">
+                                <textarea id="chat-input" placeholder="Type your message or use voice input..." rows="1"></textarea>
+                                <button id="send-message" class="send-btn">
+                                    <i class="fas fa-paper-plane"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Podcast Studio Section -->
+            <section id="podcast-section" class="content-section">
+                <div class="section-header">
+                    <h1>Podcast Studio</h1>
+                    <p>Generate and analyze podcasts in English and Arabic</p>
+                </div>
+
+                <div class="podcast-workspace">
+                    <div class="podcast-controls">
+                        <div class="control-group">
+                            <label>Language:</label>
+                            <select id="podcast-language">
+                                <option value="en">English</option>
+                                <option value="ar">Arabic</option>
+                                <option value="mixed">Mixed (Arabic + English)</option>
+                            </select>
+                        </div>
+
+                        <div class="control-group">
+                            <label>Topic:</label>
+                            <input type="text" id="podcast-topic" placeholder="Enter podcast topic...">
+                        </div>
+
+                        <div class="control-group">
+                            <label>Duration:</label>
+                            <select id="podcast-duration">
+                                <option value="3">3 minutes</option>
+                                <option value="5">5 minutes</option>
+                                <option value="10">10 minutes</option>
+                            </select>
+                        </div>
+
+                        <button id="generate-podcast" class="generate-btn">
+                            <i class="fas fa-magic"></i>
+                            Generate Podcast
+                        </button>
+                    </div>
+
+                    <div class="podcast-content">
+                        <div id="podcast-script" class="podcast-script">
+                            <h3>Generated Script</h3>
+                            <div id="script-content" class="script-content">
+                                <p>Enter a topic and click generate to create a podcast script...</p>
+                            </div>
+                        </div>
+
+                        <div class="podcast-actions">
+                            <button id="play-podcast" class="play-podcast-btn" disabled>
+                                <i class="fas fa-play"></i>
+                                Play Audio
+                            </button>
+                            <button id="analyze-podcast" class="analyze-btn" disabled>
+                                <i class="fas fa-search"></i>
+                                Analyze Speaking
+                            </button>
+                            <button id="download-podcast" class="download-btn" disabled>
+                                <i class="fas fa-download"></i>
+                                Download
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pronunciation Section -->
+            <section id="pronunciation-section" class="content-section">
+                <div class="section-header">
+                    <h1>Pronunciation Trainer</h1>
+                    <p>Master English sounds with precise feedback</p>
+                </div>
+
+                <div class="pronunciation-workspace">
+                    <div class="sound-categories">
+                        <h3>Focus Areas</h3>
+                        <div class="category-grid">
+                            <button class="sound-category active" data-category="vowels">
+                                <i class="fas fa-volume-up"></i>
+                                <span>Vowels</span>
+                            </button>
+                            <button class="sound-category" data-category="consonants">
+                                <i class="fas fa-volume-down"></i>
+                                <span>Consonants</span>
+                            </button>
+                            <button class="sound-category" data-category="stress">
+                                <i class="fas fa-wave-square"></i>
+                                <span>Word Stress</span>
+                            </button>
+                            <button class="sound-category" data-category="intonation">
+                                <i class="fas fa-wave-square"></i>
+                                <span>Intonation</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="practice-words">
+                        <h3>Words to Practice</h3>
+                        <div id="words-list" class="words-list">
+                            <!-- Words will be populated dynamically -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Vocabulary Section -->
+            <section id="vocabulary-section" class="content-section">
+                <div class="section-header">
+                    <h1>Vocabulary Builder</h1>
+                    <p>Expand your vocabulary with contextual learning</p>
+                </div>
+
+                <div class="vocabulary-workspace">
+                    <div class="vocab-categories">
+                        <h3>Topics</h3>
+                        <div class="category-grid">
+                            <button class="vocab-category active" data-category="daily">Daily Life</button>
+                            <button class="vocab-category" data-category="business">Business</button>
+                            <button class="vocab-category" data-category="academic">Academic</button>
+                            <button class="vocab-category" data-category="technology">Technology</button>
+                        </div>
+                    </div>
+
+                    <div class="word-cards">
+                        <div id="word-card" class="word-card">
+                            <h3 id="word">Beautiful</h3>
+                            <p id="pronunciation">/ˈbjuːtɪfəl/</p>
+                            <p id="definition">Having beauty; pleasing the senses or mind</p>
+                            <div class="word-example">
+                                <p><strong>Example:</strong> "She has a beautiful smile."</p>
+                            </div>
+                            <button id="speak-word" class="speak-btn">
+                                <i class="fas fa-volume-up"></i>
+                                Hear Pronunciation
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="vocab-controls">
+                        <button id="next-word" class="next-word-btn">
+                            <i class="fas fa-arrow-right"></i>
+                            Next Word
+                        </button>
+                        <button id="add-to-favorites" class="favorite-btn">
+                            <i class="far fa-star"></i>
+                            Add to Favorites
+                        </button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Analytics Section -->
+            <section id="analytics-section" class="content-section">
+                <div class="section-header">
+                    <h1>Progress Analytics</h1>
+                    <p>Track your improvement over time</p>
+                </div>
+
+                <div class="analytics-dashboard">
+                    <div class="metrics-grid">
+                        <div class="metric-card">
+                            <h3>Total Practice Time</h3>
+                            <div class="metric-value">12h 34m</div>
+                            <div class="metric-trend">+2h this week</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <h3>Average Score</h3>
+                            <div class="metric-value">87%</div>
+                            <div class="metric-trend">+5% improvement</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <h3>Words Learned</h3>
+                            <div class="metric-value">324</div>
+                            <div class="metric-trend">+23 this week</div>
+                        </div>
+
+                        <div class="metric-card">
+                            <h3>Speaking Confidence</h3>
+                            <div class="metric-value">High</div>
+                            <div class="metric-trend">Excellent progress</div>
+                        </div>
+                    </div>
+
+                    <div class="progress-charts">
+                        <div class="chart-container">
+                            <h3>Speaking Score Trend</h3>
+                            <canvas id="score-chart" width="400" height="200"></canvas>
+                        </div>
+
+                        <div class="chart-container">
+                            <h3>Practice Frequency</h3>
+                            <canvas id="frequency-chart" width="400" height="200"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="scripts/app.js"></script>
+</body>
+</html>

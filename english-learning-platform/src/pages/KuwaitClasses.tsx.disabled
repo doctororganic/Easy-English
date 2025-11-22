@@ -1,0 +1,213 @@
+import { useState, useEffect } from 'react'
+import { BookOpen, TrendingUp, Users, GraduationCap } from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
+import { kuwaitDataService, KuwaitClass, ClassProgress } from '../services/KuwaitDataService'
+import { useCurriculum } from '../contexts/CurriculumContext'
+
+
+
+export function KuwaitClasses() {
+  // Default classes data (can be moved to service later)
+  const defaultClasses: KuwaitClass[] = [
+    {
+      id: 1,
+      class_number: 10,
+      class_name_en: 'Class 10',
+      class_name_ar: 'الصف العاشر',
+      description: 'Foundation level for Kuwait secondary education',
+      academic_year: '2024-2025',
+      total_units: 12,
+      total_vocabulary: 300,
+      is_active: true
+    },
+    {
+      id: 2,
+      class_number: 11,
+      class_name_en: 'Class 11',
+      class_name_ar: 'الصف الحادي عشر',
+      description: 'Intermediate level with advanced topics',
+      academic_year: '2024-2025',
+      total_units: 12,
+      total_vocabulary: 350,
+      is_active: true
+    },
+    {
+      id: 3,
+      class_number: 12,
+      class_name_en: 'Class 12',
+      class_name_ar: 'الصف الثاني عشر',
+      description: 'Advanced level preparing for university entrance',
+      academic_year: '2024-2025',
+      total_units: 12,
+      total_vocabulary: 400,
+      is_active: true
+    }
+  ]
+
+  const { setCurrentClass } = useCurriculum()
+  const [progress, setProgress] = useState<Record<number, ClassProgress>>({})
+  const [loading, setLoading] = useState(true)
+  const navigate = useNavigate()
+
+  useEffect(() => {
+    loadClasses()
+  }, [])
+
+  useEffect(() => {
+    fetchProgress()
+  }, [])
+
+  async function fetchProgress() {
+    try {
+      // Fetch progress for each class
+      const progressPromises = [10, 11, 12].map(async (classNum) => {
+        const classProgress = await kuwaitDataService.getClassProgress(classNum)
+        return { [classNum - 9]: classProgress } // Adjust index to match class IDs (1, 2, 3)
+      })
+      
+      const progressResults = await Promise.all(progressPromises)
+      const progressData = progressResults.reduce((acc, curr) => ({ ...acc, ...curr }), {})
+      setProgress(progressData)
+    } catch (error) {
+      console.error('Error fetching progress:', error)
+      // Fallback progress data
+      setProgress({
+        1: { total_units: 12, completed_units: 5, total_vocabulary: 300, mastered_vocabulary: 120, completion_percentage: 42 },
+        2: { total_units: 12, completed_units: 3, total_vocabulary: 350, mastered_vocabulary: 80, completion_percentage: 25 },
+        3: { total_units: 12, completed_units: 1, total_vocabulary: 400, mastered_vocabulary: 30, completion_percentage: 8 },
+      })
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  async function handleClassSelect(classItem: KuwaitClass) {
+    await setCurrentClass(classItem)
+    navigate(`/kuwait/class/${classItem.class_number}`)
+  }
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-foreground text-xl">Loading classes...</div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="min-h-screen bg-background p-8">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h1 className="text-5xl font-bold text-foreground mb-4">
+            Kuwait Secondary School
+          </h1>
+          <p className="text-xl text-muted-foreground">
+            English Learning Platform - Classes 10, 11, 12
+          </p>
+          <p className="text-lg text-primary mt-2">
+            منصة تعلم اللغة الإنجليزية للمدارس الثانوية الكويتية
+          </p>
+        </div>
+
+        {/* Classes Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {defaultClasses.map((classItem) => {
+            const classProgress = progress[classItem.id] || {
+              total_units: 12,
+              completed_units: 0,
+              total_vocabulary: 300,
+              mastered_vocabulary: 0,
+              completion_percentage: 0
+            }
+
+            return (
+              <div
+                key={classItem.id}
+                className="bg-card rounded-2xl p-8 shadow-2xl hover:shadow-primary/50 border border-border transition-all duration-300 cursor-pointer transform hover:scale-105"
+                onClick={() => handleClassSelect(classItem)}
+              >
+                {/* Class Header */}
+                <div className="text-center mb-6">
+                  <div className="inline-flex items-center justify-center w-20 h-20 bg-primary rounded-full mb-4">
+                    <GraduationCap className="w-10 h-10 text-primary-foreground" />
+                  </div>
+                  <h2 className="text-4xl font-bold text-foreground mb-2">
+                    {classItem.class_number}
+                  </h2>
+                  <h3 className="text-2xl font-semibold text-primary mb-2">
+                    {classItem.class_name_ar}
+                  </h3>
+                  <p className="text-muted-foreground text-sm">
+                    {classItem.description}
+                  </p>
+                </div>
+
+                {/* Progress Bar */}
+                <div className="mb-6">
+                  <div className="flex justify-between text-sm text-muted-foreground mb-2">
+                    <span>Progress</span>
+                    <span>{classProgress.completion_percentage}%</span>
+                  </div>
+                  <div className="w-full bg-muted rounded-full h-3">
+                    <div
+                      className="bg-gradient-to-r from-primary to-secondary h-3 rounded-full transition-all duration-500"
+                      style={{ width: `${classProgress.completion_percentage}%` }}
+                    ></div>
+                  </div>
+                </div>
+
+                {/* Statistics */}
+                <div className="space-y-3">
+                  <div className="flex items-center justify-between bg-accent rounded-lg p-3">
+                    <div className="flex items-center gap-2">
+                      <BookOpen className="w-5 h-5 text-primary" />
+                      <span className="text-foreground">Units</span>
+                    </div>
+                    <span className="text-foreground font-semibold">
+                      {classProgress.completed_units}/{classProgress.total_units}
+                    </span>
+                  </div>
+
+                  <div className="flex items-center justify-between bg-accent rounded-lg p-3">
+                    <div className="flex items-center gap-2">
+                      <TrendingUp className="w-5 h-5 text-secondary" />
+                      <span className="text-foreground">Vocabulary</span>
+                    </div>
+                    <span className="text-foreground font-semibold">
+                      {classProgress.mastered_vocabulary}/{classProgress.total_vocabulary}
+                    </span>
+                  </div>
+                </div>
+
+                {/* CTA Button */}
+                <button className="w-full mt-6 bg-primary text-primary-foreground font-semibold py-3 rounded-lg hover:opacity-90 transition-opacity">
+                  Start Learning
+                </button>
+              </div>
+            )
+          })}
+        </div>
+
+        {/* Quick Links */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div
+            className="bg-card border border-primary rounded-xl p-6 cursor-pointer hover:shadow-lg hover:shadow-primary/30 transition-all"
+            onClick={() => navigate('/grammar-quiz')}
+          >
+            <h3 className="text-2xl font-bold text-foreground mb-2">Grammar Quiz</h3>
+            <p className="text-muted-foreground">Practice with AI-generated grammar questions</p>
+          </div>
+
+          <div
+            className="bg-card border border-secondary rounded-xl p-6 cursor-pointer hover:shadow-lg hover:shadow-secondary/30 transition-all"
+            onClick={() => navigate('/vocabulary-practice')}
+          >
+            <h3 className="text-2xl font-bold text-foreground mb-2">Vocabulary Practice</h3>
+            <p className="text-muted-foreground">Learn new words with audio and translation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

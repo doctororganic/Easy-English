@@ -1,0 +1,278 @@
+{
+  "templates": {
+    "argumentative": {
+      "structure": {
+        "introduction": "Hook + Background + Thesis Statement",
+        "body_paragraf_1": "First argument with evidence and analysis",
+        "body_paragraf_2": "Second argument with evidence and analysis",
+        "body_paragraf_3": "Counter-argument and refutation",
+        "conclusion": "Summary + Restate thesis + Final thoughts"
+      },
+      "word_count": {
+        "minimum": 250,
+        "recommended": "300-400"
+      }
+    },
+    "descriptive": {
+      "structure": {
+        "introduction": "Setting the scene and introducing the subject",
+        "body_paragraf_1": "Sensory details and characteristics",
+        "body_paragraf_2": "Emotional response and atmosphere",
+        "conclusion": "Summary and lasting impression"
+      },
+      "word_count": {
+        "minimum": 200,
+        "recommended": "250-350"
+      }
+    },
+    "narrative": {
+      "structure": {
+        "introduction": "Setting, characters, and conflict",
+        "rising_action": "Development of the story and tension",
+        "climax": "Turning point of the story",
+        "falling_action": "Resolution of the conflict",
+        "conclusion": "Reflection and lesson learned"
+      },
+      "word_count": {
+        "minimum": 300,
+        "recommended": "400-500"
+      }
+    },
+    "expository": {
+      "structure": {
+        "introduction": "Topic introduction and thesis",
+        "body_paragraf_1": "First main point with examples",
+        "body_paragraf_2": "Second main point with examples",
+        "body_paragraf_3": "Third main point with examples (if needed)",
+        "conclusion": "Summary and final thoughts"
+      },
+      "word_count": {
+        "minimum": 250,
+        "recommended": "300-400"
+      }
+    }
+  },
+  "rubrics": {
+    "content_and_ideas": {
+      "excellent": {
+        "score": "9-10",
+        "description": "Insightful, well-developed ideas with strong supporting evidence and examples"
+      },
+      "good": {
+        "score": "7-8",
+        "description": "Clear ideas with adequate development and supporting details"
+      },
+      "satisfactory": {
+        "score": "5-6",
+        "description": "Basic ideas with some development but limited supporting evidence"
+      },
+      "needs_improvement": {
+        "score": "1-4",
+        "description": "Unclear or underdeveloped ideas with minimal supporting evidence"
+      }
+    },
+    "organization": {
+      "excellent": {
+        "score": "9-10",
+        "description": "Logical flow with clear topic sentences, smooth transitions, and effective paragraphing"
+      },
+      "good": {
+        "score": "7-8",
+        "description": "Generally logical organization with adequate transitions"
+      },
+      "satisfactory": {
+        "score": "5-6",
+        "description": "Basic organization but some unclear connections between ideas"
+      },
+      "needs_improvement": {
+        "score": "1-4",
+        "description": "Lacks clear organization with weak or missing transitions"
+      }
+    },
+    "language_and_style": {
+      "excellent": {
+        "score": "9-10",
+        "description": "Sophisticated vocabulary, varied sentence structure, and engaging writing style"
+      },
+      "good": {
+        "score": "7-8",
+        "description": "Appropriate vocabulary with some variety in sentence structure"
+      },
+      "satisfactory": {
+        "score": "5-6",
+        "description": "Basic vocabulary and simple sentence structure"
+      },
+      "needs_improvement": {
+        "score": "1-4",
+        "description": "Limited vocabulary with repetitive or awkward sentence structure"
+      }
+    },
+    "mechanics": {
+      "excellent": {
+        "score": "9-10",
+        "description": "Few or no grammatical errors, proper punctuation, and correct spelling"
+      },
+      "good": {
+        "score": "7-8",
+        "description": "Minor errors that don't interfere with meaning"
+      },
+      "satisfactory": {
+        "score": "5-6",
+        "description": "Some errors but generally understandable"
+      },
+      "needs_improvement": {
+        "score": "1-4",
+        "description": "Frequent errors that interfere with understanding"
+      }
+    }
+  },
+  "exercises": [
+    {
+      "id": "grade10healthy1",
+      "title": "Keeping Fit / Healthy Lifestyle",
+      "grade": 10,
+      "type": "argumentative",
+      "prompt": "Write an essay about keeping fit and maintaining a healthy lifestyle. Discuss effective ways to stay fit and examine the harmful effects of unhealthy eating habits.",
+      "key_points": [
+        "Importance of balanced nutrition",
+        "Benefits of regular exercise",
+        "Harmful effects of fast food",
+        "Role of adequate sleep",
+        "Water consumption importance"
+      ],
+      "writing_tips": [
+        "Use specific examples to support your points",
+        "Compare healthy vs unhealthy habits",
+        "Include a conclusion that summarizes your main arguments"
+      ],
+      "time_limit": 45,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "grade10vegetarian1",
+      "title": "Vegetarian Lifestyle",
+      "grade": 10,
+      "type": "argumentative",
+      "prompt": "Discuss the advantages and disadvantages of following a vegetarian lifestyle. Support your arguments with specific examples.",
+      "key_points": [
+        "Health benefits of plant-based diet",
+        "Environmental advantages",
+        "Potential nutritional deficiencies",
+        "Cost considerations",
+        "Need for proper planning"
+      ],
+      "writing_tips": [
+        "Present both sides fairly",
+        "Use specific nutritional examples",
+        "Mention the importance of professional guidance"
+      ],
+      "time_limit": 45,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "grade10respect1",
+      "title": "The Importance of Respect",
+      "grade": 10,
+      "type": "expository",
+      "prompt": "Explain the importance of respect in our daily lives and how we can show respect to others in different situations.",
+      "key_points": [
+        "Definition and importance of respect",
+        "Different contexts where respect is needed",
+        "Benefits of practicing respect",
+        "Ways to show respect",
+        "Impact on personal and social development"
+      ],
+      "writing_tips": [
+        "Give concrete examples from different life situations",
+        "Explain both giving and receiving respect",
+        "Connect respect to broader social harmony"
+      ],
+      "time_limit": 40,
+      "difficulty": "basic"
+    },
+    {
+      "id": "grade11family1",
+      "title": "Family Gatherings in Modern Society",
+      "grade": 11,
+      "type": "expository",
+      "prompt": "In an era of digital communication and busy schedules, discuss why face-to-face family meetings remain crucial for maintaining strong familial bonds.",
+      "key_points": [
+        "Strengthening relationships through shared experiences",
+        "Intergenerational knowledge transfer",
+        "Non-verbal communication importance",
+        "Cultural preservation through traditions",
+        "Food as a bonding element"
+      ],
+      "writing_tips": [
+        "Connect to modern technology context",
+        "Use specific cultural examples",
+        "Emphasize the irreplaceable nature of face-to-face interaction"
+      ],
+      "time_limit": 50,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "grade11environment1",
+      "title": "Environmental Challenges in Kuwait",
+      "grade": 11,
+      "type": "descriptive",
+      "prompt": "Describe the major environmental challenges facing Kuwait today and discuss their impact on the country's future.",
+      "key_points": [
+        "Air pollution from industrial and vehicle emissions",
+        "Water scarcity and desalination challenges",
+        "Desertification and land degradation",
+        "Marine pollution and ecosystem damage",
+        "Need for sustainable development"
+      ],
+      "writing_tips": [
+        "Use specific examples of environmental problems",
+        "Connect challenges to economic and social impacts",
+        "Propose realistic solutions"
+      ],
+      "time_limit": 50,
+      "difficulty": "intermediate"
+    },
+    {
+      "id": "grade12water1",
+      "title": "Kuwait's Water Management: A Critical Analysis",
+      "grade": 12,
+      "type": "argumentative",
+      "prompt": "Evaluate Kuwait's current water management strategy and propose improvements for ensuring long-term water security.",
+      "key_points": [
+        "Current desalination system's energy intensity",
+        "Wastewater reuse inefficiencies",
+        "Lack of demand management",
+        "RO technology advantages",
+        "Circular water economy benefits"
+      ],
+      "writing_tips": [
+        "Provide specific technical details and statistics",
+        "Present concrete, implementable solutions",
+        "Balance criticism with constructive proposals"
+      ],
+      "time_limit": 60,
+      "difficulty": "advanced"
+    },
+    {
+      "id": "grade12houbara1",
+      "title": "A Day as an Endangered Houbara Bustard",
+      "grade": 12,
+      "type": "narrative",
+      "prompt": "Write a narrative story from the perspective of an endangered Houbara Bustard, describing its daily struggles and the challenges it faces due to human activity.",
+      "key_points": [
+        "Endangered species perspective",
+        "Habitat destruction impact",
+        "Human-wildlife conflict",
+        "Survival struggles",
+        "Environmental awareness message"
+      ],
+      "writing_tips": [
+        "Use first-person narrative voice",
+        "Include sensory details and emotional responses",
+        "Connect individual story to broader conservation message"
+      ],
+      "time_limit": 50,
+      "difficulty": "advanced"
+    }
+  ]
+}

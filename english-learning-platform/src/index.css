@@ -1,0 +1,347 @@
+/* Import Arabic fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Noto+Sans+Arabic:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Kuwait English Hub - Light Mode (White, Purple, Blue) */
+    --background: 0 0% 100%; /* Pure white */
+    --foreground: 240 10% 10%; /* Almost black text */
+    
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 10%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 10%;
+    
+    --primary: 270 75% 60%; /* Purple */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 210 100% 55%; /* Blue */
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 240 10% 95%;
+    --muted-foreground: 240 10% 40%;
+    
+    --accent: 270 60% 95%; /* Light purple accent */
+    --accent-foreground: 270 75% 30%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 240 10% 85%;
+    --input: 240 10% 85%;
+    --ring: 270 75% 60%;
+    
+    --radius: 0.5rem;
+    
+    /* Custom Kuwait Hub colors */
+    --purple-primary: 270 75% 60%;
+    --purple-light: 270 60% 95%;
+    --purple-dark: 270 75% 30%;
+    --blue-primary: 210 100% 55%;
+    --blue-light: 210 100% 95%;
+    --blue-dark: 210 100% 35%;
+  }
+
+  .dark {
+    /* Kuwait English Hub - Dark Mode (Black, Purple, Blue) */
+    --background: 240 10% 5%; /* Almost black */
+    --foreground: 0 0% 98%; /* Almost white text */
+    
+    --card: 240 10% 8%;
+    --card-foreground: 0 0% 98%;
+    
+    --popover: 240 10% 8%;
+    --popover-foreground: 0 0% 98%;
+    
+    --primary: 270 75% 60%; /* Purple */
+    --primary-foreground: 0 0% 100%;
+    
+    --secondary: 210 100% 55%; /* Blue */
+    --secondary-foreground: 0 0% 100%;
+    
+    --muted: 240 10% 15%;
+    --muted-foreground: 240 10% 65%;
+    
+    --accent: 270 50% 20%; /* Dark purple accent */
+    --accent-foreground: 270 75% 80%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    
+    --border: 240 10% 20%;
+    --input: 240 10% 20%;
+    --ring: 270 75% 60%;
+    
+    /* Custom Kuwait Hub dark colors */
+    --purple-primary: 270 75% 60%;
+    --purple-light: 270 50% 30%;
+    --purple-dark: 270 75% 80%;
+    --blue-primary: 210 100% 55%;
+    --blue-light: 210 100% 30%;
+    --blue-dark: 210 100% 75%;
+  }
+}
+
+@layer base {
+  * {
+    border-color: hsl(var(--border));
+  }
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+/* Kuwait English Hub Custom Styles */
+.gradient-purple-blue {
+  background: linear-gradient(135deg, hsl(270 75% 60%) 0%, hsl(210 100% 55%) 100%);
+}
+
+.dark .gradient-purple-blue {
+  background: linear-gradient(135deg, hsl(270 75% 60%) 0%, hsl(210 100% 55%) 100%);
+}
+
+.gradient-purple {
+  background: linear-gradient(135deg, hsl(270 75% 30%) 0%, hsl(270 75% 60%) 100%);
+}
+
+.gradient-blue {
+  background: linear-gradient(135deg, hsl(210 100% 35%) 0%, hsl(210 100% 55%) 100%);
+}
+
+.text-gradient-purple-blue {
+  background: linear-gradient(135deg, hsl(270 75% 60%) 0%, hsl(210 100% 55%) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.card-hover {
+  transition: all 0.3s;
+}
+
+.card-hover:hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  transform: scale(1.05);
+}
+
+.voice-button {
+  padding: 0.5rem;
+  border-radius: 9999px;
+  background-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+  transition: opacity 0.3s;
+}
+
+.voice-button:hover {
+  opacity: 0.8;
+}
+
+.unit-card {
+  background-color: hsl(var(--card));
+  border: 1px solid hsl(var(--border));
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  transition: all 0.3s;
+}
+
+.unit-card:hover {
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.vocabulary-card {
+  background: linear-gradient(to bottom right, hsl(270 100% 98%), hsl(210 100% 98%));
+  border: 2px solid hsl(270 100% 90%);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  transition: all 0.3s;
+}
+
+.dark .vocabulary-card {
+  background: linear-gradient(to bottom right, hsl(270 100% 10%), hsl(210 100% 10%));
+  border-color: hsl(270 100% 20%);
+}
+
+.vocabulary-card:hover {
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+/* Arabic text support */
+.rtl {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Noto Sans Arabic', 'Cairo', 'Amiri', Arial, sans-serif;
+}
+
+.ltr {
+  direction: ltr;
+  text-align: left;
+}
+
+.font-arabic {
+  font-family: 'Noto Sans Arabic', 'Cairo', 'Amiri', Arial, sans-serif;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Loading animation */
+@keyframes pulse-slow {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Voice button animation */
+@keyframes voice-pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+.voice-playing {
+  animation: voice-pulse 1s ease-in-out infinite;
+}
+
+/* Progress bar */
+.progress-bar {
+  height: 0.5rem;
+  background-color: hsl(var(--muted));
+  border-radius: 9999px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(135deg, hsl(270 75% 60%) 0%, hsl(210 100% 55%) 100%);
+  transition: all 0.5s;
+}
+
+/* Quiz option styles */
+.quiz-option {
+  padding: 1rem;
+  border: 2px solid hsl(var(--border));
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.quiz-option:hover {
+  border-color: hsl(var(--primary));
+  background-color: hsl(var(--accent));
+}
+
+.quiz-option.correct {
+  border-color: hsl(142 76% 36%);
+  background-color: hsl(142 76% 96%);
+}
+
+.dark .quiz-option.correct {
+  background-color: hsl(142 76% 10%);
+}
+
+.quiz-option.incorrect {
+  border-color: hsl(0 84% 60%);
+  background-color: hsl(0 84% 96%);
+}
+
+.dark .quiz-option.incorrect {
+  background-color: hsl(0 84% 10%);
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+  .vocabulary-card {
+    @apply p-4 text-sm;
+  }
+  
+  .unit-card {
+    @apply p-4;
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-muted;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-primary rounded-lg;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply opacity-80;
+}
+
+/* Radix UI Collapsible Styles */
+[data-radix-collapsible-content] {
+  overflow: hidden;
+}
+
+[data-state="open"] [data-radix-collapsible-content] {
+  animation: slideDown 200ms ease-out;
+}
+
+[data-state="closed"] [data-radix-collapsible-content] {
+  animation: slideUp 200ms ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    height: 0;
+    opacity: 0;
+  }
+  to {
+    height: var(--radix-collapsible-content-height);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: var(--radix-collapsible-content-height);
+    opacity: 1;
+  }
+  to {
+    height: 0;
+    opacity: 0;
+  }
+}

@@ -1,0 +1,515 @@
+Based on my comprehensive research, here's a complete guide to building English educational web apps with IELTS preparation focus, including useful prompts and free tools:
+
+## AI Prompts for English Educational Content Generation
+
+### 1. IELTS Question Generation Prompts[1][2]
+
+**Reading Comprehension Generator**:
+```
+Generate an IELTS Academic Reading passage and questions:
+
+Topic: {Climate Change/Technology/Education/Health}
+Difficulty: {Band 6.0/7.0/8.0}
+Length: 800-900 words
+Question Types: Mix of True/False/Not Given, Multiple Choice, Matching Headings
+
+Passage Requirements:
+- Academic style with complex vocabulary
+- Clear paragraph structure (6-8 paragraphs)
+- Include statistical data or research findings
+- Use formal linking words
+- Vocabulary level: Band 7-8 (CEFR C1)
+
+Generate:
+1. Complete passage with title
+2. 13 questions across 3 types:
+   - 5x True/False/Not Given
+   - 5x Multiple Choice (A, B, C, D)
+   - 3x Matching paragraph headings
+
+3. Answer key with explanations
+4. Vocabulary list (15 key academic words with definitions)
+5. Time allocation: 20 minutes
+
+Example format:
+**Passage:** [Full text]
+**Questions 1-5:** True/False/Not Given
+**Questions 6-10:** Multiple Choice
+**Questions 11-13:** Matching Headings
+```
+
+**Writing Task 2 Prompt Generator**:[3][2]
+```
+Create IELTS Writing Task 2 question with complete support materials:
+
+Essay Type: {Opinion/Discussion/Problem-Solution/Advantage-Disadvantage}
+Topic: {Education/Technology/Environment/Society}
+Band Target: 7.0+
+
+Generate:
+1. **Essay Question** (40-50 words)
+   - Clear position required
+   - Relevant to modern issues
+   - Allows balanced argument
+
+2. **Band Descriptors Breakdown:**
+   - Task Achievement requirements
+   - Coherence & Cohesion expectations
+   - Lexical Resource examples
+   - Grammatical Range structures
+
+3. **Model Answer** (280-320 words)
+   - Introduction with clear thesis
+   - Body paragraphs with topic sentences
+   - Specific examples and explanations
+   - Strong conclusion
+
+4. **Useful Phrases Bank:**
+   - Opinion expressions
+   - Linking devices
+   - Formal vocabulary alternatives
+   - Hedging language
+
+5. **Common Mistakes to Avoid:**
+   - List 5 typical errors for this question type
+
+6. **Practice Prompts:** (3 similar questions for practice)
+```
+
+**Speaking Part 2 Card Generator**:[4][2]
+```
+Create IELTS Speaking Part 2 cue card with preparation materials:
+
+Theme: {Personal Experience/Places/People/Objects/Events}
+Difficulty: Bands 6.5-8.0
+
+Generate:
+
+**Cue Card:**
+Describe {topic}
+You should say:
+- {bullet point 1}
+- {bullet point 2}
+- {bullet point 3}
+and explain {why/how/what you learned}
+
+**Preparation Materials:**
+
+1. **Vocabulary Bank** (20 words/phrases)
+   - Topic-specific vocabulary
+   - Descriptive adjectives
+   - Idiomatic expressions
+   - Collocations
+
+2. **Sample Answer** (2-3 minutes spoken length)
+   - Natural spoken style
+   - Clear structure
+   - Variety of tenses
+   - Personal examples
+
+3. **Extension Questions** (Part 3 follow-ups)
+   - 6 abstract questions related to theme
+   - Questions that test deeper thinking
+
+4. **Grammar Focus:**
+   - Key structures to use (conditionals, passive, etc.)
+   - Sample sentences
+
+5. **Pronunciation Tips:**
+   - Stress patterns for key words
+   - Linking sounds
+   - Intonation suggestions
+```
+
+### 2. Grammar Exercise Generator[2][5]
+
+**Contextual Grammar Practice**:
+```
+Create comprehensive grammar exercises for IELTS preparation:
+
+Grammar Point: {Present Perfect/Conditionals/Passive Voice/Relative Clauses}
+Proficiency Level: {Intermediate B2/Advanced C1}
+Context: IELTS-relevant topics
+
+Generate:
+
+1. **Explanation Section:**
+   - Clear rule statement
+   - Form breakdown
+   - Usage contexts
+   - Common errors to avoid
+
+2. **Fill-in-the-Gap Exercise** (15 questions)
+   - IELTS-style academic sentences
+   - Progressive difficulty
+   - Mixed distractors
+
+Example:
+Scientists _______ (discover) new evidence that _______ (support) this theory for decades.
+a) have discovered / has supported
+b) discovered / supports
+c) have been discovering / has been supporting
+
+3. **Error Correction** (10 sentences)
+   - Each sentence has 1-2 errors
+   - Errors typical of IELTS candidates
+
+4. **Sentence Transformation** (8 questions)
+   - Rewrite using target structure
+   - Maintain meaning
+
+5. **Application Writing Task:**
+   - Write 100 words using the grammar point
+   - Topic relevant to IELTS themes
+
+6. **Answer Key with Explanations**
+```
+
+### 3. Vocabulary Building Prompts[1][2]
+
+**Academic Word List Exercises**:
+```
+Create vocabulary learning materials for IELTS Academic:
+
+Source: AWL Sublist {1-10}
+Target: 20 words
+Theme: {Environment/Economics/Technology/Health}
+
+Generate:
+
+1. **Word List with Analysis:**
+   For each word provide:
+   - Word form (noun/verb/adj/adv)
+   - IPA pronunciation
+   - Band level (6.0/7.0/8.0)
+   - Definition (IELTS context)
+   - Synonyms (2-3)
+   - Collocations (3-5)
+   - Example IELTS sentence
+
+Example:
+**facilitate** /fəˈsɪlɪteɪt/ (v) - Band 7.5
+Definition: To make an action or process easier
+Synonyms: enable, assist, help
+Collocations: facilitate communication, facilitate access, facilitate learning
+IELTS Example: "Technology can facilitate collaboration between remote teams."
+
+2. **Contextual Sentences** (Gap-fill)
+   - 20 sentences using the words
+   - Academic IELTS style
+   - Answers provided
+
+3. **Word Formation Table:**
+   | Noun | Verb | Adjective | Adverb |
+   |------|------|-----------|--------|
+   | facilitation | facilitate | facilitative | - |
+
+4. **Synonym Matching Exercise**
+
+5. **Paragraph Writing Task:**
+   Write a 150-word paragraph using minimum 10 target words
+
+6. **Flashcard Format:**
+   - Front: Word + example sentence with blank
+   - Back: Definition + completed sentence
+```
+
+## Free Tools for Building IELTS/English Web Apps
+
+### 1. Content Generation Tools[5][2]
+
+**Twee AI** - ESL Exercise Generator:[5]
+```
+Features:
+✅ Paste any text → instant exercises
+✅ Generate reading comprehensions
+✅ Create fill-in-the-gap exercises
+✅ Build True/False questions
+✅ Generate discussion questions
+✅ Create vocabulary lists
+✅ Audio/video transcript to exercises
+
+URL: twee.com
+Cost: FREE (generous free tier)
+
+Integration Example:
+// Twee API integration (if available)
+fetch('https://api.twee.com/generate-exercise', {
+  method: 'POST',
+  body: JSON.stringify({
+    text: passage,
+    exerciseType: 'fill-in-gap',
+    difficulty: 'intermediate'
+  })
+})
+```
+
+**MagicSchool AI**:[2]
+```
+Features:
+✅ Lesson plan generator
+✅ Quiz/test creator
+✅ Rubric generator
+✅ Assignment scaffolder
+✅ Student feedback generator
+
+Use Cases:
+- Generate complete IELTS lessons
+- Create marking rubrics for Writing tasks
+- Build practice tests
+- Generate personalized study plans
+```
+
+### 2. Free Practice Test Platforms[6][7][1]
+
+**IELTS Test Pro**:[1]
+```
+Features:
+✅ 3000+ practice questions
+✅ All 4 skills covered
+✅ Detailed analytics
+✅ Offline mode
+✅ Text-to-speech
+✅ Built-in dictionary
+✅ Progress tracking
+✅ FREE
+
+Can scrape/integrate:
+- Question patterns
+- Scoring algorithms
+- Progress tracking logic
+```
+
+**IELTS Online Tests**:[8]
+```
+Resources:
+✅ Free mock tests
+✅ Practice by section
+✅ Real IELTS format
+✅ Instant scoring
+
+Implementation:
+- Study their test interface
+- Replicate timing mechanisms
+- Adopt scoring rubrics
+```
+
+### 3. Language Learning Frameworks[9][10]
+
+**Duolingo (Open Patterns)**:[11][9]
+```python
+# Duolingo-style gamification implementation
+class IELTSLearningPath:
+    def __init__(self):
+        self.levels = {
+            'beginner': {'target_band': 5.0, 'lessons': 50},
+            'intermediate': {'target_band': 6.5, 'lessons': 70},
+            'advanced': {'target_band': 7.5, 'lessons': 90}
+        }
+        
+    def calculate_xp(self, activity_type, score):
+        xp_map = {
+            'reading_question': 10,
+            'listening_question': 10,
+            'writing_task': 50,
+            'speaking_practice': 30
+        }
+        return xp_map[activity_type] * (score / 100)
+    
+    def award_achievements(self, user_stats):
+        achievements = []
+        if user_stats['streak_days'] >= 7:
+            achievements.append('🔥 Week Warrior')
+        if user_stats['completed_tasks'] >= 50:
+            achievements.append('📚 Dedicated Learner')
+        if user_stats['practice_band'] >= 7.0:
+            achievements.append('⭐ Band 7 Achiever')
+        return achievements
+```
+
+**Memrise Pattern**:[10]
+```javascript
+// Spaced repetition system for vocabulary
+class VocabularyReviewSystem {
+  constructor() {
+    this.intervals = [1, 3, 7, 14, 30]; // days
+  }
+  
+  calculateNextReview(word, correct) {
+    const currentInterval = word.reviewInterval || 0;
+    
+    if (correct) {
+      // Move to next interval
+      const nextIndex = this.intervals.indexOf(currentInterval) + 1;
+      word.reviewInterval = this.intervals[nextIndex] || 30;
+    } else {
+      // Reset to beginning
+      word.reviewInterval = 1;
+    }
+    
+    word.nextReviewDate = new Date();
+    word.nextReviewDate.setDate(
+      word.nextReviewDate.getDate() + word.reviewInterval
+    );
+    
+    return word;
+  }
+  
+  getDueWords(userWords) {
+    const today = new Date();
+    return userWords.filter(word => 
+      new Date(word.nextReviewDate) <= today
+    );
+  }
+}
+```
+
+### 4. Free Speech Recognition APIs[12][13]
+
+**Web Speech API (Browser Native)**:
+```javascript
+// Free browser-based speech recognition for Speaking practice
+class IELTSSpeakingPractice {
+  constructor() {
+    this.recognition = new (window.SpeechRecognition || 
+                           window.webkitSpeechRecognition)();
+    this.recognition.continuous = true;
+    this.recognition.interimResults = true;
+    this.recognition.lang = 'en-US';
+  }
+  
+  async startRecording() {
+    return new Promise((resolve, reject) => {
+      this.transcript = '';
+      
+      this.recognition.onresult = (event) => {
+        let interimTranscript = '';
+        let finalTranscript = '';
+        
+        for (let i = event.resultIndex; i < event.results.length; i++) {
+          const transcript = event.results[i][0].transcript;
+          if (event.results[i].isFinal) {
+            finalTranscript += transcript + ' ';
+          } else {
+            interimTranscript += transcript;
+          }
+        }
+        
+        this.transcript = finalTranscript;
+        this.updateUI(finalTranscript, interimTranscript);
+      };
+      
+      this.recognition.onend = () => {
+        resolve(this.transcript);
+      };
+      
+      this.recognition.start();
+    });
+  }
+  
+  async analyzeResponse(transcript, expectedKeyPoints) {
+    // Check for key vocabulary
+    const vocabularyScore = this.checkVocabulary(transcript);
+    
+    // Check grammar (basic patterns)
+    const grammarScore = this.checkGrammar(transcript);
+    
+    // Check fluency (word count, pauses)
+    const fluencyScore = this.checkFluency(transcript);
+    
+    // Check content coverage
+    const contentScore = this.checkContent(transcript, expectedKeyPoints);
+    
+    return {
+      overall: (vocabularyScore + grammarScore + fluencyScore + contentScore) / 4,
+      breakdown: {
+        vocabulary: vocabularyScore,
+        grammar: grammarScore,
+        fluency: fluencyScore,
+        content: contentScore
+      },
+      feedback: this.generateFeedback(transcript)
+    };
+  }
+  
+  checkVocabulary(text) {
+    const advancedWords = [
+      'facilitate', 'demonstrate', 'significant', 
+      'consequently', 'moreover', 'nevertheless'
+    ];
+    
+    const foundWords = advancedWords.filter(word => 
+      text.toLowerCase().includes(word)
+    );
+    
+    return (foundWords.length / advancedWords.length) * 100;
+  }
+}
+```
+
+### 5. Free Assessment & Testing Tools[14][15]
+
+**Moodle Quiz Integration**:[14]
+```xml
+<!-- Moodle XML format for importing IELTS questions -->
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+  <question type="multichoice">
+    <name>
+      <text>IELTS Reading Q1</text>
+    </name>
+    <questiontext format="html">
+      <text><![CDATA[
+        <p>According to the passage, what is the main cause of...</p>
+      ]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text><![CDATA[
+        <p>The answer is found in paragraph 3...</p>
+      ]]></text>
+    </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333</penalty>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answer fraction="100" format="html">
+      <text><![CDATA[<p>Option A</p>]]></text>
+
+[1](https://ielts-testpro.com)
+[2](https://tefl-tesol-certification.com/blog/top-5-ai-tools-for-english-teachers-build-interactive-exercises-fast)
+[3](https://sisaljournal.org/archives/jun11/morrison/)
+[4](https://takeielts.britishcouncil.org/take-ielts/prepare/free-mobile-apps)
+[5](https://twee.com)
+[6](https://ielts.org/take-a-test/preparation-resources)
+[7](https://ielts.idp.com/prepare)
+[8](https://ieltsonlinetests.com/ielts-online-practice-tests-free)
+[9](https://www.pcmag.com/picks/the-best-free-language-learning-apps)
+[10](https://skolera.com/en/blog/free-educational-apps-for-students/)
+[11](https://www.duolingo.com)
+[12](https://ecp.ep.liu.se/index.php/sltc/article/download/1049/955)
+[13](https://www.speak.com)
+[14](http://www.jstatsoft.org/v58/i01/)
+[15](https://downloads.hindawi.com/journals/scn/2021/7813151.pdf)
+[16](https://academic.oup.com/bjd/article/191/Supplement_1/i200/7698531)
+[17](http://biorxiv.org/lookup/doi/10.1101/2021.09.29.462194)
+[18](http://www.emerald.com/el/article/35/1/211-212/42424)
+[19](https://www.tandfonline.com/doi/full/10.1080/19322909.2017.1376573)
+[20](http://www.tandfonline.com/doi/full/10.1080/15424065.2016.1175329)
+[21](http://www.tandfonline.com/doi/full/10.1080/00049670.2016.1128949)
+[22](https://www.semanticscholar.org/paper/75e1c93ec42200db0a2a95013c15da67a07456d8)
+[23](https://www.semanticscholar.org/paper/77f34ec05030e1e6545dcf2c727bdac9072ee8bc)
+[24](https://www.tandfonline.com/doi/full/10.1080/26939169.2024.2302181)
+[25](https://academic.oup.com/bib/article/doi/10.1093/bib/bbad218/7199492)
+[26](https://jees.umsida.ac.id/index.php/jees/article/download/1194/1607)
+[27](https://ignited.in/index.php/jasrae/article/download/15206/30063)
+[28](http://www.ijiet.org/vol10/1341-CP2022.pdf)
+[29](https://ejournals.bc.edu/index.php/ital/article/download/3271/2884)
+[30](https://ielts.ca/prepare-for-ielts-old/ielts-prep-app/)
+[31](https://ieltsidpindia.com/prepare/ielts-preparation-material)
+[32](https://www.liverpool.ac.uk/media/livacuk/centre-for-innovation-in-education/digital-education/generative-ai-teach-learn-assess/learning-and-teaching-prompt-templates.pdf)
+[33](https://ieltsliz.com/useful-websites-and-resources-for-ielts/)
+[34](https://learnprompting.org)
+[35](https://amshq.org/blog/community-feature/2024-07-22-10-apps-and-websites-to-help-kids-learn-a-second-language/)
+[36](https://www.aiforeducation.io/prompt-library)
+[37](https://lumetest.com/our-tests/ielts-academic)
+[38](https://www.cambridgeenglish.org/exams-and-tests/ielts/preparation/)

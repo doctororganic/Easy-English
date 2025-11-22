@@ -1,0 +1,378 @@
+"""
+PDF Text and Annotation Extraction for Web App Production
+Supports: PyMuPDF, pdfplumber, PyPDF2, and OCR fallback
+"""
+
+import fitz  # PyMuPDF
+import pdfplumber
+from PyPDF2 import PdfReader
+import pytesseract
+from pdf2image import convert_from_path
+import json
+import re
+from datetime import datetime
+from typing import Dict, List, Any
+
+class PDFExtractor:
+    """Comprehensive PDF extraction for web application data"""
+    
+    def __init__(self, pdf_path: str):
+        self.pdf_path = pdf_path
+        self.metadata = {}
+        self.content = {
+            'text': [],
+            'tables': [],
+            'annotations': [],
+            'structure': {},
+            'images': []
+        }
+    
+    def extract_all(self) -> Dict[str, Any]:
+        """
+        Main extraction method - combines all extraction types
+        """
+        self.extract_metadata()
+        self.extract_text_content()
+        self.extract_tables()
+        self.extract_annotations()
+        self.extract_structure()
+        
+        return self.prepare_for_database()
+    
+    # ==================== TEXT EXTRACTION ====================
+    
+    def extract_text_content(self):
+        """
+        Extract text using PyMuPDF (most reliable)
+        """
+        doc = fitz.open(self.pdf_path)
+        
+        for page_num, page in enumerate(doc, start=1):
+            # Extract text with position information
+            text_blocks = page.get_text("dict")
+            
+            page_data = {
+                'page_number': page_num,
+                'full_text': page.get_text(),
+                'blocks': self._process_text_blocks(text_blocks),
+                'word_count': len(page.get_text().split()),
+                'has_images': len(page.get_images()) > 0
+            }
+            
+            self.content['text'].append(page_data)
+        
+        doc.close()
+    
+    def _process_text_blocks(self, text_dict: Dict) -> List[Dict]:
+        """
+        Process text blocks with formatting and position
+        """
+        blocks = []
+        
+        for block in text_dict.get('blocks', []):
+            if block['type'] == 0:  # Text block
+                block_data = {
+                    'bbox': block['bbox'],  # Position on page
+                    'text': '',
+                    'font_info': [],
+                    'is_header': self._detect_header(block),
+                    'is_list_item': self._detect_list(block)
+                }
+                
+                # Extract styled text
+                for line in block.get('lines', []):
+                    for span in line.get('spans', []):
+                        block_data['text'] += span['text']
+                        block_data['font_info'].append({
+                            'size': span['size'],
+                            'font': span['font'],
+                            'color': span['color'],
+                            'flags': span['flags']  # bold, italic, etc.
+                        })
+                
+                blocks.append(block_data)
+        
+        return blocks
+    
+    def _detect_header(self, block: Dict) -> bool:
+        """Detect if text block is a header"""
+        # Check font size and formatting
+        if block.get('lines'):
+            first_line = block['lines'][0]
+            if first_line.get('spans'):
+                first_span = first_line['spans'][0]
+                return first_span.get('size', 0) > 14 or \
+                       bool(first_span.get('flags', 0) & 2**4)  # Bold
+        return False
+    
+    def _detect_list(self, block: Dict) -> bool:
+        """Detect if text block is a list item"""
+        text = block.get('lines', [{}])[0].get('spans', [{}])[0].get('text', '')
+        list_patterns = [r'^\d+\.', r'^[•\-*]', r'^\([a-z]\)', r'^[a-z]\)']
+        return any(re.match(pattern, text.strip()) for pattern in list_patterns)
+    
+    # ==================== TABLE EXTRACTION ====================
+    
+    def extract_tables(self):
+        """
+        Extract tables using pdfplumber (best for tables)
+        """
+        with pdfplumber.open(self.pdf_path) as pdf:
+            for page_num, page in enumerate(pdf.pages, start=1):
+                tables = page.extract_tables()
+                
+                for table_idx, table in enumerate(tables):
+                    if table:
+                        processed_table = {
+                            'page_number': page_num,
+                            'table_index': table_idx,
+                            'headers': table[0] if table else [],
+                            'rows': table[1:] if len(table) > 1 else [],
+                            'raw_data': table,
+                            'structured_data': self._structure_table(table)
+                        }
+                        
+                        self.content['tables'].append(processed_table)
+    
+    def _structure_table(self, table: List[List[str]]) -> List[Dict]:
+        """
+        Convert table to list of dictionaries
+        """
+        if not table or len(table) < 2:
+            return []
+        
+        headers = [h.strip() if h else f'Column_{i}' 
+                   for i, h in enumerate(table[0])]
+        
+        structured = []
+        for row in table[1:]:
+            row_dict = {}
+            for header, cell in zip(headers, row):
+                row_dict[header] = cell.strip() if cell else ''
+            structured.append(row_dict)
+        
+        return structured
+    
+    # ==================== ANNOTATION EXTRACTION ====================
+    
+    def extract_annotations(self):
+        """
+        Extract comments, highlights, and notes from PDF
+        """
+        doc = fitz.open(self.pdf_path)
+        
+        for page_num, page in enumerate(doc, start=1):
+            annotations = page.annots()
+            
+            if annotations:
+                for annot in annotations:
+                    annot_data = self._process_annotation(annot, page_num)
+                    if annot_data:
+                        self.content['annotations'].append(annot_data)
+        
+        doc.close()
+    
+    def _process_annotation(self, annot, page_num: int) -> Dict:
+        """
+        Process individual annotation
+        """
+        annot_type = annot.type[1]  # Get annotation type name
+        
+        annotation_data = {
+            'page_number': page_num,
+            'type': annot_type,
+            'bbox': annot.rect,
+            'created_date': annot.info.get('creationDate', ''),
+            'modified_date': annot.info.get('modDate', ''),
+            'author': annot.info.get('title', 'Unknown'),
+            'subject': annot.info.get('subject', ''),
+            'contents': annot.info.get('content', ''),
+        }
+        
+        # Extract highlighted/underlined text
+        if annot_type in ['Highlight', 'Underline', 'StrikeOut']:
+            annotation_data['highlighted_text'] = self._get_highlighted_text(
+                annot, 
+                page_num
+            )
+        
+        # Extract comment/note text
+        if annot_type == 'Text':  # Sticky note
+            annotation_data['note_text'] = annot.info.get('content', '')
+        
+        return annotation_data
+    
+    def _get_highlighted_text(self, annot, page_num: int) -> str:
+        """
+        Extract text that was highlighted
+        """
+        doc = fitz.open(self.pdf_path)
+        page = doc[page_num - 1]
+        
+        # Get text within annotation rectangle
+        text_instances = page.get_text("words", clip=annot.rect)
+        highlighted_text = ' '.join([word[4] for word in text_instances])
+        
+        doc.close()
+        return highlighted_text
+    
+    # ==================== STRUCTURE EXTRACTION ====================
+    
+    def extract_structure(self):
+        """
+        Extract document structure (headings, sections, TOC)
+        """
+        doc = fitz.open(self.pdf_path)
+        
+        # Extract table of contents
+        toc = doc.get_toc()
+        
+        structure = {
+            'total_pages': len(doc),
+            'toc': [
+                {
+                    'level': item[0],
+                    'title': item[1],
+                    'page': item[2]
+                }
+                for item in toc
+            ],
+            'sections': self._identify_sections()
+        }
+        
+        self.content['structure'] = structure
+        doc.close()
+    
+    def _identify_sections(self) -> List[Dict]:
+        """
+        Identify document sections based on formatting
+        """
+        sections = []
+        current_section = None
+        
+        for page_data in self.content['text']:
+            for block in page_data['blocks']:
+                if block['is_header']:
+                    if current_section:
+                        sections.append(current_section)
+                    
+                    current_section = {
+                        'title': block['text'].strip(),
+                        'start_page': page_data['page_number'],
+                        'content': []
+                    }
+                elif current_section:
+                    current_section['content'].append(block['text'])
+        
+        if current_section:
+            sections.append(current_section)
+        
+        return sections
+    
+    # ==================== METADATA EXTRACTION ====================
+    
+    def extract_metadata(self):
+        """
+        Extract PDF metadata
+        """
+        doc = fitz.open(self.pdf_path)
+        
+        self.metadata = {
+            'filename': self.pdf_path.split('/')[-1],
+            'title': doc.metadata.get('title', ''),
+            'author': doc.metadata.get('author', ''),
+            'subject': doc.metadata.get('subject', ''),
+            'keywords': doc.metadata.get('keywords', ''),
+            'creator': doc.metadata.get('creator', ''),
+            'producer': doc.metadata.get('producer', ''),
+            'creation_date': doc.metadata.get('creationDate', ''),
+            'modification_date': doc.metadata.get('modDate', ''),
+            'total_pages': len(doc),
+            'is_encrypted': doc.is_encrypted,
+            'file_size': self._get_file_size()
+        }
+        
+        doc.close()
+    
+    def _get_file_size(self) -> int:
+        """Get file size in bytes"""
+        import os
+        return os.path.getsize(self.pdf_path)
+    
+    # ==================== DATA PREPARATION ====================
+    
+    def prepare_for_database(self) -> Dict[str, Any]:
+        """
+        Prepare extracted data for database insertion
+        """
+        return {
+            'document_id': self._generate_document_id(),
+            'metadata': self.metadata,
+            'content': {
+                'full_text': self._combine_all_text(),
+                'page_texts': [
+                    {
+                        'page_number': p['page_number'],
+                        'text': p['full_text'],
+                        'word_count': p['word_count']
+                    }
+                    for p in self.content['text']
+                ],
+                'tables': self.content['tables'],
+                'structure': self.content['structure']
+            },
+            'annotations': self.content['annotations'],
+            'statistics': self._calculate_statistics(),
+            'extracted_at': datetime.utcnow().isoformat(),
+            'extraction_version': '1.0'
+        }
+    
+    def _combine_all_text(self) -> str:
+        """Combine all text for full-text search"""
+        return '\n\n'.join([
+            page['full_text'] for page in self.content['text']
+        ])
+    
+    def _calculate_statistics(self) -> Dict:
+        """Calculate document statistics"""
+        all_text = self._combine_all_text()
+        
+        return {
+            'total_words': len(all_text.split()),
+            'total_characters': len(all_text),
+            'total_pages': self.metadata['total_pages'],
+            'total_tables': len(self.content['tables']),
+            'total_annotations': len(self.content['annotations']),
+            'has_toc': len(self.content['structure'].get('toc', [])) > 0,
+            'average_words_per_page': len(all_text.split()) / max(self.metadata['total_pages'], 1)
+        }
+    
+    def _generate_document_id(self) -> str:
+        """Generate unique document ID"""
+        import hashlib
+        return hashlib.md5(
+            f"{self.pdf_path}{datetime.utcnow()}".encode()
+        ).hexdigest()
+
+
+# ==================== USAGE EXAMPLE ====================
+
+def process_pdf_for_webapp(pdf_path: str) -> Dict:
+    """
+    Main function to process PDF for web application
+    """
+    extractor = PDFExtractor(pdf_path)
+    data = extractor.extract_all()
+    
+    # Optionally save to JSON
+    with open('extracted_data.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+    
+    return data
+
+# Process single PDF
+if __name__ == "__main__":
+    pdf_data = process_pdf_for_webapp('document.pdf')
+    print(f"Extracted {pdf_data['statistics']['total_words']} words")
+    print(f"Found {pdf_data['statistics']['total_tables']} tables")
+    print(f"Found {pdf_data['statistics']['total_annotations']} annotations")

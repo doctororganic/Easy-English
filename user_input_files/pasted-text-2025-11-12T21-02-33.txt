@@ -1,0 +1,96 @@
+Hey there! You’ve already done the hardest part—spotting the pattern that everything looks polished but isn’t wired up yet. Here’s a smart, cost-free rescue plan that targets the four broken areas, with practical commands and tools you can use right away.
+
+0. Quick Triage (30–45 min)
+
+1. Run in a modern browser with the devtools open (F12). Keep the Console and Network panels visible so you can pin down 404s, JS errors, and redirect loops as you click around.1
+2. Record one good failing session using Chrome’s free “Record” feature in the Recorder panel. Export the JSON; you’ll replay it later to confirm fixes without manually clicking everything.1
+3. If the site is static-asset based, download the code and fire up a local server:
+bashDownloadCopy codenpx http-server . -p 4173
+That keeps production safe while you iterate.
+
+
+1. Priority 1 – Setbook Questions (Routing + Data)
+Likely Failure Pattern: Broken SPA routes or missing data fetch for the questions.
+Fix Workflow:
+StepSmart Command / ToolWhat to Do1DevTools → ConsoleClick the “Setbook” link and note any Uncaught errors. These usually reveal missing components or mistyped imports.12Network tabWatch for 3xx/4xx responses when the setbook page requests JSON. If URLs redirect to /, your router isn’t recognizing dynamic grades.3Source checkIf you’re using Next.js / React Router, confirm that dynamic segments exist (/setbook/[grade]/page.tsx or equivalent).[^^2]4Data stubEnsure a questions JSON exists. You can scaffold using free mock APIs (e.g., Mock Service Worker) while you build the backend.5Replay testApply the Chrome Recorder playback to confirm that navigation + question rendering now proceeds without errors.
+If this is a Next.js App Router project, your file structure should include dynamic route folders like [grade] to avoid the homepage redirect.2 Once the file exists, verify the Link component uses href="/setbook/grade-7" rather than onClick handlers.
+
+2. Priority 2 – Functional Language Exercises
+Observed Issues: Buttons do nothing; interface missing entirely.
+Implementation Sprint:
+
+1. Bootstrap the modal/interface now to avoid blank screens: stub a lightweight component with local state.
+2. Wire the button to toggle the modal; do not wait for real content. Example (React):
+jsxDownloadCopy codeconst [activeSection, setActiveSection] = useState(null); // React useState for free state management[^3]
+
+3. Seed free-tier content from a JSON file in public/data/functional-language.json. Serve with a simple fetch.
+4. Automate the regression test once you have at least one working button:
+bashDownloadCopy codenpx playwright codegen https://localhost:4173/functional-language
+Playwright’s open-source codegen will produce a test that ensures “Start Practice” opens the interface.3
+
+
+3. Priority 3 – Vocabulary Unit Switching
+Problem: Examples show, but unit switching is dead.
+Fix Strategy:
+
+* Copy the state pattern that powers your working “Show Example” feature.
+* Keep the unit list in a central store (even a plain object).
+* On grade change, reset both currentUnit and currentExample.
+* Use DevTools → Components (React DevTools extension, free) to confirm the state updates cascade through the tree.
+
+Command Checklist:
+bashDownloadCopy code# Install React DevTools if you don’t have them locally
+npx react-devtools
+Attach the standalone devtools to your local server; watch the state to ensure the unit index actually changes when you click.
+
+4. Priority 4 – Writing Section (Empty Shell)
+Goal: Deliver at least one functioning writing exercise quickly.
+
+1. Scaffold a textarea + rubric preview so students see something.
+2. Add client-side autosave with localStorage. This keeps content even without a backend.
+3. Use Markdown templates stored in /public/data/writing.json; render them with a free markdown parser like marked.
+4. Enable download (free) with the browser Blob API so students can export their essays.
+
+Test that localStorage works in devtools → Application → Storage before shipping.
+
+Regression Safety Net (All Priorities)
+
+1. Powerful free linting:
+bashDownloadCopy codenpm run lint
+(Or npx eslint . if lint script isn’t set.)
+2. Component smoke tests: once components render, add a Vitest/Testing Library sanity check:
+bashDownloadCopy codenpx vitest run setbook.test.tsx
+
+3. Single-command visual diff:
+bashDownloadCopy codenpx @storybook/test preview --url http://localhost:4173
+If/when you adopt Storybook, this is free and catches UI regressions.
+
+
+Suggested Order of Attack This Week
+
+1. Patch Setbook routes + load at least 5 placeholder questions.
+2. Implement functional language popover with stubbed content; run Playwright codegen test.
+3. Fix vocabulary state so unit swapping works.
+4. Ship minimal writing exercise experience (textarea, prompt, save).
+
+
+Free Tools Recap
+ToolPurposeCostChrome DevTools & RecorderTrace routing errors, replay sessionsFree1Next.js dynamic routesFix grade-specific URLsFree2React DevTools (npx react-devtools)Inspect state while switching unitsFree4Playwright (npx playwright codegen)Auto-generate regression tests for buttonsFree3
+
+Friendly Nudge
+Momentum matters—your vocabulary win proves the design can sing and dance. If you knock out the Setbook routing tonight, the rest of the orchestra will fall back into rhythm. Ping me once you’ve wired the first practice interface and I’ll happily brainstorm enhancement ideas.
+
+Sources
+Footnotes
+
+1. 
+Google Chrome Developers. “Get started with Chrome DevTools.” https://developer.chrome.com/docs/devtools ↩ ↩2 ↩3 ↩4
+
+2. 
+Next.js Documentation. “Dynamic Routes.” https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes ↩ ↩2
+
+3. 
+Playwright Documentation. “Test automation.” https://playwright.dev/docs/test-intro ↩ ↩2
+
+4. 
+React Documentation. “useState.” https://react.dev/reference/react/useState ↩

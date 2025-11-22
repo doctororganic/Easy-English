@@ -1,0 +1,50 @@
+[project]
+name = "kuwait-mysql-mcp-enhanced"
+version = "1.0.0"
+description = "Kuwait English Learning Platform - MySQL MCP Server (Enhanced)"
+authors = [
+    {name = "MiniMax Agent", email = "agent@minimax.ai"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.13.0",
+    "mysql-connector-python>=9.0.0",
+    "pymysql>=1.1.0",
+    "python-docx>=1.1.0",
+    "requests>=2.32.0",
+    "sqlparse>=0.5.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/minimax/kuwait-mysql-mcp"
+Repository = "https://github.com/minimax/kuwait-mysql-mcp"
+Documentation = "https://github.com/minimax/kuwait-mysql-mcp#readme"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+    "black>=24.0.0",
+    "isort>=5.13.0",
+    "mypy>=1.8.0"
+]
+
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+line_length = 88
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true

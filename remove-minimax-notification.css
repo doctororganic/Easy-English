@@ -1,0 +1,32 @@
+/* CSS to hide MiniMax notifications and branding */
+
+/* Hide any elements containing MiniMax text */
+*:contains("MiniMax"),
+*:contains("Created by"),
+*:contains("minimax"),
+*:contains("Made by") {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+}
+
+/* Hide notifications in corners */
+[class*="notification"],
+[class*="watermark"],
+[class*="branding"],
+[class*="attribution"] {
+  display: none !important;
+}
+
+/* Hide overlay notifications */
+div[style*="position: fixed"][style*="bottom"],
+div[style*="position: absolute"][style*="right"] {
+  display: none !important;
+}
+
+/* Hide elements with specific styles common to notifications */
+div[style*="z-index: 9999"],
+div[style*="z-index: 999"],
+div[style*="position: fixed"] {
+  display: none !important;
+}

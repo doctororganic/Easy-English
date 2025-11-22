@@ -1,0 +1,233 @@
+======================================================================
+INSERTING COMPREHENSIVE DATA INTO SUPABASE
+======================================================================
+
+1. Loading topics data...
+   Found 229 topics
+
+2. Inserting 229 topics...
+✗ Error inserting batch 1: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'difficulty' column of 'conversation_topics' in the schema cache"}
+✗ Error inserting batch 2: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'difficulty' column of 'conversation_topics' in the schema cache"}
+✗ Error inserting batch 3: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'difficulty' column of 'conversation_topics' in the schema cache"}
+✗ Error inserting batch 4: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'difficulty' column of 'conversation_topics' in the schema cache"}
+✗ Error inserting batch 5: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'difficulty' column of 'conversation_topics' in the schema cache"}
+   ✓ Total topics inserted: 0
+
+3. Loading vocabulary data...
+   Found 10000 vocabulary words
+
+4. Inserting 10000 vocabulary words...
+   (This may take a few minutes...)
+✗ Error inserting batch 1: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 2: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 3: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 4: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 5: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 6: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 7: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 8: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 9: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 10: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 11: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 12: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 13: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 14: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 15: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 16: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 17: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 18: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 19: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 20: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 21: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 22: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 23: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 24: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 25: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 26: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 27: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 28: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 29: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 30: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 31: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 32: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 33: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 34: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 35: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 36: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 37: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 38: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 39: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 40: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 41: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 42: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 43: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 44: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 45: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 46: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 47: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 48: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 49: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 50: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 51: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 52: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 53: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 54: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 55: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 56: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 57: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 58: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 59: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 60: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 61: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 62: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 63: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 64: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 65: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 66: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 67: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 68: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 69: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 70: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 71: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 72: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 73: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 74: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 75: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 76: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 77: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 78: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 79: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 80: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 81: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 82: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 83: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 84: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 85: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 86: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 87: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 88: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 89: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 90: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 91: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 92: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 93: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 94: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 95: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 96: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 97: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 98: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 99: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+✗ Error inserting batch 100: 400
+  Response: {"code":"PGRST204","details":null,"hint":null,"message":"Could not find the 'arabic' column of 'vocabulary' in the schema cache"}
+   ✓ Total vocabulary words inserted: 0
+
+======================================================================
+DATA INSERTION COMPLETE
+======================================================================
+Topics inserted: 0/229
+Vocabulary inserted: 0/10000
+======================================================================

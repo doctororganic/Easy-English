@@ -1,0 +1,539 @@
+{
+  "grade": 12,
+  "unit": 1,
+  "components": {
+    "vocabulary": {
+      "multiple_choice": [
+        {
+          "id": "g12_u1_v1",
+          "number": 1,
+          "question": "There are strict regulations concerning the ……… of children.",
+          "options": {
+            "a": "adoption",
+            "b": "consultation",
+            "c": "litigation",
+            "d": "persuasion"
+          }
+        },
+        {
+          "id": "g12_u1_v2",
+          "number": 2,
+          "question": "My father is accustomed to sipping his coffee on a wooden ………………… in his garden.",
+          "options": {
+            "a": "bench",
+            "b": "case",
+            "c": "jury",
+            "d": "note"
+          }
+        },
+        {
+          "id": "g12_u1_v3",
+          "number": 3,
+          "question": "The speaker looked at the ……he wrote to help him remember key points of the meeting.",
+          "options": {
+            "a": "rows",
+            "b": "benches",
+            "c": "notes",
+            "d": "principles"
+          }
+        },
+        {
+          "id": "g12_u1_v4",
+          "number": 4,
+          "question": "A ………………… meeting was held to discuss the policy and the goals of the company.",
+          "options": {
+            "a": "brief",
+            "b": "civil",
+            "c": "guilty",
+            "d": "petty"
+          }
+        },
+        {
+          "id": "g12_u1_v5",
+          "number": 5,
+          "question": "The was refused as there was no evidence.",
+          "options": {
+            "a": "case",
+            "b": "principle",
+            "c": "spring",
+            "d": "welfare"
+          }
+        },
+        {
+          "id": "g12_u1_v6",
+          "number": 6,
+          "question": "The man … that he was innocent and didn’t receive a fair trial.",
+          "options": {
+            "a": "governed",
+            "b": "intended",
+            "c": "prosecuted",
+            "d": "claimed"
+          }
+        },
+        {
+          "id": "g12_u1_v7",
+          "number": 7,
+          "question": "He chose to join the course abroad after ………………… with his parents and teachers.",
+          "options": {
+            "a": "welfare",
+            "b": "principle",
+            "c": "consultation",
+            "d": "jury"
+          }
+        },
+        {
+          "id": "g12_u1_v8",
+          "number": 8,
+          "question": "Television can encourage aggression in children.",
+          "options": {
+            "a": "litigation",
+            "b": "violence",
+            "c": "adoption",
+            "d": "defence"
+          }
+        },
+        {
+          "id": "g12_u1_v9",
+          "number": 9,
+          "question": "Culture can be …………as the knowledge, beliefs, laws, and customs of a group of people.",
+          "options": {
+            "a": "defined",
+            "b": "imposed",
+            "c": "contended",
+            "d": "governed"
+          }
+        },
+        {
+          "id": "g12_u1_v10",
+          "number": 10,
+          "question": "Laws against littering should be …… …… to save the environment.",
+          "options": {
+            "a": "enforced",
+            "b": "contended",
+            "c": "proved",
+            "d": "governed"
+          }
+        },
+        {
+          "id": "g12_u1_v11",
+          "number": 11,
+          "question": "Our society is …………… by customs and values related to Islam.",
+          "options": {
+            "a": "governed",
+            "b": "prosecuted",
+            "c": "intended",
+            "d": "contended"
+          }
+        },
+        {
+          "id": "g12_u1_v12",
+          "number": 12,
+          "question": "He has a ……… …… against the store for its poor customer service.",
+          "options": {
+            "a": "persuasion",
+            "b": "property",
+            "c": "grievance",
+            "d": "violence"
+          }
+        },
+        {
+          "id": "g12_u1_v13",
+          "number": 13,
+          "question": "He was proved to be ……… of the crime therefore he was sent to prison.",
+          "options": {
+            "a": "brief",
+            "b": "petty",
+            "c": "legal",
+            "d": "guilty"
+          }
+        },
+        {
+          "id": "g12_u1_v14",
+          "number": 14,
+          "question": "The criminal was taken to the police station in",
+          "options": {
+            "a": "handcuffs",
+            "b": "cases",
+            "c": "notes",
+            "d": "grievances"
+          }
+        },
+        {
+          "id": "g12_u1_v15",
+          "number": 15,
+          "question": "Beware of ………………… your own taste on your children. Let them have their own say.",
+          "options": {
+            "a": "imposing",
+            "b": "proving",
+            "c": "contending",
+            "d": "suing"
+          }
+        },
+        {
+          "id": "g12_u1_v16",
+          "number": 16,
+          "question": "The organisation works on the ……… that all members have the same rights.",
+          "options": {
+            "a": "welfare",
+            "b": "defence",
+            "c": "principle",
+            "d": "litigation"
+          }
+        },
+        {
+          "id": "g12_u1_v17",
+          "number": 17,
+          "question": "The judge took the new evidence into consideration and released the ………………… man.",
+          "options": {
+            "a": "legal",
+            "b": "innocent",
+            "c": "petty",
+            "d": "brief"
+          }
+        },
+        {
+          "id": "g12_u1_v18",
+          "number": 18,
+          "question": "They …… to visit all the touristic places in London.",
+          "options": {
+            "a": "prove",
+            "b": "enforce",
+            "c": "impose",
+            "d": "intend"
+          }
+        },
+        {
+          "id": "g12_u1_v19",
+          "number": 19,
+          "question": "The court proved that all the company business operations were ……",
+          "options": {
+            "a": "petty",
+            "b": "legal",
+            "c": "guilty",
+            "d": "tolerant"
+          }
+        },
+        {
+          "id": "g12_u1_v20",
+          "number": 20,
+          "question": "The government works on ending petty ……… … at courts.",
+          "options": {
+            "a": "cases",
+            "b": "benches",
+            "c": "principles",
+            "d": "handcuffs"
+          }
+        },
+        {
+          "id": "g12_u1_v21",
+          "number": 21,
+          "question": "The teacher asked us to make a ………… of the questions we wanted to ask.",
+          "options": {
+            "a": "case",
+            "b": "note",
+            "c": "penalty",
+            "d": "welfare"
+          }
+        },
+        {
+          "id": "g12_u1_v22",
+          "number": 22,
+          "question": "The company was given a severe ………… …… for violating environmental rules.",
+          "options": {
+            "a": "principle",
+            "b": "supporter",
+            "c": "penalty",
+            "d": "adoption"
+          }
+        },
+        {
+          "id": "g12_u1_v23",
+          "number": 23,
+          "question": "People should stop arguing around issues.",
+          "options": {
+            "a": "petty",
+            "b": "civil",
+            "c": "tolerant",
+            "d": "innocent"
+          }
+        }
+      ],
+      "fill_in_blanks": [
+        {
+          "id": "g12_u1_f34",
+          "number": 34,
+          "sentence": "It was raining heavily, but we went out regardless."
+        },
+        {
+          "id": "g12_u1_f35",
+          "number": 35,
+          "sentence": "The most important principle in our family is mutual respect."
+        },
+        {
+          "id": "g12_u1_f36",
+          "number": 36,
+          "sentence": "The teacher asked us to read the new words and define them."
+        },
+        {
+          "id": "g12_u1_f37",
+          "number": 37,
+          "sentence": "Ultimately, we decided to buy a smaller house with a reasonable price."
+        },
+        {
+          "id": "g12_u1_f38",
+          "number": 38,
+          "sentence": "There's a note on the door saying when the shop will open again."
+        },
+        {
+          "id": "g12_u1_f39",
+          "number": 39,
+          "sentence": "They intend to open a new business soon."
+        },
+        {
+          "id": "g12_u1_f40",
+          "number": 40,
+          "sentence": "When we were younger, my brothers and I used to argue over petty things."
+        },
+        {
+          "id": "g12_u1_f41",
+          "number": 41,
+          "sentence": "Drivers shouldn’t exceed the speed limit to avoid road accidents."
+        },
+        {
+          "id": "g12_u1_f42",
+          "number": 42,
+          "sentence": "He came to the meeting armed with all the facts and figures to prove his point."
+        },
+        {
+          "id": "g12_u1_f43",
+          "number": 43,
+          "sentence": "There are organisations that offer free legal advice to people."
+        }
+      ]
+    },
+    "grammar": {
+      "multiple_choice": [
+        {
+          "id": "g12_u1_g1",
+          "number": 1,
+          "question": "They …… the law, they should be punished.",
+          "options": {
+            "a": "has broken",
+            "b": "have broken",
+            "c": "hadn’t broken",
+            "d": "didn’t break"
+          }
+        },
+        {
+          "id": "g12_u1_g2",
+          "number": 2,
+          "question": "I just my leg during the race.",
+          "options": {
+            "a": "had-broken",
+            "b": "didn’t-break",
+            "c": "has-broken",
+            "d": "have-broken"
+          }
+        },
+        {
+          "id": "g12_u1_g3",
+          "number": 3,
+          "question": "She never… to London.",
+          "options": {
+            "a": "have-been",
+            "b": "has-been",
+            "c": "is-being",
+            "d": "was-being"
+          }
+        },
+        {
+          "id": "g12_u1_g4",
+          "number": 4,
+          "question": "The manager…… already .... the employee.",
+          "options": {
+            "a": "has-fired",
+            "b": "had been-fired",
+            "c": "have-fired",
+            "d": "has-been fired"
+          }
+        },
+        {
+          "id": "g12_u1_g5",
+          "number": 5,
+          "question": "My father’s flight …… yet.",
+          "options": {
+            "a": "has arrived",
+            "b": "arrived",
+            "c": "hasn’t arrived",
+            "d": "haven’t arrived"
+          }
+        },
+        {
+          "id": "g12_u1_g6",
+          "number": 6,
+          "question": "He in this school for five years.",
+          "options": {
+            "a": "were teaching",
+            "b": "has been teaching",
+            "c": "have taught",
+            "d": "teaching"
+          }
+        },
+        {
+          "id": "g12_u1_g7",
+          "number": 7,
+          "question": "I … this novel all day long. I am not done yet.",
+          "options": {
+            "a": "have been reading",
+            "b": "had read",
+            "c": "read",
+            "d": "reading"
+          }
+        },
+        {
+          "id": "g12_u1_g8",
+          "number": 8,
+          "question": "They …… in that area since 1999.",
+          "options": {
+            "a": "are living",
+            "b": "have been living",
+            "c": "were living",
+            "d": "has been living"
+          }
+        },
+        {
+          "id": "g12_u1_g9",
+          "number": 9,
+          "question": "My sister for the Olympics since last year.",
+          "options": {
+            "a": "is training",
+            "b": "has been training",
+            "c": "was training",
+            "d": "training"
+          }
+        },
+        {
+          "id": "g12_u1_g10",
+          "number": 10,
+          "question": "I in this neighbourhood for several years.",
+          "options": {
+            "a": "lives",
+            "b": "living",
+            "c": "have lived",
+            "d": "has lived"
+          }
+        },
+        {
+          "id": "g12_u1_g11",
+          "number": 11,
+          "question": "My new car is not comfortable the old one.",
+          "options": {
+            "a": "in comparison with",
+            "b": "whereas",
+            "c": "instead of",
+            "d": "but"
+          }
+        },
+        {
+          "id": "g12_u1_g12",
+          "number": 12,
+          "question": "Her phone ……… for two minutes. It’s quite annoying.",
+          "options": {
+            "a": "rang",
+            "b": "has been ringing",
+            "c": "have been ringing",
+            "d": "ring"
+          }
+        },
+        {
+          "id": "g12_u1_g13",
+          "number": 13,
+          "question": "My brother looks very tired. He without break since morning.",
+          "options": {
+            "a": "has been working",
+            "b": "will be working",
+            "c": "have worked",
+            "d": "worked"
+          }
+        },
+        {
+          "id": "g12_u1_g14",
+          "number": 14,
+          "question": "I prefer spending vacations in busy cities. …………………, my brother prefers small villages.",
+          "options": {
+            "a": "On the other hand",
+            "b": "whereas",
+            "c": "in comparison with",
+            "d": "instead of"
+          }
+        },
+        {
+          "id": "g12_u1_g15",
+          "number": 15,
+          "question": "I want to go out with friends, … I must study for the exams.",
+          "options": {
+            "a": "but",
+            "b": "whereas",
+            "c": "on the other hand",
+            "d": "instead of"
+          }
+        },
+        {
+          "id": "g12_u1_g16",
+          "number": 16,
+          "question": "Staying at home is relaxing. …………………, you might feel bored.",
+          "options": {
+            "a": "Whereas",
+            "b": "Instead of",
+            "c": "On the other hand",
+            "d": "In comparison with"
+          }
+        },
+        {
+          "id": "g12_u1_g17",
+          "number": 17,
+          "question": "teaching, being a doctor is a hard profession.",
+          "options": {
+            "a": "But",
+            "b": "On the other hand",
+            "c": "Whereas",
+            "d": "In comparison with"
+          }
+        },
+        {
+          "id": "g12_u1_g18",
+          "number": 18,
+          "question": "Let’s do some yoga jogging.",
+          "options": {
+            "a": "but",
+            "b": "instead of",
+            "c": "whereas",
+            "d": "on the other hand"
+          }
+        },
+        {
+          "id": "g12_u1_g19",
+          "number": 19,
+          "question": "The tallest buildings in London are small those in New York.",
+          "options": {
+            "a": "instead of",
+            "b": "in comparison with",
+            "c": "whereas",
+            "d": "but"
+          }
+        },
+        {
+          "id": "g12_u1_g20",
+          "number": 20,
+          "question": "Wherever possible I use honey ………………… sugar.",
+          "options": {
+            "a": "whereas",
+            "b": "on the other hand",
+            "c": "but",
+            "d": "instead of"
+          }
+        }
+      ]
+    }
+  }
+}

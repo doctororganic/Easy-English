@@ -1,0 +1,57 @@
+{
+  "grammar_topics": [
+    {
+      "topic": "Tenses",
+      "subtopics": [
+        "Present Simple",
+        "Present Continuous",
+        "Present Perfect",
+        "Past Simple",
+        "Past Continuous",
+        "Past Perfect",
+        "Future Simple",
+        "Future Continuous",
+        "Future Perfect"
+      ]
+    },
+    {
+      "topic": "Conditionals",
+      "subtopics": [
+        "Zero Conditional",
+        "First Conditional",
+        "Second Conditional",
+        "Third Conditional",
+        "Mixed Conditionals"
+      ]
+    },
+    {
+      "topic": "Passive Voice",
+      "subtopics": [
+        "Present Passive",
+        "Past Passive",
+        "Future Passive",
+        "Present Perfect Passive"
+      ]
+    },
+    {
+      "topic": "Modal Verbs",
+      "subtopics": [
+        "Ability",
+        "Permission",
+        "Obligation",
+        "Deduction",
+        "Advice"
+      ]
+    },
+    {
+      "topic": "Reported Speech",
+      "subtopics": [
+        "Statements",
+        "Questions",
+        "Commands",
+        "Time Changes",
+        "Place Changes"
+      ]
+    }
+  ]
+}

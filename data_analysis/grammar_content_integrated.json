@@ -1,0 +1,154 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-10",
+    "total_sources": 6,
+    "content_types": [
+      "grammar_reference",
+      "exercises",
+      "vocabulary",
+      "curriculum_materials"
+    ]
+  },
+  "overview": {
+    "total_unique_topics": 2,
+    "most_common_topics": {
+      "prepositions": 4,
+      "past_continuous": 1
+    },
+    "grade_distribution": {
+      "1": 1,
+      "11": 3
+    },
+    "total_questions_analyzed": 4,
+    "question_type_distribution": {
+      "reorder": 4
+    }
+  },
+  "topics": {
+    "complete_topic_list": [
+      "prepositions",
+      "past_continuous"
+    ],
+    "topic_frequency": {
+      "prepositions": 4,
+      "past_continuous": 1
+    },
+    "topic_categories": {
+      "tense_grammar": [
+        "past_continuous"
+      ],
+      "modal_structures": [],
+      "sentence_structures": [],
+      "word_classes": [
+        "prepositions"
+      ],
+      "communication_skills": []
+    }
+  },
+  "question_types": {
+    "identified_types": [
+      "reorder"
+    ],
+    "frequency_distribution": {
+      "reorder": 4
+    },
+    "question_complexity": {
+      "reorder": "high"
+    }
+  },
+  "difficulty_analysis": {
+    "difficulty_distribution": {
+      "beginner": 0,
+      "intermediate": 0,
+      "advanced": 6
+    },
+    "progression_patterns": {
+      "grade_sequence": [
+        1,
+        11
+      ],
+      "difficulty_progression": "increasing",
+      "curriculum_coverage": "Grades 1-11"
+    },
+    "complexity_levels": {
+      "vocabulary_diversity": 0.464973644021873,
+      "sentence_complexity": 0.23240061086753042,
+      "topic_interconnectedness": 0
+    }
+  },
+  "curriculum_mapping": {
+    "curriculum_alignment_score": 0.0,
+    "aligned_topics": [],
+    "missing_topics": [],
+    "extra_topics": [
+      "prepositions",
+      "past_continuous"
+    ],
+    "grade_level": 1,
+    "curriculum_compliance": "non_compliant",
+    "detailed_analysis": {
+      "content_coverage": 0.1,
+      "grade_appropriateness": "needs_review",
+      "curriculum_standards_alignment": 0.0
+    }
+  },
+  "arabic_translations": {
+    "translation_quality": {
+      "overall_quality": 0.8500000000000001,
+      "accuracy_score": 0.85,
+      "completeness_score": 0.9,
+      "clarity_score": 0.7999999999999999
+    },
+    "consistency_analysis": {
+      "consistency_score": 0.78,
+      "improvement_needed": [
+        "technical_terms",
+        "compound_words",
+        "cultural_contexts"
+      ]
+    },
+    "improvement_areas": [
+      "Standardize technical vocabulary translations",
+      "Improve cultural context appropriateness",
+      "Enhance consistency in compound terms",
+      "Add alternative translations for ambiguous terms"
+    ]
+  },
+  "recommendations": {
+    "content_completeness": {
+      "coverage_percentage": 10.526315789473683,
+      "missing_topics": [
+        "articles",
+        "relative_clauses",
+        "conjunctions",
+        "word_order",
+        "clause_types",
+        "conditionals",
+        "reported_speech",
+        "sentence_functions",
+        "tenses",
+        "noun_phrase",
+        "adjectives",
+        "sentence_structure",
+        "adverbs",
+        "verb_patterns",
+        "pronouns",
+        "passive_voice",
+        "communication_skills",
+        "modal_verbs"
+      ],
+      "well_covered_topics": [
+        "prepositions",
+        "past_continuous"
+      ],
+      "completeness_status": "limited"
+    },
+    "curriculum_gaps": [
+      "Low curriculum alignment: 0.00"
+    ],
+    "improvement_priorities": [
+      "HIGH: Improve curriculum alignment",
+      "LOW: Add more diverse question types"
+    ]
+  }
+}

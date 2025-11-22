@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setbook Questions - Tab Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .tab-container {
+            border-bottom: 1px solid #ddd;
+        }
+        .tab-button {
+            padding: 12px 24px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            color: #666;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        .tab-button.active {
+            color: #000;
+            border-bottom-color: #6366f1;
+        }
+        .tab-button:hover:not(:disabled) {
+            color: #000;
+        }
+        .tab-button:disabled {
+            color: #ccc;
+            cursor: not-allowed;
+        }
+        .tab-content {
+            padding: 20px 0;
+        }
+        .hidden {
+            display: none;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 10px 0;
+        }
+        .button {
+            padding: 8px 16px;
+            background: #6366f1;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background: #4f46e5;
+        }
+    </style>
+</head>
+<body>
+    <h1>Setbook Questions - Tab Test</h1>
+    
+    <div class="tab-container">
+        <button class="tab-button active" id="grade-selection-tab" onclick="switchTab('grade-selection')">
+            Grade Selection
+        </button>
+        <button class="tab-button" id="questions-tab" onclick="switchTab('questions')" disabled>
+            Units & Questions
+        </button>
+    </div>
+    
+    <div class="tab-content">
+        <div id="grade-selection-content">
+            <h2>Grade Selection</h2>
+            <div class="card">
+                <h3>Select a grade level</h3>
+                <p>Choose from Grade 10, 11, or 12 to practice setbook questions</p>
+                <button class="button" onclick="selectGrade(10)">Select Grade 10</button>
+                <button class="button" onclick="selectGrade(11)">Select Grade 11</button>
+                <button class="button" onclick="selectGrade(12)">Select Grade 12</button>
+            </div>
+            <div id="selected-grade-display"></div>
+        </div>
+        
+        <div id="questions-content" class="hidden">
+            <h2>Units & Questions</h2>
+            <div class="card">
+                <h3>Units for Selected Grade</h3>
+                <p>This tab should show units and questions for the selected grade</p>
+                <div id="units-display">
+                    <p>Please select a grade first from the Grade Selection tab</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let selectedGrade = 0;
+        
+        function switchTab(tabName) {
+            // Hide all tab content
+            document.getElementById('grade-selection-content').classList.add('hidden');
+            document.getElementById('questions-content').classList.add('hidden');
+            
+            // Remove active class from all tab buttons
+            document.getElementById('grade-selection-tab').classList.remove('active');
+            document.getElementById('questions-tab').classList.remove('active');
+            
+            // Show selected tab content and mark button as active
+            if (tabName === 'grade-selection') {
+                document.getElementById('grade-selection-content').classList.remove('hidden');
+                document.getElementById('grade-selection-tab').classList.add('active');
+            } else if (tabName === 'questions') {
+                document.getElementById('questions-content').classList.remove('hidden');
+                document.getElementById('questions-tab').classList.add('active');
+                updateUnitsDisplay();
+            }
+        }
+        
+        function selectGrade(grade) {
+            selectedGrade = grade;
+            
+            // Update display
+            const display = document.getElementById('selected-grade-display');
+            display.innerHTML = `<div class="card"><strong>Selected Grade:</strong> ${grade}</div>`;
+            
+            // Enable questions tab
+            const questionsTab = document.getElementById('questions-tab');
+            questionsTab.disabled = false;
+            
+            // Update units display
+            updateUnitsDisplay();
+            
+            alert(`Grade ${grade} selected! You can now click on "Units & Questions" tab.`);
+        }
+        
+        function updateUnitsDisplay() {
+            const display = document.getElementById('units-display');
+            if (selectedGrade > 0) {
+                display.innerHTML = `
+                    <h4>Grade ${selectedGrade} Units:</h4>
+                    <p>Unit 1: Introduction and Overview (5 questions)</p>
+                    <p>Unit 2: Core Concepts (4 questions)</p>
+                    <p>Unit 3: Advanced Topics (3 questions)</p>
+                    <br>
+                    <button class="button" onclick="alert('Starting practice questions for Grade ${selectedGrade}')">Start Practice</button>
+                `;
+            }
+        }
+        
+        // Initialize
+        switchTab('grade-selection');
+    </script>
+</body>
+</html>

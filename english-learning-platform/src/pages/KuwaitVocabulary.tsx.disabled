@@ -1,0 +1,446 @@
+import { useState, useEffect } from 'react'
+import { useParams, useNavigate } from 'react-router-dom'
+import { Volume2, VolumeX, Repeat, Star, StarOff, RotateCcw, ArrowLeft, Play, Pause, Languages, BookOpen, Info, ChevronDown } from 'lucide-react'
+import { useAuth } from '../contexts/AuthContext'
+import { useCurriculum } from '../contexts/CurriculumContext'
+import { kuwaitDataService } from '../services/KuwaitDataService'
+
+interface VocabularyItem {
+  id: number
+  word: string
+  word_ar: string
+  pronunciation: string
+  definition_en: string
+  definition_ar: string
+  example_sentence_en: string
+  example_sentence_ar: string
+  class_number: number
+  unit_number: number
+  difficulty_level: number
+  category: string
+  part_of_speech: string
+  is_active: boolean
+}
+
+export function KuwaitVocabulary() {
+  const { classNumber, unitNumber } = useParams<{ classNumber: string; unitNumber: string }>()
+  const navigate = useNavigate()
+  const { user } = useAuth()
+  const { availableUnits, setCurrentClass, setCurrentUnit } = useCurriculum()
+  
+  // Vocabulary state
+  const [vocabulary, setVocabulary] = useState<VocabularyItem[]>([])
+  const [currentIndex, setCurrentIndex] = useState(0)
+  const [isFlipped, setIsFlipped] = useState(false)
+  const [isPlaying, setIsPlaying] = useState(false)
+  const [playbackSpeed, setPlaybackSpeed] = useState(1.0)
+  const [showTranslation, setShowTranslation] = useState(false)
+  const [masteredWords, setMasteredWords] = useState<Set<number>>(new Set())
+  const [loading, setLoading] = useState(true)
+  const [audioLoading, setAudioLoading] = useState(false)
+  
+  // Unit selection state
+  const [selectedUnitNumber, setSelectedUnitNumber] = useState<number>(parseInt(unitNumber || '1'))
+  const [showUnitDropdown, setShowUnitDropdown] = useState(false)
+
+  // Initialize curriculum context and fetch vocabulary
+  useEffect(() => {
+    const classNum = parseInt(classNumber || '12')
+    const classData = { id: classNum, class_number: classNum, class_name_en: `Grade ${classNum}`, class_name_ar: `الصف ${classNum}`, description: '', academic_year: '2024', total_units: 6, total_vocabulary: 50, is_active: true }
+    setCurrentClass(classData)
+    const unitNum = parseInt(unitNumber || '1')
+    setSelectedUnitNumber(unitNum)
+    setCurrentUnit({ unit_number: unitNum, title: `Unit ${unitNum}`, description: `Grade ${classNum} Unit ${unitNum}` })
+    fetchVocabulary(classNum, unitNum)
+  }, [classNumber, setCurrentClass, setCurrentUnit])
+
+  // Handle unit changes from dropdown
+  useEffect(() => {
+    if (selectedUnitNumber !== parseInt(unitNumber || '1')) {
+      const classNum = parseInt(classNumber || '12')
+      fetchVocabulary(classNum, selectedUnitNumber)
+      navigate(`/kuwait/class/${classNumber}/unit/${selectedUnitNumber}`, { replace: true })
+    }
+  }, [selectedUnitNumber, classNumber, unitNumber, navigate])
+
+  // Reset state when vocabulary changes
+  useEffect(() => {
+    setCurrentIndex(0)
+    setIsFlipped(false)
+    setMasteredWords(new Set())
+  }, [vocabulary])
+
+  async function fetchVocabulary(classNum: number, unitNum: number) {
+    try {
+      setLoading(true)
+      
+      // Try to get vocabulary from service, or generate if not available
+      const vocabularyData = await kuwaitDataService.fetchVocabulary(classNum, unitNum)
+      let words = vocabularyData
+      
+      // If no data available, generate sample vocabulary
+      if (words.length === 0) {
+        words = kuwaitDataService.generateVocabularyForUnit(classNum, unitNum)
+      }
+      
+      setVocabulary(words)
+    } catch (error) {
+      console.error('Error fetching vocabulary:', error)
+      // Generate fallback vocabulary
+      const fallbackWords = kuwaitDataService.generateVocabularyForUnit(classNum, unitNum)
+      setVocabulary(fallbackWords)
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  // Audio functions
+  const speakText = (text: string) => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel()
+      
+      const utterance = new SpeechSynthesisUtterance(text)
+      utterance.rate = playbackSpeed
+      utterance.lang = 'en-US'
+      
+      let timesSpoken = 0
+      const speak = () => {
+        if (timesSpoken < 1) {
+          window.speechSynthesis.speak(utterance)
+          timesSpoken++
+        }
+      }
+      
+      utterance.onend = () => {
+        setIsPlaying(false)
+      }
+      
+      setIsPlaying(true)
+      speak()
+    }
+  }
+
+  const stopSpeaking = () => {
+    window.speechSynthesis.cancel()
+    setIsPlaying(false)
+  }
+
+  // Card navigation
+  const nextCard = () => {
+    if (currentIndex < vocabulary.length - 1) {
+      setCurrentIndex(currentIndex + 1)
+      setIsFlipped(false)
+    }
+  }
+
+  const prevCard = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1)
+      setIsFlipped(false)
+    }
+  }
+
+  const shuffleCards = () => {
+    const shuffled = [...vocabulary].sort(() => Math.random() - 0.5)
+    setVocabulary(shuffled)
+    setCurrentIndex(0)
+    setIsFlipped(false)
+  }
+
+  // Mark word as mastered
+  const markAsMastered = (wordId: number) => {
+    setMasteredWords(prev => new Set([...prev, wordId]))
+  }
+
+  // Download progress
+  const downloadProgress = () => {
+    const progress = {
+      class: classNumber,
+      unit: unitNumber,
+      totalWords: vocabulary.length,
+      masteredWords: masteredWords.size,
+      currentWord: vocabulary[currentIndex]?.word,
+      timestamp: new Date().toISOString()
+    }
+    
+    const dataStr = JSON.stringify(progress, null, 2)
+    const dataBlob = new Blob([dataStr], { type: 'application/json' })
+    const url = URL.createObjectURL(dataBlob)
+    
+    const link = document.createElement('a')
+    link.href = url
+    link.download = `kuwait-vocabulary-progress-${classNumber}-${unitNumber}.json`
+    link.click()
+    
+    URL.revokeObjectURL(url)
+  }
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-foreground text-xl">Loading vocabulary...</div>
+      </div>
+    )
+  }
+
+  const currentWord = vocabulary[currentIndex]
+
+  if (!currentWord) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-center">
+          <div className="text-foreground text-xl mb-4">No vocabulary found for this unit</div>
+          <button
+            onClick={() => navigate(`/kuwait/class/${classNumber}`)}
+            className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:opacity-90"
+          >
+            Back to Units
+          </button>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="min-h-screen bg-background p-4">
+      <div className="max-w-4xl mx-auto">
+        {/* Header */}
+        <div className="mb-6">
+          <button
+            onClick={() => navigate(`/kuwait/class/${classNumber}`)}
+            className="flex items-center gap-2 text-primary hover:text-foreground mb-4 transition-colors"
+          >
+            <ArrowLeft className="w-5 h-5" />
+            Back to Units
+          </button>
+          
+          {/* Class and Unit Selection */}
+          <div className="bg-card border border-border rounded-xl p-4 mb-4">
+            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+              <div className="text-center md:text-left">
+                <h1 className="text-3xl font-bold text-foreground mb-1">
+                  Class {classNumber} - Unit {selectedUnitNumber}
+                </h1>
+                <p className="text-muted-foreground">
+                  Vocabulary Learning ({currentIndex + 1}/{vocabulary.length})
+                </p>
+              </div>
+              
+              {/* Unit Selection Dropdown */}
+              <div className="relative">
+                <button
+                  onClick={() => setShowUnitDropdown(!showUnitDropdown)}
+                  className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
+                >
+                  <span>Select Unit</span>
+                  <ChevronDown className={`w-4 h-4 transition-transform ${showUnitDropdown ? 'rotate-180' : ''}`} />
+                </button>
+                
+                {showUnitDropdown && (
+                  <div className="absolute top-full left-0 mt-2 w-64 bg-card border border-border rounded-lg shadow-lg z-50 max-h-64 overflow-y-auto">
+                    {availableUnits
+                      .filter(unit => {
+                        // Filter units for current class
+                        const classMap = { 10: 1, 11: 2, 12: 3 }
+                        const currentClassId = classMap[parseInt(classNumber || '12') as keyof typeof classMap]
+                        return unit.class_id === (currentClassId as number)
+                      })
+                      .sort((a, b) => a.unit_number - b.unit_number)
+                      .map((unit) => (
+                        <button
+                          key={unit.id || unit.unit_number}
+                          onClick={() => {
+                            setSelectedUnitNumber(unit.unit_number)
+                            setShowUnitDropdown(false)
+                          }}
+                          className={`w-full text-left px-4 py-3 hover:bg-accent transition-colors border-b border-border last:border-b-0 ${
+                            unit.unit_number === selectedUnitNumber ? 'bg-primary/20 text-primary' : 'text-foreground'
+                          }`}
+                        >
+                          <div className="font-semibold">Unit {unit.unit_number}</div>
+                          <div className="text-sm text-muted-foreground">{unit.unit_name_en || `Unit ${unit.unit_number}`}</div>
+                          <div className="text-xs text-muted-foreground">{unit.vocabulary_count || 0} words</div>
+                        </button>
+                      ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Flashcard */}
+        <div className="relative mb-8">
+          <div
+            className={`w-full h-96 bg-card border border-border rounded-xl p-8 shadow-lg cursor-pointer transition-transform duration-300 ${
+              isFlipped ? 'scale-105' : 'hover:scale-102'
+            }`}
+            onClick={() => setIsFlipped(!isFlipped)}
+          >
+            {!isFlipped ? (
+              // Front of card - English
+              <div className="h-full flex flex-col justify-center items-center text-center">
+                <div className="text-6xl font-bold text-foreground mb-4">
+                  {currentWord.word}
+                </div>
+                <div className="text-lg text-muted-foreground mb-6">
+                  {currentWord.pronunciation}
+                </div>
+                <div className="text-xl text-secondary">
+                  {currentWord.definition_en}
+                </div>
+                <div className="mt-4 flex items-center gap-2 text-sm text-muted-foreground">
+                  <BookOpen className="w-4 h-4" />
+                  <span>{currentWord.category} • {currentWord.part_of_speech}</span>
+                </div>
+              </div>
+            ) : (
+              // Back of card - Arabic
+              <div className="h-full flex flex-col justify-center items-center text-center">
+                <div className="text-5xl font-bold text-foreground mb-4" dir="rtl">
+                  {currentWord.word_ar}
+                </div>
+                <div className="text-xl text-secondary mb-6" dir="rtl">
+                  {currentWord.definition_ar}
+                </div>
+                <div className="text-lg text-muted-foreground max-w-2xl">
+                  {currentWord.example_sentence_en}
+                </div>
+                <div className="text-lg text-secondary max-w-2xl mt-2" dir="rtl">
+                  {currentWord.example_sentence_ar}
+                </div>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Controls */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+          {/* Audio Controls */}
+          <div className="bg-card border border-border rounded-xl p-4">
+            <div className="text-center mb-3">
+              <h3 className="font-semibold text-foreground">Audio</h3>
+            </div>
+            <div className="flex flex-col gap-2">
+              <button
+                onClick={() => speakText(currentWord.word)}
+                disabled={isPlaying}
+                className="bg-primary text-primary-foreground px-4 py-2 rounded-lg hover:opacity-90 disabled:opacity-50 flex items-center justify-center gap-2"
+              >
+                {isPlaying ? <VolumeX className="w-4 h-4" /> : <Volume2 className="w-4 h-4" />}
+                {isPlaying ? 'Stop' : 'Play'}
+              </button>
+              <select
+                value={playbackSpeed}
+                onChange={(e) => setPlaybackSpeed(parseFloat(e.target.value))}
+                className="bg-background text-foreground rounded-lg px-3 py-2 border border-border"
+              >
+                <option value={0.5}>0.5x</option>
+                <option value={0.75}>0.75x</option>
+                <option value={1}>1x</option>
+                <option value={1.25}>1.25x</option>
+                <option value={1.5}>1.5x</option>
+              </select>
+            </div>
+          </div>
+
+          {/* Navigation */}
+          <div className="bg-card border border-border rounded-xl p-4">
+            <div className="text-center mb-3">
+              <h3 className="font-semibold text-foreground">Navigation</h3>
+            </div>
+            <div className="flex gap-2">
+              <button
+                onClick={prevCard}
+                disabled={currentIndex === 0}
+                className="bg-secondary text-secondary-foreground px-3 py-2 rounded-lg hover:opacity-90 disabled:opacity-50 flex-1"
+              >
+                Prev
+              </button>
+              <button
+                onClick={nextCard}
+                disabled={currentIndex === vocabulary.length - 1}
+                className="bg-secondary text-secondary-foreground px-3 py-2 rounded-lg hover:opacity-90 disabled:opacity-50 flex-1"
+              >
+                Next
+              </button>
+            </div>
+          </div>
+
+          {/* Actions */}
+          <div className="bg-card border border-border rounded-xl p-4">
+            <div className="text-center mb-3">
+              <h3 className="font-semibold text-foreground">Actions</h3>
+            </div>
+            <div className="flex flex-col gap-2">
+              <button
+                onClick={() => setIsFlipped(!isFlipped)}
+                className="bg-accent text-accent-foreground px-3 py-2 rounded-lg hover:opacity-90 flex items-center justify-center gap-2"
+              >
+                <Info className="w-4 h-4" />
+                {isFlipped ? 'Show English' : 'Show Arabic'}
+              </button>
+              <button
+                onClick={shuffleCards}
+                className="bg-accent text-accent-foreground px-3 py-2 rounded-lg hover:opacity-90 flex items-center justify-center gap-2"
+              >
+                <RotateCcw className="w-4 h-4" />
+                Shuffle
+              </button>
+            </div>
+          </div>
+
+          {/* Progress */}
+          <div className="bg-card border border-border rounded-xl p-4">
+            <div className="text-center mb-3">
+              <h3 className="font-semibold text-foreground">Progress</h3>
+            </div>
+            <div className="space-y-2">
+              <button
+                onClick={() => markAsMastered(currentWord.id)}
+                disabled={masteredWords.has(currentWord.id)}
+                className={`w-full px-3 py-2 rounded-lg flex items-center justify-center gap-2 ${
+                  masteredWords.has(currentWord.id)
+                    ? 'bg-green-500 text-white'
+                    : 'bg-green-600 text-green-100 hover:bg-green-700'
+                }`}
+              >
+                {masteredWords.has(currentWord.id) ? (
+                  <>
+                    <Star className="w-4 h-4" />
+                    Mastered
+                  </>
+                ) : (
+                  <>
+                    <StarOff className="w-4 h-4" />
+                    Mark Mastered
+                  </>
+                )}
+              </button>
+              <button
+                onClick={downloadProgress}
+                className="w-full bg-primary text-primary-foreground px-3 py-2 rounded-lg hover:opacity-90"
+              >
+                Download Progress
+              </button>
+            </div>
+          </div>
+        </div>
+
+        {/* Progress Bar */}
+        <div className="bg-card border border-border rounded-xl p-4">
+          <div className="flex justify-between text-sm text-muted-foreground mb-2">
+            <span>Progress</span>
+            <span>{Math.round(((currentIndex + 1) / vocabulary.length) * 100)}%</span>
+          </div>
+          <div className="w-full bg-muted rounded-full h-2">
+            <div
+              className="bg-gradient-to-r from-primary to-secondary h-2 rounded-full transition-all duration-500"
+              style={{ width: `${((currentIndex + 1) / vocabulary.length) * 100}%` }}
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}

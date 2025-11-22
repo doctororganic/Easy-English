@@ -1,0 +1,2349 @@
+﻿12 level
+
+
+Here is the complete vocabulary extraction organized by unit:
+
+
+**vocab unit-1 (The Law)**
+1. adoption (n) - the action of legally taking another's child and bring it up as one's own - تبني
+2. civil (adj.) - relating to private relations between members of a community: noncriminal - مدني
+3. code of law (n) - a set of rules and standards adhered to by a society - مدونة قانونية
+4. consultation (n) - the action or process of formally consulting or discussing - مشورة
+5. define (V) - to state or describe exactly the nature, scope, or meaning of - يعرف
+6. enforce (V) - to put into practice: to carry out - ينفذ
+7. govern (V) - to control - يحكم
+8. guilty (adj.) - responsible for a crime - مذنب
+9. impose (V) - to require (a duty, charge, or penalty) to be undertaken or paid - يفرض
+10. innocent (adj.) - not guilty of a crime or offense - بريء
+11. judiciary (n) - the judicial authorities of a country; judges collectively - السلطة القضائية
+12. jury (n) - group of people in court who decide whether someone is guilty - هيئة المحلفين
+13. legal (adj.) - appointed or required by the law - قانوني
+14. penalty (n) - a punishment imposed for breaking a law - عقوبة
+15. persuasion (n) - a belief or set of beliefs - إقناع
+16. principle (n) - rule; belief - مبدأ
+17. property (n) - something valuable which belongs to someone - ممتلكات
+18. prove (V) - to show that something is true by providing facts, information, etc - يثبت
+19. tolerant (adj.) - showing willingness to allow opinions/behavior one doesn't agree with - متسامح
+20. violence (n) - unlawful exercise of physical force or intimidation - عنف
+21. welfare (n) - the health, happiness, and fortunes of a person or group - رفاهية
+22. break into (ph. V) - to enter by force - يقتحم
+23. fake (adj.) - not real, seeming to be something it's not to deceive people - مزيف
+24. invisible (adj.) - cannot be seen - غير مرئي
+25. techno-criminal (n) - a person who has committed a crime using technology - مجرم تكنولوجي
+26. worthless (adj.) - having no value, importance or use - عديم القيمة
+27. bench (n) - 1. long seat 2. seat in Parliament 3. office of judge - مقعد/هيئة القضاة
+28. brief (n) - 1. digest/synopsis 2. outline/summary 3. legal case outline - ملخص
+29. brief (adj.) - of a short duration - قصير/موجز
+30. case (n) - 1. legal action 2. flat container - قضية/حقيبة
+31. defence (n) - 1. action of defending 2. counsel for defendant - دفاع
+32. handcuffs (n) - pair of lockable linked metal rings for securing wrists - كلبشات
+33. note (n) - 1. brief record 2. official letter 3. banknote 4. single tone - ملاحظة/مذكرة/ورقة نقدية/نغمة
+34. note (V) - 1. to notice/pay attention 2. to record in writing - يلاحظ/يسجل
+35. prosecute (V) - to institute legal proceedings against - يقاضي
+36. row (V) - to propel a boat with oars - يجذف
+37. row (n) - 1. things in a line 2. line of seats - صف
+38. spring (V) - 1. to move/jump suddenly 2. to originate from - يقفز/ينبع
+39. spring (n) - 1. metal coil 2. season between winter/summer - زنبرك/ربيع
+40. claim (V) - to state/assert something is the case without proof - يدعي
+41. clog up (ph. V) - to prevent things from being dealt with quickly - يسد/يعيق
+42. contend (V) - to assert something as a position in argument - يجادل
+43. grievance (n) - official statement of complaint - شكوى
+44. in favour of (exp.) - to the advantage of - لصالح
+45. intend (V) - to have as one's purpose or objective - ينوي
+46. litigation (n) - process of taking claims to court - التقاضي
+47. petty (adj.) - of little importance; trivial - تافه
+48. regardless (adv.) - without being affected by something - بغض النظر
+49. residential area (n) - part of town with private houses - المنطقة السكنية
+50. speed limit (n) - fastest speed allowed by law - السرعة القصوى
+51. sue (V) - to make legal claim for money because of harm - يقاضي
+52. supporter (n) - someone who agrees with person/group/plan - مؤيد
+53. ultimately (adv.) - finally, after everything else - في النهاية
+
+
+**vocab unit-2 (Migration)**
+1. afford (V) - to provide something or allow something to happen - يتحمل/يسمح
+2. boom (n) - increase in business - ازدهار
+3. decimate (V) - to destroy a large part of something - يبيد
+4. deteriorate (V) - to become worse - يتدهور
+5. emigrate (V) - to leave your own country to live in another - يهاجر
+6. famine (n) - situation where many people have little/no food - مجاعة
+7. foreign (adj.) - from/relating to another country - أجنبي
+8. hard-pressed (adj.) - having many problems, not enough money/time - في ضيق
+9. high-tech (adj.) - using advanced technology - عالي التقنية
+10. necessitate (V) - to make it necessary to do something - يستلزم
+11. seek (V) - to try to achieve or get something - يسعى
+12. unfortunately (adv.) - used when mentioning an undesirable fact - لسوء الحظ
+13. instead (adv.) - as an alternative/substitute - بدلاً من
+14. periodic (adj.) - happening at regular times - دوري
+15. plenty of (pro.) - large quantity, enough or more than enough - الكثير من
+16. swallow (n) - migratory swift-flying songbird - طائر السنونو
+17. disgruntled (adj.) - annoyed/disappointed - ساخط
+18. displace (V) - to make group leave where they normally live - يهجر
+19. mass (adj.) - involving large number of people - جماعي/واسع
+20. meticulous (adj.) - very careful about small details - دقيق
+21. migrant (n) - someone who lives in another area/country for work - مهاجر
+22. obliterate (V) - to destroy completely - يمحو/يمحي
+23. perturbed (adj.) - worried about something - قلق
+24. resort (n) - place where people go for holidays - منتجع
+25. rift (n) - crack/narrow opening in rock - صدع
+26. animated (adj.) - showing interest and energy - متحمس
+27. arduous (adj.) - involving strength and effort - شاق
+28. engage in (ph. V) - to be involved in something - يشارك في
+29. major (adj.) - very large/important - رئيسي
+30. minor (adj.) - small, not very important - ثانوي
+31. nervously (adv.) - anxiously - بعصبية
+32. rent (V) - to pay to live in house/use something - يستأجر
+33. reside (V) - to live in particular place - يقيم
+34. strenuous (adj.) - needing effort/strength - متعب
+35. take a breather (exp.) - take brief pause for rest - يستريح قليلاً
+
+
+**vocab unit-3 (Human Values)**
+1. abuse (n) - cruel/violent treatment - إساءة
+2. anthropologist (n) - person who studies societies/cultures - عالم الأنثروبولوجيا
+3. apparent (adj.) - clearly visible/understood - واضح
+4. attribute (n) - quality/feature regarded as characteristic - صفة
+5. charitable (adj.) - relating to assisting those in need - خيري
+6. compassion (n) - sympathetic pity/concern - تعاطف
+7. discrimination (n) - unjust/prejudicial treatment - تمييز
+8. diversity (n) - state of being diverse; variety - تنوع
+9. empathy (n) - ability to understand/share feelings - التعاطف العاطفي
+10. ethnographer (n) - person who describes customs - عالم الأثنوغرافيا
+11. impulse (n) - sudden strong urge to act - دافع
+12. incapable (adj.) - not able to do something - غير قادر
+13. inevitable (adj.) - certain to happen - حتمي
+14. legislation (n) - laws collectively - تشريعات
+15. liberty (n) - state of being free from oppressive restrictions - حرية
+16. minority (n) - smaller number/part - أقلية
+17. overview (n) - general review/summary - نظرة عامة
+18. tolerance (n) - ability to accept something - تسامح
+19. universal (adj.) - applicable to all cases - عالمي
+20. value (V) - consider important/beneficial - يقدر
+21. aftermath (n) - consequences of event - عواقب
+22. deploy (V) - put something to use - ينشر/يستخدم
+23. ethnicity (n) - ethnic affiliation - الانتماء العرقي
+24. hardship (n) - difficulty from lack of something - مشقة
+25. voluntary (adj.) - done freely without payment - طوعي
+26. vulnerable (adj.) - susceptible to attack/harm - ضعيف/عرضة للخطر
+27. aggressive (adj.) - ready to attack/confront - عدواني
+28. compassionately (adv.) - sympathetically - بشفقة
+29. cry over spilt milk (idiom) - regret after too late - البكاء على اللبن المسكوب
+30. enfranchisement (n) - giving group right to vote - منح حق التصويت
+31. extravagant (adj.) - exceeding reasonable limits - مبذر
+32. frail (adj.) - weak/delicate - ضعيف
+33. over a barrel (idiom) - helpless position - في موقف لا حول فيه
+34. over the hill (idiom) - old/past prime - تجاوز الأربعين
+35. over the top (idiom) - beyond reasonable limits - مبالغ فيه
+36. suffrage (n) - right to vote - حق التصويت
+37. tide someone over (idiom) - help out temporarily - يساعد مؤقتاً
+38. alleviate (V) - make suffering less severe - يخفف
+39. appeal (n) - serious request to public - مناشدة
+40. avert (V) - prevent/ward off - يمنع
+41. campaign (n) - organized course of action - حملة
+42. commitment (n) - engagement restricting freedom - التزام
+43. dire (adj.) - extremely serious/urgent - خطير
+44. donate (V) - give money/goods for cause - يتبرع
+45. extensive (adj.) - large in size/amount - واسع
+46. humanitarian (adj.) - promoting human welfare - إنساني
+47. in leaps and bounds (exp.) - rapidly, swiftly - بسرعة كبيرة
+48. underprivileged (adj.) - deprived of rights - محروم
+
+
+**vocab unit-4 (The Earth at Risk)**
+1. climate (n) - weather conditions over period - مناخ
+2. desertification (n) - fertile land becoming desert - تصحر
+3. erode (V) - destroy slowly - يتآكل
+4. graze (V) - put animals to eat grass - يرعى
+5. harsh (adj.) - unpleasantly rough - قاس
+6. increasingly (adv.) - increasing over time - بشكل متزايد
+7. kill off (V) - destroy utterly - يبيد
+8. overcultivate (V) - cultivate too much - يزرع أكثر من اللازم
+9. permanently (adv.) - lastingly - بشكل دائم
+10. precipitate (V) - cause to happen suddenly - يعجل
+11. productive (adj.) - producing large amounts - منتج
+12. proportion (n) - part/share in comparative relation - نسبة
+13. soil (n) - top layer where plants grow - تربة
+14. treacherous (adj.) - hazardous with hidden dangers - غادر
+15. unproductive (adj.) - not producing large amounts - غير منتج
+16. wash away (V) - water carries away - يغسل/يزيل
+17. wildfire (n) - large destructive forest fire - حريق غابات
+18. at the expense of (exp.) - causing harm to - على حساب
+19. devastating (adj.) - very impressive/effective - مدمر
+20. logger (n) - person who fells trees - قطاع الأشجار
+21. vital (adj.) - extremely important - حيوي
+22. arid (adj.) - little/no rain - جاف
+23. atmosphere (n) - gases surrounding Earth - الغلاف الجوي
+24. equator (n) - imaginary line dividing Earth - خط الاستواء
+25. flooding (n) - water overflowing - فيضان
+26. forecasting (n) - prediction of future events - التنبؤ
+27. frigid (adj.) - very cold - متجمد
+28. humid (adj.) - high water vapor - رطب
+29. misbehave (V) - fail to conduct acceptably - يسيء التصرف
+30. planting (V) - place seed in ground - زراعة
+31. prevailing (adj.) - widespread in area/time - سائد
+32. reclaim (V) - bring waste land under cultivation - يستصلح
+33. curtail (V) - reduce in extent - يقلل
+34. hurdle (n) - obstacle/difficulty - عقبة
+35. implement (V) - put into effect - ينفذ
+36. intrinsic (adj.) - belonging naturally - جوهري
+37. paucity (n) - small/insufficient quantities - ندرة
+38. preservation (n) - maintaining in original state - الحفاظ
+39. prevail over (ph. V) - prove more powerful - يسود
+40. scarcity (n) - insufficiency/shortage - ندرة
+41. spearhead (n) - leader of attack/movement - رأس الحربة
+42. unwarranted (adj.) - not justified/authorized - غير مبرر
+
+
+**vocab unit-5 (Precious Resources)**
+1. collection points (n) - spots where rubbish gathers - نقاط الجمع
+2. concur (V) - be of same opinion - يوافق
+3. crisis (n) - time of intense difficulty - أزمة
+4. machinery (n) - machines collectively - آلات
+5. offence (n) - breach of law - جريمة
+6. pass a law (exp.) - approve law by voting - يمرر قانوناً
+7. prohibitively (adv.) - excessively high price - باهظ
+8. reprocess (V) - process again differently - يعالج مرة أخرى
+9. commercially (adv.) - from profit-making view - تجارياً
+10. partnership (n) - relationship - شراكة
+11. wood pulp (n) - crushed wood for paper - لب الخشب
+12. administration (n) - running business/organization - إدارة
+13. annoyance (n) - feeling of being annoyed - إزعاج
+14. bureaucracy (n) - officials make decisions - بيروقراطية
+15. come up against (ph. V) - meet/face - يواجه
+16. criticism (n) - expression of disapproval - نقد
+17. cut down on (ph. V) - reduce - يقلل من
+18. get rid of (ph. V) - dispose of - يتخلص من
+19. go along with (ph. V) - give consent - يوافق على
+20. incinerator (n) - apparatus burning waste - محرقة النفايات
+21. irritation (n) - state of being annoyed - انزعاج
+22. keep up with (ph. V) - know latest information - يواكب
+23. packaging (n) - wrapping materials - مواد التعبئة
+24. paperwork (n) - routine document work - أعمال ورقية
+25. put up with (ph. V) - accept/tolerate - يتحمل
+26. red tape (idiom) - bureaucracy/paperwork - البيروقراطية
+27. run out of (ph. V) - be used up - ينفد من
+28. component (n) - part of whole - مكون
+29. compost (V) - make into fertilizer - يحول إلى سماد
+30. constant (adj.) - occurring continuously - مستمر
+31. constituent (n) - part of whole - مكون
+32. duration (n) - time of continuance - مدة
+33. heartening (adj.) - inspiring/elevating - مشجع
+34. household waste (n) - unwanted home material - نفايات المنزل
+35. incineration (n) - destroying by burning - الحرق
+36. material (n) - matter from which made - مادة
+37. quantity (n) - amount/number - كمية
+38. trend (n) - general development direction - اتجاه
+39. upsurge (n) - upward surge/increase - ارتفاع
+
+
+**vocab unit-6 (Under Threat)**
+1. acute (adj.) - senses very good/sensitive - حاد
+2. avoid (V) - keep away from - يتجنب
+3. damp (adj.) - slightly wet - رطب
+4. expansive (adj.) - covering wide area - واسع
+5. extinction (n) - species becoming extinct - انقراض
+6. fascinating (adj.) - extremely interesting - مدهش
+7. hibernate (V) - sleep during winter - يسبط الشتاء
+8. permanent (adj.) - lasting unchanged - دائم
+9. pose (V) - present/constitute - يشكل
+10. refuge (n) - shelter/protection - ملجأ
+11. reservation (n) - action of reserving - حجز
+12. reticent (adj.) - easily frightened/timid - خجول
+13. solitary (adj.) - done alone - منعزل
+14. stem (n) - long thin plant part - ساق
+15. endangered (V) - threatened - مهدد
+16. timid (adj.) - lacking courage - خجول
+17. carnivorous (adj.) - flesh-eating animal - آكل للحوم
+18. enemy (n) - thing that harms - عدو
+19. inject (V) - put liquid with needle - يحقن
+20. sting (n) - sharp needle-shaped part - لدغة
+21. aware (adj.) - having knowledge - مدرك
+22. bounty (n) - abundance/plenty - وفرة
+23. cultivate (V) - grow/raise/plant - يزرع
+24. encroach (V) - intrude on territory - يتعدى
+25. grow (V) - become larger - ينمو
+26. illegitimate (adj.) - not authorized by law - غير شرعي
+27. nourishment (n) - food required to live - تغذية
+28. recompense (n) - compensation/reward - تعويض
+29. reward (n) - thing for achievement - مكافأة
+30. trespass on (ph. V) - make unfair claims - يتعدى على
+31. unsanctioned (adj.) - illegal/unauthorized - غير مصرح به
+32. wealth (n) - abundance of possessions - ثروة
+33. burgeoning (adj.) - growing rapidly - متنامي
+34. consensus (n) - general agreement - توافق
+35. dearth (n) - scarcity/lack - نقص
+36. graduate (V) - complete academic degree - يتخرج
+37. housing (n) - houses collectively - إسكان
+38. knock-on (adj.) - chain reaction process - متسلسل
+39. utilise (V) - make practical use of - يستخدم
+40. vociferously (adv.) - enthusiastically, loudly - بصوت عال
+41. wetland (n) - marsh/swamp land - أرض مستنقعات
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Translation Exercises (File 2)
+
+
+Here are the extracted translation questions:
+
+
+**B) Translate into English (4 M):**
+- Saleh: Kuwait has always been a country keen to promote its diplomatic ties and relationships with other countries.
+- Fahad: A successful diplomat should have self-confidence and should be willing to work very hard.
+
+
+**Translation (30 Marks):**
+1. Rashid: Water is the source of life in this world.
+   Ahmed: True! Irrigation is essential for agriculture.
+
+
+2. Salem: Do you think freedom means doing whatever you want?
+   Khalid: No, freedom is a balance between individual rights and the needs of society.
+
+
+3. Ali: Laws are of great importance in the lives of people and communities.
+   Khalid: You're right. They are made to protect individual rights and to ensure a safe and just society.
+
+
+4. Ali: Plants have many benefits. Are you aware of their importance?
+   Ahmed: Yes. They improve the soil, produce oxygen and provide us with medicines.
+
+
+5. Rashid: The welfare system is very important for those who are in hardships.
+   Ahmad: Yes, it provides them with basic needs such as health care and food.
+
+
+6. Saleh: International cooperation is necessary to solve global problems.
+   Khalid: I agree with you. It's essential for protecting the environment.
+
+
+---
+
+
+# Vocabulary with Sentence Examples
+
+
+## **vocab unit-1 (The Law)**
+
+
+1. **adoption** (n) - تبني - The couple celebrated the adoption of their daughter after months of legal procedures.
+
+
+2. **civil** (adj.) - مدني - The dispute was handled in civil court rather than criminal court.
+
+
+3. **code of law** (n) - مدونة قانونية - Every citizen should understand the basic code of law in their country.
+
+
+4. **consultation** (n) - مشورة - The lawyer scheduled a consultation with her client to discuss the case details.
+
+
+5. **define** (V) - يعرف - The judge asked the witness to define what he meant by "reasonable suspicion."
+
+
+6. **enforce** (V) - ينفذ - Police officers have the authority to enforce traffic regulations.
+
+
+7. **govern** (V) - يحكم - Elected officials govern the country according to constitutional principles.
+
+
+8. **guilty** (adj.) - مذنب - After reviewing the evidence, the jury found the defendant guilty.
+
+
+9. **impose** (V) - يفرض - The court may impose a fine for minor offences.
+
+
+10. **innocent** (adj.) - بريء - Everyone is presumed innocent until proven guilty.
+
+
+11. **judiciary** (n) - السلطة القضائية - The judiciary plays a vital role in maintaining democracy.
+
+
+12. **jury** (n) - هيئة المحلفين - Twelve citizens served on the jury during the two-week trial.
+
+
+13. **legal** (adj.) - قانوني - You should always seek legal advice before signing important documents.
+
+
+14. **penalty** (n) - عقوبة - The penalty for speeding includes fines and possible license suspension.
+
+
+15. **persuasion** (n) - إقناع/معتقد - Through careful persuasion, the lawyer convinced the jury of his argument.
+
+
+16. **principle** (n) - مبدأ - The legal system operates on the principle that all are equal before the law.
+
+
+17. **property** (n) - ممتلكات - The court determined who owned the disputed property.
+
+
+18. **prove** (V) - يثبت - The prosecution must prove the defendant's guilt beyond reasonable doubt.
+
+
+19. **tolerant** (adj.) - متسامح - A tolerant society allows freedom of expression even for unpopular views.
+
+
+20. **violence** (n) - عنف - The law strictly punishes acts of domestic violence.
+
+
+21. **welfare** (n) - رفاهية - The government provides welfare programs for citizens in need.
+
+
+22. **break into** (ph. V) - يقتحم - Burglars attempted to break into the store after midnight.
+
+
+23. **fake** (adj.) - مزيف - The police discovered that the driver's license was fake.
+
+
+24. **invisible** (adj.) - غير مرئي - Security cameras caught what was invisible to the naked eye.
+
+
+25. **techno-criminal** (n) - مجرم تكنولوجي - A techno-criminal hacked into the company's financial database.
+
+
+26. **worthless** (adj.) - عديم القيمة - The forged documents were worthless in court.
+
+
+27. **bench** (n) - مقعد/هيئة القضاة - The bench ruled unanimously in favor of the plaintiff.
+
+
+28. **brief** (n) - ملخص - The attorney filed a brief outlining his arguments before the trial.
+
+
+29. **brief** (adj.) - موجز - The judge gave a brief explanation of the ruling.
+
+
+30. **case** (n) - قضية/حقيبة - The lawyer won her first case after graduating from law school.
+
+
+31. **defence** (n) - دفاع - The defence called three witnesses to testify.
+
+
+32. **handcuffs** (n) - كلبشات - The officer placed handcuffs on the suspect before transport.
+
+
+33. **note** (n) - ملاحظة/مذكرة/ورقة نقدية/نغمة - The detective took note of every detail at the crime scene.
+
+
+34. **note** (V) - يلاحظ/يسجل - Please note that the court date has been changed.
+
+
+35. **prosecute** (V) - يقاضي - The district attorney decided to prosecute the fraud case.
+
+
+36. **row** (V) - يجذف - They had to row the boat across the lake.
+
+
+37. **row** (n) - صف - The jury sat in the front row of the courtroom.
+
+
+38. **spring** (V) - يقفز/ينبع - New evidence seemed to spring from unexpected sources.
+
+
+39. **spring** (n) - زنبرك/ربيع - The law protects endangered species during spring migration.
+
+
+40. **claim** (V) - يدعي - The defendant continues to claim innocence despite the evidence.
+
+
+41. **clog up** (ph. V) - يسد - Heavy paperwork can clog up the judicial system.
+
+
+42. **contend** (V) - يجادل - The lawyers contend that the law violates constitutional rights.
+
+
+43. **grievance** (n) - شكوى - The employee filed a grievance against his employer.
+
+
+44. **in favour of** (exp.) - لصالح - The jury ruled in favour of the plaintiff.
+
+
+45. **intend** (V) - ينوي - The legislature did not intend for the law to apply retroactively.
+
+
+46. **litigation** (n) - التقاضي - The company faced years of litigation over patent disputes.
+
+
+47. **petty** (adj.) - تافه - Petty theft is considered a minor offence.
+
+
+48. **regardless** (adv.) - بغض النظر - The law applies to everyone regardless of their status.
+
+
+49. **residential area** (n) - المنطقة السكنية - The new speed limit affects all residential areas.
+
+
+50. **speed limit** (n) - السرعة القصوى - The officer issued a ticket for exceeding the speed limit.
+
+
+51. **sue** (V) - يقاضي - She decided to sue the company for breach of contract.
+
+
+52. **supporter** (n) - مؤيد - The bill gained many supporters in Parliament.
+
+
+53. **ultimately** (adv.) - في النهاية - Ultimately, the Supreme Court will decide the constitutionality.
+
+
+---
+
+
+## **vocab unit-2 (Migration)**
+
+
+1. **afford** (V) - يتحمل/يسمح - The country cannot afford to ignore the refugee crisis.
+
+
+2. **boom** (n) - ازدهار - The economic boom created many new job opportunities.
+
+
+3. **decimate** (V) - يبيد - The war threatened to decimate entire communities.
+
+
+4. **deteriorate** (V) - يتدهور - Conditions in the camp began to deteriorate rapidly.
+
+
+5. **emigrate** (V) - يهاجر - She decided to emigrate to Canada for better opportunities.
+
+
+6. **famine** (n) - مجاعة - Severe famine forced thousands to flee their homeland.
+
+
+7. **foreign** (adj.) - أجنبي - Learning a foreign language helps migrants adapt.
+
+
+8. **hard-pressed** (adj.) - في ضيق - Hard-pressed families struggle to afford basic necessities.
+
+
+9. **high-tech** (adj.) - عالي التقنية - High-tech industries attract skilled migrants worldwide.
+
+
+10. **necessitate** (V) - يستلزم - The conflict necessitated large-scale humanitarian aid.
+
+
+11. **seek** (V) - يسعى - Many people seek asylum to escape persecution.
+
+
+12. **unfortunately** (adv.) - لسوء الحظ - Unfortunately, not all migrants reach their destination safely.
+
+
+13. **instead** (adv.) - بدلاً من - They chose to settle in Germany instead of France.
+
+
+14. **periodic** (adj.) - دوري - Periodic assessments help track migration patterns.
+
+
+15. **plenty of** (pro.) - الكثير من - There are plenty of challenges facing new immigrants.
+
+
+16. **swallow** (n) - طائر السنونو - The swallow migrates thousands of miles each year.
+
+
+17. **disgruntled** (adj.) - ساخط - Disgruntled workers sometimes emigrate for better conditions.
+
+
+18. **displace** (V) - يهجر - Natural disasters can displace millions of people.
+
+
+19. **mass** (adj.) - جماعي/واسع - Mass migration requires international cooperation.
+
+
+20. **meticulous** (adj.) - دقيق - She kept meticulous records of her immigration documents.
+
+
+21. **migrant** (n) - مهاجر - The migrant sent money back to support his family.
+
+
+22. **obliterate** (V) - يمحو - War threatened to obliterate entire villages.
+
+
+23. **perturbed** (adj.) - قلق - Officials were perturbed by the sudden increase in arrivals.
+
+
+24. **resort** (n) - منتجع - The coastal resort became a temporary shelter for refugees.
+
+
+25. **rift** (n) - صدع - Political rifts between nations complicate migration policy.
+
+
+26. **animated** (adj.) - متحمس - The animated discussion revealed diverse perspectives.
+
+
+27. **arduous** (adj.) - شاق - The journey across the desert was arduous.
+
+
+28. **engage in** (ph. V) - يشارك في - Migrants often engage in community building.
+
+
+29. **major** (adj.) - رئيسي - Major cities attract the most migrants.
+
+
+30. **minor** (adj.) - ثانوي - Minor issues shouldn't delay visa processing.
+
+
+31. **nervously** (adv.) - بعصبية - She waited nervously for her immigration interview.
+
+
+32. **rent** (V) - يستأجر - They had to rent a small apartment in the city.
+
+
+33. **reside** (V) - يقيم - International law protects those who reside legally.
+
+
+34. **strenuous** (adj.) - متعب - The strenuous journey took weeks to complete.
+
+
+35. **take a breather** (exp.) - يستريح قليلاً - After hours of travel, they needed to take a breather.
+
+
+---
+
+
+## **vocab unit-3 (Human Values)**
+
+
+1. **abuse** (n) - إساءة - The law prohibits abuse of power by officials.
+
+
+2. **anthropologist** (n) - عالم الأنثروبولوجيا - The anthropologist studied refugee integration patterns.
+
+
+3. **apparent** (adj.) - واضح - It was apparent that the community needed support.
+
+
+4. **attribute** (n) - صفة - Tolerance is a key attribute of democratic societies.
+
+
+5. **charitable** (adj.) - خيري - Charitable organizations provide essential aid.
+
+
+6. **compassion** (n) - تعاطف - Compassion for others motivates humanitarian work.
+
+
+7. **discrimination** (n) - تمييز - Discrimination based on origin violates human rights.
+
+
+8. **diversity** (n) - تنوع - Cultural diversity enriches modern nations.
+
+
+9. **empathy** (n) - التعاطف العاطفي - Empathy helps us understand the migrant experience.
+
+
+10. **ethnographer** (n) - عالم الأثنوغرافيا - The ethnographer documented traditional customs.
+
+
+11. **impulse** (n) - دافع - His impulse to help others was admirable.
+
+
+12. **incapable** (adj.) - غير قادر - No one is incapable of showing kindness.
+
+
+13. **inevitable** (adj.) - حتمي - Change is inevitable in diverse societies.
+
+
+14. **legislation** (n) - تشريعات - New legislation protects minority rights.
+
+
+15. **liberty** (n) - حرية - Liberty must be balanced with responsibility.
+
+
+16. **minority** (n) - أقلية - The minority community celebrated its heritage.
+
+
+17. **overview** (n) - نظرة عامة - The report provided an overview of human rights issues.
+
+
+18. **tolerance** (n) - تسامح - Tolerance allows peaceful coexistence.
+
+
+19. **universal** (adj.) - عالمي - Human rights are considered universal values.
+
+
+20. **value** (V) - يقدر - We must value every individual's contribution.
+
+
+21. **aftermath** (n) - عواقب - The aftermath of conflict requires humanitarian response.
+
+
+22. **deploy** (V) - ينشر/يستخدم - NGOs deploy resources where most needed.
+
+
+23. **ethnicity** (n) - الانتماء العرقي - Ethnicity should never determine someone's rights.
+
+
+24. **hardship** (n) - مشقة - Many flee their homes due to extreme hardship.
+
+
+25. **voluntary** (adj.) - طوعي - Voluntary work strengthens community bonds.
+
+
+26. **vulnerable** (adj.) - ضعيف/عرضة للخطر - Refugees are among the most vulnerable populations.
+
+
+27. **aggressive** (adj.) - عدواني - Aggressive behavior violates community standards.
+
+
+28. **compassionately** (adv.) - بشفقة - She listened compassionately to their stories.
+
+
+29. **cry over spilt milk** (idiom) - البكاء على اللبن المسكوب - Regretting past decisions is just crying over spilt milk.
+
+
+30. **enfranchisement** (n) - منح حق التصويت - Enfranchisement gave more citizens political voice.
+
+
+31. **extravagant** (adj.) - مبذر - Extravagant spending wastes community resources.
+
+
+32. **frail** (adj.) - ضعيف - Frail elderly need special protection.
+
+
+33. **over a barrel** (idiom) - في موقف لا حول فيه - The refugees felt over a barrel with no good options.
+
+
+34. **over the hill** (idiom) - تجاوز الأربعين - At 45, he's not over the hill—he's experienced.
+
+
+35. **over the top** (idiom) - مبالغ فيه - The restrictions seemed over the top to many.
+
+
+36. **suffrage** (n) - حق التصويت - Universal suffrage is fundamental to democracy.
+
+
+37. **tide someone over** (idiom) - يساعد مؤقتاً - Emergency aid can tide refugees over until resettlement.
+
+
+38. **alleviate** (V) - يخفف - Aid programs alleviate suffering in crisis zones.
+
+
+39. **appeal** (n) - مناشدة - The charity made an appeal for donations.
+
+
+40. **avert** (V) - يمنع - Timely intervention can avert disaster.
+
+
+41. **campaign** (n) - حملة - The human rights campaign gained worldwide support.
+
+
+42. **commitment** (n) - التزام - Helping others requires genuine commitment.
+
+
+43. **dire** (adj.) - خطير - The situation in the camp is dire.
+
+
+44. **donate** (V) - يتبرع - Many donate to support refugee families.
+
+
+45. **extensive** (adj.) - واسع - The crisis requires extensive international cooperation.
+
+
+46. **humanitarian** (adj.) - إنساني - Humanitarian aid saves lives.
+
+
+47. **in leaps and bounds** (exp.) - بسرعة كبيرة - Progress is being made in leaps and bounds.
+
+
+48. **underprivileged** (adj.) - محروم - Programs support underprivileged communities.
+
+
+---
+
+
+## **vocab unit-4 (The Earth at Risk)**
+
+
+1. **climate** (n) - مناخ - Climate change affects migration patterns.
+
+
+2. **desertification** (n) - تصحر - Desertification forces farmers to abandon land.
+
+
+3. **erode** (V) - يتآكل - Poor farming practices erode topsoil.
+
+
+4. **graze** (V) - يرعى - Overgrazing damages fragile ecosystems.
+
+
+5. **harsh** (adj.) - قاس - Harsh conditions make survival difficult.
+
+
+6. **increasingly** (adv.) - بشكل متزايد - Weather patterns are increasingly unpredictable.
+
+
+7. **kill off** (V) - يبيد - Pollution threatens to kill off marine species.
+
+
+8. **overcultivate** (V) - يزرع أكثر من اللازم - Farmers shouldn't overcultivate fragile land.
+
+
+9. **permanently** (adv.) - بشكل دائم - Some environmental damage is permanently irreversible.
+
+
+10. **precipitate** (V) - يعجل - Deforestation can precipitate climate disaster.
+
+
+11. **productive** (adj.) - منتج - Productive land must be preserved.
+
+
+12. **proportion** (n) - نسبة - A large proportion of farmland is at risk.
+
+
+13. **soil** (n) - تربة - Healthy soil is essential for food security.
+
+
+14. **treacherous** (adj.) - غادر - Treacherous weather complicated rescue efforts.
+
+
+15. **unproductive** (adj.) - غير منتج - Unproductive land becomes abandoned.
+
+
+16. **wash away** (V) - يغسل/يزيل - Floods can wash away entire harvests.
+
+
+17. **wildfire** (n) - حريق غابات - Wildfire season is getting longer each year.
+
+
+18. **at the expense of** (exp.) - على حساب - Development at the expense of nature is unsustainable.
+
+
+19. **devastating** (adj.) - مدمر - The hurricane had devastating effects.
+
+
+20. **logger** (n) - قطاع الأشجار - Loggers must follow sustainable practices.
+
+
+21. **vital** (adj.) - حيوي - Water is vital for all life.
+
+
+22. **arid** (adj.) - جاف - Arid regions are expanding due to climate change.
+
+
+23. **atmosphere** (n) - الغلاف الجوي - Greenhouse gases trap heat in the atmosphere.
+
+
+24. **equator** (n) - خط الاستواء - Countries near the equator face extreme heat.
+
+
+25. **flooding** (n) - فيضان - Coastal flooding threatens island nations.
+
+
+26. **forecasting** (n) - التنبؤ - Weather forecasting helps prepare for disasters.
+
+
+27. **frigid** (adj.) - متجمد - Frigid temperatures affect northern regions.
+
+
+28. **humid** (adj.) - رطب - Humid conditions encourage plant growth.
+
+
+29. **misbehave** (V) - يسيء التصرف - Industries misbehave when they ignore regulations.
+
+
+30. **planting** (V) - زراعة - Trees for planting help restore ecosystems.
+
+
+31. **prevailing** (adj.) - سائد - Prevailing winds carry pollution across borders.
+
+
+32. **reclaim** (V) - يستصلح - Efforts to reclaim desert land show promise.
+
+
+33. **curtail** (V) - يقلل - New policies curtail harmful emissions.
+
+
+34. **hurdle** (n) - عقبة - Lack of funding is a major hurdle.
+
+
+35. **implement** (V) - ينفذ - Countries must implement climate agreements.
+
+
+36. **intrinsic** (adj.) - جوهري - Nature has intrinsic value beyond economic use.
+
+
+37. **paucity** (n) - ندرة - There's a paucity of water in arid regions.
+
+
+38. **preservation** (n) - الحفاظ - Preservation of biodiversity is urgent.
+
+
+39. **prevail over** (ph. V) - يسود - Conservation must prevail over exploitation.
+
+
+40. **scarcity** (n) - ندرة - Water scarcity drives conflict.
+
+
+41. **spearhead** (n) - رأس الحربة - Youth movements spearhead climate action.
+
+
+42. **unwarranted** (adj.) - غير مبرر - Unwarranted development destroys habitats.
+
+
+---
+
+
+## **vocab unit-5 (Precious Resources)**
+
+
+1. **collection points** (n) - نقاط الجمع - Recycling collection points are in every neighborhood.
+
+
+2. **concur** (V) - يوافق - Experts concur that we must reduce waste.
+
+
+3. **crisis** (n) - أزمة - The plastic pollution crisis affects oceans globally.
+
+
+4. **machinery** (n) - آلات - Industrial machinery consumes enormous energy.
+
+
+5. **offence** (n) - جريمة - Littering is an offence in many cities.
+
+
+6. **pass a law** (exp.) - يمرر قانوناً - The government will pass a law banning single-use plastics.
+
+
+7. **prohibitively** (adv.) - باهظ - Prohibitively high costs prevent recycling.
+
+
+8. **reprocess** (V) - يعالج مرة أخرى - We can reprocess certain materials efficiently.
+
+
+9. **commercially** (adv.) - تجارياً - Commercially viable solutions are needed.
+
+
+10. **partnership** (n) - شراكة - Public-private partnership improves waste management.
+
+
+11. **wood pulp** (n) - لب الخشب - Paper is made from wood pulp.
+
+
+12. **administration** (n) - إدارة - The administration manages resource allocation.
+
+
+13. **annoyance** (n) - إزعاج - Plastic waste is an annoyance in public spaces.
+
+
+14. **bureaucracy** (n) - بيروقراطية - Red tape and bureaucracy slow progress.
+
+
+15. **come up against** (ph. V) - يواجه - We come up against resistance to change.
+
+
+16. **criticism** (n) - نقد - Criticism of waste policies is growing.
+
+
+17. **cut down on** (ph. V) - يقلل من - We must cut down on packaging waste.
+
+
+18. **get rid of** (ph. V) - يتخلص من - Cities struggle to get rid of electronic waste.
+
+
+19. **go along with** (ph. V) - يوافق على - Businesses must go along with new regulations.
+
+
+20. **incinerator** (n) - محرقة النفايات - The incinerator reduces landfill volume.
+
+
+21. **irritation** (n) - انزعاج - Smoke from incinerators causes irritation.
+
+
+22. **keep up with** (ph. V) - يواكب - We must keep up with recycling innovations.
+
+
+23. **packaging** (n) - مواد التعبئة - Excess packaging fills landfills.
+
+
+24. **paperwork** (n) - أعمال ورقية - Paperwork slows environmental approvals.
+
+
+25. **put up with** (ph. V) - يتحمل - We can't put up with pollution anymore.
+
+
+26. **red tape** (idiom) - البيروقراطية - Red tape blocks green energy projects.
+
+
+27. **run out of** (ph. V) - ينفد من - We risk running out of clean water.
+
+
+28. **component** (n) - مكون - Each component must be recyclable.
+
+
+29. **compost** (V) - يحول إلى سماد - Food scraps can compost naturally.
+
+
+30. **constant** (adj.) - مستمر - Constant consumption depletes resources.
+
+
+31. **constituent** (n) - مكون - Iron is a constituent of steel.
+
+
+32. **duration** (n) - مدة - The project will last the duration of the year.
+
+
+33. **heartening** (adj.) - مشجع - Heartening progress has been made recently.
+
+
+34. **household waste** (n) - نفايات المنزل - Household waste includes plastics and organics.
+
+
+35. **incineration** (n) - الحرق - Incineration generates energy but also pollution.
+
+
+36. **material** (n) - مادة - Raw material extraction damages ecosystems.
+
+
+37. **quantity** (n) - كمية - The quantity of waste increases daily.
+
+
+38. **trend** (n) - اتجاه - Circular economy is a growing trend.
+
+
+39. **upsurge** (n) - ارتفاع - There's an upsurge in recycling participation.
+
+
+---
+
+
+## **vocab unit-6 (Under Threat)**
+
+
+1. **acute** (adj.) - حاد - The owl has acute hearing at night.
+
+
+2. **avoid** (V) - يتجنب - We must avoid disturbing nesting birds.
+
+
+3. **damp** (adj.) - رطب - Damp conditions threaten fragile habitats.
+
+
+4. **expansive** (adj.) - واسع - Expansive forests need protection.
+
+
+5. **extinction** (n) - انقراض - Habitat loss drives species to extinction.
+
+
+6. **fascinating** (adj.) - مدهش - It's fascinating how species adapt.
+
+
+7. **hibernate** (V) - يسبط الشتاء - Bears hibernate through harsh winters.
+
+
+8. **permanent** (adj.) - دائم - Development causes permanent habitat loss.
+
+
+9. **pose** (V) - يشكل - Pollution poses serious threats.
+
+
+10. **refuge** (n) - ملجأ - Wetlands provide refuge for migratory birds.
+
+
+11. **reservation** (n) - حجز - Wildlife reservation protects endangered species.
+
+
+12. **reticent** (adj.) - خجول - Some species are reticent around humans.
+
+
+13. **solitary** (adj.) - منعزل - The solitary wolf roamed the forest.
+
+
+14. **stem** (n) - ساق - The stem supports the plant's leaves.
+
+
+15. **endangered** (V) - مهدد - Many species are endangered by deforestation.
+
+
+16. **timid** (adj.) - خجول - Timid animals avoid human contact.
+
+
+17. **carnivorous** (adj.) - آكل للحوم - Carnivorous predators maintain ecosystem balance.
+
+
+18. **enemy** (n) - عدو - Habitat destruction is nature's enemy.
+
+
+19. **inject** (V) - يحقن - Researchers inject tracking devices carefully.
+
+
+20. **sting** (n) - لدغة - The bee's sting protects the hive.
+
+
+21. **aware** (adj.) - مدرك - We must be aware of our impact.
+
+
+22. **bounty** (n) - وفرة - Nature's bounty provides essential resources.
+
+
+23. **cultivate** (V) - يزرع - We must cultivate sustainable practices.
+
+
+24. **encroach** (V) - يتعدى - Cities encroach on wildlife habitats.
+
+
+25. **grow** (V) - ينمو - Conservation efforts grow each year.
+
+
+26. **illegitimate** (adj.) - غير شرعي - Illegitimate hunting threatens species.
+
+
+27. **nourishment** (n) - تغذية - Forests provide nourishment for wildlife.
+
+
+28. **recompense** (n) - تعويض - Recompense helps restore damaged ecosystems.
+
+
+29. **reward** (n) - مكافأة - Conservation efforts bring long-term rewards.
+
+
+30. **trespass on** (ph. V) - يتعدى على - Don't trespass on protected lands.
+
+
+31. **unsanctioned** (adj.) - غير مصرح به - Unsanctioned logging is illegal.
+
+
+32. **wealth** (n) - ثروة - Biodiversity is Earth's greatest wealth.
+
+
+33. **burgeoning** (adj.) - متنامي - Burgeoning populations increase pressure.
+
+
+34. **consensus** (n) - توافق - There's consensus on protecting wetlands.
+
+
+35. **dearth** (n) - نقص - A dearth of funding hampers conservation.
+
+
+36. **graduate** (V) - يتخرج - Students graduate ready to protect nature.
+
+
+37. **housing** (n) - إسكان - Housing development threatens habitats.
+
+
+38. **knock-on** (adj.) - متسلسل - Climate change has knock-on effects.
+
+
+39. **utilise** (V) - يستخدم - We must utilise renewable energy.
+
+
+40. **vociferously** (adv.) - بصوت عال - Activists protested vociferously.
+
+
+41. **wetland** (n) - أرض مستنقعات - Wetlands filter water naturally.
+
+
+…………………………………………………….
+
+
+# Setbook Questions with Answers & Translations
+
+
+# PART 1: Translation Exercises from File 2
+
+
+## **Section B: Translate into English (4 Marks)**
+
+
+1. **Saleh:** Kuwait has always been a country keen to promote its diplomatic ties and relationships with other countries.
+2. **Fahad:** A successful diplomat should have self-confidence and should be willing to work very hard.
+
+
+---
+
+
+## **Section VIII: Translation (30 Marks) - Dialogues**
+
+
+### **Dialogue 1**
+- **Rashid:** Water is the source of life in this world.
+- **Ahmed:** True! Irrigation is essential for agriculture.
+
+
+### **Dialogue 2**
+- **Salem:** Do you think freedom means doing whatever you want?
+- **Khalid:** No, freedom is a balance between individual rights and the needs of society.
+
+
+### **Dialogue 3**
+- **Ali:** Laws are of great importance in the lives of people and communities.
+- **Khalid:** You're right. They are made to protect individual rights and to ensure a safe and just society.
+
+
+### **Dialogue 4**
+- **Ali:** Plants have many benefits. Are you aware of their importance?
+- **Ahmed:** Yes. They improve the soil, produce oxygen and provide us with medicines.
+
+
+### **Dialogue 5**
+- **Rashid:** The welfare system is very important for those who are in hardships.
+- **Ahmad:** Yes, it provides them with basic needs such as health care and food.
+
+
+### **Dialogue 6**
+- **Saleh:** International cooperation is necessary to solve global problems.
+- **Khalid:** I agree with you. It's essential for protecting the environment.
+
+
+---
+
+
+# PART 2: Setbook Questions with Bilingual Answers
+
+
+## **UNIT 1: The Law**
+
+
+**1. There are many types of laws. Mention them.**
+- *Arabic: هناك أنواع مختلفة ومتعددة من القوانين. أذكرها*
+- **Answers:**
+  - a) Criminal law - القانون الجنائي
+  - b) Civil law - القانون المدني
+  - c) Family law - قانون الأسرة
+  - d) Military law - القانون العسكري
+
+
+**2. What would life be like without law? / How would life be in the absence of law?**
+- *Arabic: كيف سيكون شكل الحياة في غياب القانون؟*
+- **Answers:**
+  - a) Crimes would be everywhere - الجرائم ستكون في كل مكان
+  - b) People would behave badly - الناس سيسيئون التصرف
+  - c) There would be chaos - سيكون هناك فوضى
+  - d) People wouldn't live safely - الناس لن يعيشوا بأمان
+
+
+**3. Why are laws important? / Why is it important for every society to have laws?**
+- *Arabic: لماذا القوانين مهمة؟ / لماذا من المهم لكل مجتمع أن يكون لديه قوانين؟*
+- **Answers:**
+  - a) To protect people's rights - لحماية حقوق الناس
+  - b) To ensure a safe society - لضمان مجتمع آمن
+  - c) To prevent chaos - لمنع الفوضى
+  - d) To save minorities from abuse - لإنقاذ الأقليات من الإساءة
+  - e) To live in peace - للعيش في سلام
+
+
+**4. How can laws effectively work in a society?**
+- *Arabic: كيف يعمل القوانين بفعالية في المجتمع؟*
+- **Answers:**
+  - a) Laws must be backed with penalties - يجب دعم القوانين بالعقوبات
+  - b) We should respect the laws - يجب أن نحترم القوانين
+
+
+**5. How do Islamic values influence the system of law in Kuwait?**
+- *Arabic: كيف تؤثر القيم الإسلامية على القوانين في الكويت؟*
+- **Answers:**
+  - a) Kuwaiti laws are drawn from the Holy Quran - القوانين الكويتية مستمدة من القرآن الكريم
+  - b) Islam orders us to be just and tolerant - الإسلام يأمرنا بأن نكون عادلين ومتسامحين
+  - c) Islam orders us to protect people's rights of all religions - الإسلام يأمرنا بحماية حقوق الناس من جميع الأديان
+
+
+**6. What are the main purposes of sending criminals to prison?**
+- *Arabic: ما هي الأسباب الرئيسية لإرسال المجرمين إلى السجن؟*
+- **Answers:**
+  - a) To protect the society - لحماية المجتمع
+  - b) To punish criminals - لمعاقبة المجرمين
+  - c) To reform criminals - لإصلاح المجرمين
+  - d) To reduce crime rate - لتقليل معدل الجريمة
+
+
+**7. What is meant by "Culture of blame"?**
+- *Arabic: ماذا نعني بـ "ثقافة اللوم"؟*
+- **Answer:** It means blaming others for what's supposed to be our mistakes - تعني إلقاء اللوم على الآخرين عن أخطائنا التي يفترض أن تكون لنا
+
+
+**8. Some people are for solving minor issues in courts and some are against. Discuss.**
+- *Arabic: بعض الناس مؤيد لحل القضايا البسيطة بالمحكمة وهناك آخرين معارضين. ناقش*
+- **Answers:**
+  - People who are for claim that these cases show that our courts are working well, and everyone can get his right - الناس المؤيدون يدعون أن هذه الحالات تظهر أن محاكمنا تعمل بشكل جيد، ويمكن للجميع الحصول على حقه
+  - People who are against claim that these cases clog up the courts, are costly and waste time - الناس المعارضون يدعون أن هذه الحالات تسد المحاكم وتكلفة وتضيع الوقت
+
+
+**9. What should happen to motorists who break the speed limits?**
+- *Arabic: ماذا يجب أن يحدث لسائقي المركبات المسرعين؟*
+- **Answers:**
+  - a) They should pay large fines - يجب أن يدفعوا غرامات كبيرة
+  - b) They should be prisoned - يجب أن يسجنوا
+  - c) They should be banned from driving - يجب أن يحظروا من القيادة
+
+
+**10. Mention the different types of courts in Kuwait.**
+- *Arabic: أذكر المحاكم المختلفة في الكويت*
+- **Answers:**
+  - a) Summary court - المحكمة المختصرة
+  - b) Military court - المحكمة العسكرية
+  - c) Religious court - المحكمة الدينية
+
+
+**11. What is the basic principle of all laws?**
+- *Arabic: ما هو المبدأ الأساسي لجميع القوانين؟*
+- **Answer:** A person is innocent until proven guilty - الشخص بريء حتى تثبت إدانته
+
+
+---
+
+
+## **UNIT 2: Migration**
+
+
+**1. Why do people leave their homeland to live in another country? / Why do people migrate?**
+- *Arabic: لماذا يترك الناس أوطانهم ليعيشوا في أخرى؟ / لماذا يهاجر الناس؟*
+- **Answers:**
+  - a) To escape wars - للهروب من الحروب
+  - b) To escape natural disasters - للهروب من الكوارث الطبيعية
+  - c) To seek better jobs - للبحث عن وظائف أفضل
+  - d) To seek better life conditions - للبحث عن ظروف حياة أفضل
+  - e) For political reasons - لأسباب سياسية
+
+
+**2. What are the advantages of migration? / Mention the positive effects of migration.**
+- *Arabic: ما هي مميزات الهجرة؟ / اذكر الآثار الإيجابية للهجرة*
+- **Answers:**
+  - a) Getting better jobs - الحصول على وظائف أفضل
+  - b) Having better life conditions - الحصول على ظروف حياة أفضل
+  - c) Meeting new people - مقابلة أشخاص جدد
+  - d) Learning new customs and cultures - تعلم عادات وثقافات جديدة
+  - e) Learning new languages - تعلم لغات جديدة
+  - f) Improving the economy in the host country - تحسين الاقتصاد في البلد المضيف
+
+
+**3. What are the disadvantages of migration? / Mention the negative effects of migration.**
+- *Arabic: ما مساوئ الهجرة؟ / اذكر الآثار السلبية للهجرة*
+- **Answers:**
+  - a) Feeling lonely - الشعور بالوحدة
+  - b) Being away from family and friends - الابتعاد عن العائلة والأصدقاء
+  - c) Losing identity - فقدان الهوية
+  - d) Suffering from cultural differences - المعاناة من الاختلافات الثقافية
+  - e) Feeling homesick - الشعور بالحنين إلى الوطن
+  - f) Language barrier - الحاجز اللغوي
+  - g) Suffering from racism - المعاناة من العنصرية
+  - h) Causing problems in the host country like overpopulation, pollution and traffic jams - التسبب في مشاكل في البلد المضيف مثل الإفراط في السكان والتلوث والاختناقات المرورية
+
+
+**4. How has Kuwait provided a good home for skilled workers?**
+- *Arabic: كيف وفرت الكويت بيتاً جيداً للعمال المهرة؟*
+- **Answers:**
+  - a) Good jobs - وظائف جيدة
+  - b) Good salaries - رواتب جيدة
+  - c) High standard of living - مستوى معيشي عالٍ
+  - d) Secure life - حياة آمنة
+
+
+---
+
+
+## **UNIT 3: Human Values**
+
+
+**1. What is the importance of human values?**
+- *Arabic: ما أهمية القيم الإنسانية؟*
+- **Answers:**
+  - ✓ They help us live in peace - تساعدنا على العيش في سلام
+  - ✓ They help us reduce violence - تساعدنا على تقليل العنف
+  - ✓ They help us avoid wars - تساعدنا على تجنب الحروب
+  - ✓ They help us understand each other - تساعدنا على فهم بعضنا البعض
+  - ✓ They ensure equal rights everywhere - تضمن الحقوق المتساوية في كل مكان
+
+
+**2. How do you think governments can protect basic human rights?**
+- *Arabic: كيف تعتقد أن الحكومات يمكن أن تحمي حقوق الإنسان الأساسية؟*
+- **Answers:**
+  - ✓ By issuing laws to protect people from any violation - من خلال إصدار قوانين لحماية الناس من أي انتهاك
+  - ✓ By punishing people who violate human rights - من خلال معاقبة الأشخاص الذين ينتهكون حقوق الإنسان
+
+
+**3. Freedom means doing whatever you want. How far is this true? Justify your answer.**
+- *Arabic: الحرية تعني فعل ما تريد. إلى أي مدى هذا صحيح؟ برر إجابتك*
+- **Answer:** ✓ That isn't true. Freedom is to make balance between our freedoms and the needs of a society - هذا ليس صحيحاً. الحرية هي إيجاد توازن بين حرياتنا واحتياجات المجتمع
+
+
+**4. What are the aims of the charitable societies?**
+- *Arabic: ما هي أهداف الجمعيات الخيرية؟*
+- **Answers:**
+  - ✓ It aims at helping people in hardships - تهدف إلى مساعدة الناس في المشاق
+  - ✓ It aims at providing the needy with their basic human needs - تهدف إلى توفير الاحتياجات الإنسانية الأساسية للمحتاجين
+  - ✓ They take part in rescue operations - تشارك في عمليات الإنقاذ
+
+
+**5. What do volunteers from the KRCS do inside and outside Kuwait?**
+- *Arabic: ماذا يفعل المتطوعون من جمعية الهلال الأحمر الكويتي داخل وخارج الكويت؟*
+- **Answers:**
+  - **In Kuwait:** Distributing food and aid to needy families - في الكويت: توزيع الطعام والمساعدات على الأسر المحتاجة
+  - **Outside Kuwait:** Providing basic health care, taking part in rescue operations - خارج الكويت: توفير الرعاية الصحية الأساسية، المشاركة في عمليات الإنقاذ
+
+
+**6. What activities can be done while participating in a charity?**
+- *Arabic: ما الأنشطة التي يمكن القيام بها أثناء المشاركة في الأعمال الخيرية؟*
+- **Answers:**
+  - ✓ Fundraising events - فعاليات جمع التبرعات
+  - ✓ Running campaigns - تشغيل الحملات
+  - ✓ Setting awareness programmes - وضع برامج توعية
+  - ✓ Distributing food - توزيع الطعام
+
+
+**7. What are the characteristics of the Red Crescent volunteer?**
+- *Arabic: ما هي صفات متطوع الهلال الأحمر؟*
+- **Answers:**
+  - ✓ He should be young, enthusiastic, kind and charitable - يجب أن يكون شاباً، متحمساً، لطيفاً وخيرياً
+  - ✓ He should receive first aid training from the Ministry of Health - يجب أن يتلقى تدريباً على الإسعافات الأولية من وزارة الصحة
+  - ✓ He should be a university graduate - يجب أن يكون حاصلاً على شهادة جامعية
+  - ✓ He should be self-confident and friendly - يجب أن يكون واثقاً من نفسه وودوداً
+  - ✓ He should be trustworthy and hard working - يجب أن يكون جديراً بالثقة ويعمل بجد
+  - ✓ He should be able to make good relationships with others - يجب أن يكون قادراً على إقامة علاقات جيدة مع الآخرين
+
+
+**8. What are the aims of The Foreign Diplomat Institute in Kuwait?**
+- *Arabic: ما هي أهداف المعهد الدبلوماسي الأجنبي في الكويت؟*
+- **Answers:**
+  - Training diplomat staff - تدريب موظفي الدبلوماسية
+  - Holding international seminars and meetings - عقد الندوات والاجتماعات الدولية
+  - It's the government think tank - إنه مركز تفكير الحكومة
+
+
+---
+
+
+## **UNIT 4: The Earth at Risk**
+
+
+**1. What are the causes of desertification?**
+- *Arabic: ما هي أسباب التصحر؟*
+- **Answers:**
+  - a) Cutting down trees - قطع الأشجار
+  - b) Human activities like overgrazing and over cultivation - الأنشطة البشرية مثل الرعي المفرط والزراعة المفرطة
+  - c) Population growth - النمو السكاني
+  - d) Climate change - تغير المناخ
+
+
+**2. What are the effects (results) of desertification?**
+- *Arabic: ما هي الآثار (النتائج) لظاهرة التصحر؟*
+- **Answers:**
+  - a) Wildfires - حرائق الغابات
+  - b) Dust storms - عواصف رملية
+  - c) Food shortage - نقص الغذاء
+  - d) Poor soil - تربة رديئة
+  - e) Animal extinction - انقراض الحيوانات
+
+
+**3. How can we solve the problem of desertification?**
+- *Arabic: كيف يمكننا حل مشكلة التصحر؟*
+- **Answers:**
+  - a) Stop over cultivating and overgrazing the land - التوقف عن الزراعة المفرطة والرعي المفرط للأرض
+  - b) Stop cutting forests - التوقف عن قطع الغابات
+  - c) Solving the problem of global warming - حل مشكلة الاحتباس الحراري
+
+
+**4. Why is water important?**
+- *Arabic: لماذا الماء مهم؟*
+- **Answers:**
+  - a) It's a habitat for marine life - إنه موطن للحياة البحرية
+  - b) Humans, animals, and plants need it to survive - البشر والحيوانات والنباتات يحتاجونها للبقاء
+  - c) It's used for drinking, farming, and cleaning - يستخدم للشرب والزراعة والتنظيف
+
+
+**5. Why are trees and plants necessary and essential for us?**
+- *Arabic: لماذا الأشجار والنباتات ضرورية لنا؟*
+- **Answers:**
+  - a) They provide us with food - توفر لنا الطعام
+  - b) They give us oxygen - تعطينا الأكسجين
+  - c) They give us medicines - تعطينا الأدوية
+
+
+**6. What are the reasons for the scarcity of water around the world?**
+- *Arabic: ما هي أسباب ندرة المياه في جميع أنحاء العالم؟*
+- **Answers:**
+  - a) The great development in human activities - التطور الكبير في الأنشطة البشرية
+  - b) The increasing population - الزيادة السكانية
+  - c) The unwarranted consumption of water - الاستهلاك غير المبرر للمياه
+
+
+**7. What has Kuwait done to overcome the problem of water paucity?**
+- *Arabic: ماذا فعلت الكويت للتغلب على مشكلة ندرة المياه؟*
+- **Answers:**
+  - a) It has built desalination plants - بنت محطات تحلية المياه
+  - b) It has used modern ways of irrigation - استخدمت طرق حديثة للري
+
+
+**8. How can we curtail the unwarranted consumption of water? In your opinion, what can be done to save water from being wasted?**
+- *Arabic: كيف يمكننا الحد من الاستهلاك غير المبرر للمياه؟ برأيك ما العمل لتوفير المياه من الضياع؟*
+- **Answers:**
+  - a) Through raising people's awareness - من خلال رفع الوعي لدى الناس
+  - b) Through using modern systems of irrigation - من خلال استخدام أنظمة الري الحديثة
+
+
+---
+
+
+## **UNIT 5: Precious Resources**
+
+
+**1. Why is recycling important nowadays?**
+- *Arabic: لماذا إعادة التدوير مهمة في الوقت الحاضر؟*
+- **Answers:**
+  - a) It saves land used as landfill sites - يوفر الأراضي المستخدمة كمدافن نفايات
+  - b) It is a source of income for many companies - مصدر دخل للعديد من الشركات
+  - c) It saves natural resources - يوفر الموارد الطبيعية
+  - d) It saves energy - يوفر الطاقة
+  - e) It reduces pollution - يقلل التلوث
+  - f) It provides more jobs - يوفر المزيد من الوظائف
+
+
+**2. What should we do to keep our resources?**
+- *Arabic: ماذا علينا أن نفعل للحفاظ على مواردنا؟*
+- **Answers:**
+  - a) We should preserve them - يجب أن نحافظ عليها
+  - b) We should use them - يجب أن نستخدمها
+
+
+**3. Why can't some products be recycled?**
+- *Arabic: لماذا لا يمكن إعادة تدوير بعض المنتجات؟*
+- **Answers:**
+  - a) Because of the expensive cost - بسبب التكلفة الباهظة
+  - b) Because some items produce - لأن بعض العناصر تنتج
+
+
+**4. What is the role of Kuwait in the process of recycling?**
+- *Arabic: ما هو دور الكويت في عملية إعادة التدوير؟*
+- **Answers:**
+  - a) It has built many recycling centres - بنت مراكز إعادة تدوير كثيرة
+  - b) It has launched campaigns to show its commitment - أطلقت حملات لإظهار التزامها
+
+
+**5. How can governments overcome the problem of garbage?**
+- *Arabic: كيف يمكن للحكومات التغلب على مشكلة القمامة؟*
+- **Answers:**
+  - a) They can build recycling centres - يمكنهم بناء مراكز إعادة التدوير
+  - b) They can launch media campaigns - يمكنهم إطلاق حملات إعلامية
+  - c) They can spread collection points - يمكنهم نشر نقاط الجمع
+
+
+---
+
+
+## **UNIT 6: Under Threat**
+
+
+**1. What factors may endanger some animal species? / Why have some animal species become threatened?**
+- *Arabic: ما هي العوامل التي تهدد بعض أنواع الحيوانات؟ / لماذا أصبحت بعض أنواع الحيوانات مهددة؟*
+- **Answers:**
+  - a) Illegal hunting - الصيد غير القانوني
+  - b) Habitat loss - فقدان الموطن
+  - c) Pollution - التلوث
+  - d) Wildfires - حرائق الغابات
+  - e) Natural disasters - الكوارث الطبيعية
+
+
+**2. How can we save and protect endangered animal species?**
+- *Arabic: كيف يمكننا إنقاذ وحماية أنواع الحيوانات المهددة بالانقراض؟*
+- **Answers:**
+  - a) Stop destroying forests - التوقف عن تدمير الغابات
+  - b) Stop illegal hunting - التوقف عن الصيد غير القانوني
+  - c) Building nature reserves - بناء المحميات الطبيعية
+
+
+**3. Are you for or against land reclamation? Give reasons.**
+- *Arabic: هل أنت مؤيد أو معارض لاستصلاح الأراضي؟ أعط أسباباً*
+- **Answers:**
+  - **For (مؤيد):**
+    - As we can use such land for farming - حيث يمكننا استخدام هذه الأراضي للزراعة
+    - As we can use such land for housing projects - حيث يمكننا استخدام هذه الأراضي لمشاريع الإسكان
+  - **Against (معارض):**
+    - As it disrupts sea life - لأنه يعطل الحياة البحرية
+    - As it destroys the natural ecosystem - لأنه يدمر النظام البيئي الطبيعي
+
+
+**4. Mention some of the well-known features of a Panda bear.**
+- *Arabic: أذكر بعض المميزات المعروفة للدب البندا*
+- **Answers:**
+  - a) It lives in cold and damp conditions - يعيش في ظروف باردة ورطبة
+  - b) It has acute hearing - لديه سمع حاد
+  - c) It can climb trees and swim - يمكنه تسلق الأشجار والسباحة
+
+
+**5. Which kind of food does the Panda bear feed on?**
+- *Arabic: ما نوع الطعام الذي يتغذى عليه الدب البندا؟*
+- **Answer:** They can feed on bamboo, fish, and eggs in addition to fruits - يمكنهم التغذية على الخيزران والسمك والبياض بالإضافة إلى الفواكه
+
+
+**6. The importance of plants and vegetation is emphasized in Islam. Explain.**
+- *Arabic: أهمية النباتات والغطاء النباتي وضح*
+- **Answer:** The prophet Mohammed (PBUH) says that any Muslim who plants will receive recompense from Allah - يقول النبي محمد (صلى الله عليه وسلم) أن أي مسلم يزرع سينال الأجر من الله
+
+
+**7. There are some arguments against building new houses on local wetlands. Mention them**
+- *Arabic: هناك بعض الآراء ضد بناء منازل جديدة على المستنقعات. أذكرها*
+- **Answer:** They believe in preserving animal habitats and keeping countryside undamaged - يؤمنون بالمحافظة على مواطن الحيوانات وإبقاء الريف غير تالف
+
+
+---
+
+
+## **FOCUS ON**
+
+
+**1. Why was the Arfaj chosen as the Kuwaiti National Flower?**
+- *Arabic: لماذا تم اختيار العرفج كزهرة وطنية كويتية؟*
+- **Answers:**
+  - It is used as natural medicine - يستخدم كدواء طبيعي
+  - It is used as food for sheep - يستخدم كغذاء للأغنام
+  - It's a part of Kuwait's heritage - إنه جزء من تراث الكويت
+
+
+**2. The Arfaj is one of the plants that is facing potential extinction. Why?**
+- *Arabic: نبات العرفج أصبح يواجه الانقراض. لماذا؟*
+- **Answer:** It is threatened because of human activities as well as environmental degradation - إنه مهدد بسبب الأنشطة البشرية بالإضافة إلى التدهور البيئي
+
+
+
+
+# Grammar for Grade 12 Kuwait English Curriculum
+
+
+## **1. Passive Voice (All Tenses)**
+
+
+### **Structure:** `to be + past participle`
+
+
+| Tense | Active Voice | Passive Voice |
+|-------|--------------|---------------|
+| Present Simple | The court **protects** rights | Rights **are protected** by the court - الحقوق **محمية** من قبل المحكمة |
+| Past Simple | The government **passed** the law | The law **was passed** by the government - القانون **تم إقراره** من قبل الحكومة |
+| Present Perfect | Volunteers **have helped** refugees | Refugees **have been helped** by volunteers - اللاجئون **تم مساعدتهم** من قبل المتطوعين |
+| Future Simple | Kuwait **will build** new centres | New centres **will be built** by Kuwait - مراكز جديدة **سيتم بناؤها** من قبل الكويت |
+| Modal Verbs | We **must protect** the environment | The environment **must be protected** - البيئة **يجب أن تحمى** |
+
+
+**Example in context:** *"Many endangered species **are being saved** by conservation efforts."* - العديد من الأنواع المهددة بالانقراض **يتم إنقاذها** من خلال جهود الحفاظ.
+
+
+---
+
+
+## **2. Reported Speech**
+
+
+### **Statements:**
+- **Direct:** The minister said, "*We **are** passing new environmental laws.*"
+- **Reported:** The minister said that they **were** passing new environmental laws.
+- **Translation:** قال الوزير إنهم **كانوا** يمررون قوانين بيئية جديدة.
+
+
+### **Questions:**
+- **Direct:** He asked, "*What **causes** desertification?*"
+- **Reported:** He asked what **caused** desertification.
+- **Translation:** سأل ما الذي **يسبب** التصحر.
+
+
+### **Commands:**
+- **Direct:** The judge said, "***Protect** the witnesses.*"
+- **Reported:** The judge ordered them **to protect** the witnesses.
+- **Translation:** أمر القاضيهم **بحماية** الشهود.
+
+
+---
+
+
+## **3. Conditionals (All Types + Mixed)**
+
+
+### **Type 1 (Real Present):**
+- **If + Present Simple, will + base verb**
+- *If people **recycle**, we **will save** resources.*
+- إذا **أعاد** الناس التدوير، **سنوفر** الموارد.
+
+
+### **Type 2 (Unreal Present):**
+- **If + Past Simple, would + base verb**
+- *If Kuwait **didn't** have desalination plants, water **would be** scarce.*
+- إذا لم **تكن** الكويت تمتلك محطات تحلية، **كانت** المياه نادرة.
+
+
+### **Type 3 (Unreal Past):**
+- **If + Past Perfect, would have + past participle**
+- *If laws **had been** stricter, crimes **would have decreased**.*
+- إذا **كانت** القوانين أكثر صرامة، **كان** الجريمة ستقل.
+
+
+### **Mixed Conditional:**
+- **If + Past Perfect, would + base verb** (Past condition, present result)
+- *If the treaty **had been** signed, we **would have** better relations now.*
+- إذا **تم** توقيع المعاهدة، **كان** لدينا علاقات أفضل الآن.
+
+
+---
+
+
+## **4. Modal Verbs (Advanced Uses)**
+
+
+| Modal | Use | Example | Arabic |
+|-------|-----|---------|--------|
+| **must** | Strong obligation | You **must respect** the law | يجب أن **تحترم** القانون |
+| **should/ought to** | Advice/Recommendation | Governments **should protect** rights | يجب على الحكومات **أن تحمي** الحقوق |
+| **needn't** | No necessity | You **needn't** attend the court | **ليس عليك** الحضور للمحكمة |
+| **could** | Past ability/Possibility | The law **could** be improved | يمكن **تحسين** القانون |
+| **may/might** | Probability | Migration **may increase** | الهجرة **قد تزيد** |
+| **must have** | Logical deduction | He **must have** emigrated | **لابد أنه** هاجر |
+
+
+---
+
+
+## **5. Relative Clauses**
+
+
+### **Defining (Essential information):**
+- *The judge **who** presided over the case was fair.*
+- القاضي **الذي** رئس القضية كان عادلاً.
+
+
+### **Non-defining (Extra information with commas):**
+- *Kuwait, **which** is in the Gulf, **has** many desalination plants.*
+- الكويت، **التي** تقع في الخليج، **لديها** العديد من محطات التحلية.
+
+
+### **With prepositions:**
+- *The refugees **whom** we **helped** were grateful.*
+- اللاجئون **الذين** **ساعدناهم** كانوا ممتنين.
+
+
+---
+
+
+## **6. Gerunds & Infinitives**
+
+
+### **Gerund (verb + -ing as noun):**
+- **After prepositions:** *interested in **helping*** - مهتم **بمساعدة**
+- **As subject:** ***Recycling** saves energy.* - **إعادة التدوير** توفر الطاقة
+- **After certain verbs:** *enjoy **learning**, avoid **hunting*** - يستمتع **بتعلم**، يتجنب **الصيد**
+
+
+### **Infinitive (to + base verb):**
+- **Purpose:** *We recycle **to save** resources.* - نعيد التدوير **لنوفر** الموارد
+- **After adjectives:** *It's important **to protect** nature.* - من المهم **حماية** الطبيعة
+- **After certain verbs:** *decided **to migrate**, managed **to survive*** - قرر **الهجرة**，نجح **في البقاء**
+
+
+### **Verbs with different meanings:**
+- *He **stopped smoking**.* (= quit) - توقف عن التدخين
+- *He **stopped to smoke**.* (= paused to do it) - توقف ليدخن
+
+
+---
+
+
+## **7. Participle Clauses**
+
+
+### **Present Participle (-ing):**
+- ***Protecting** the environment, we ensure our future.*
+- **بحماية** البيئة، نضمن مستقبلنا.
+
+
+### **Past Participle (-ed):**
+- ***Written** in 2023, the law addresses climate change.*
+- **مكتوباً** في 2023، القانون يعالج تغير المناخ.
+
+
+### **Perfect Participle:**
+- ***Having passed** the exam, she became a diplomat.*
+- **بعد أن اجتازت** الامتحان، أصبحت دبلوماسية.
+
+
+---
+
+
+## **8. Subjunctive Mood**
+
+
+Used after: *suggest, recommend, insist, demand, it is important that...*
+
+
+- **Structure:** base verb (no -s)
+- *The judge **demanded that** the witness **tell** the truth.*
+- **طلب** القاضي من الشاهد **أن يقول** الحقيقة
+
+
+- *It is vital that he **be** present.* - من الضروري **أن يكون** حاضراً
+
+
+---
+
+
+## **9. Inversion for Emphasis**
+
+
+### **Negative adverbials + inversion:**
+- *Never **have** I **seen** such injustice.* - أبداً لم **أرَ** مثل هذا الظلم
+- *Not only **does** Kuwait **protect** rights, but it also **promotes** tolerance.* - ليس فقط **تحمي** الكويت الحقوق، بل **تعزز** التسامح أيضاً
+
+
+### **Conditionals with inversion:**
+- *Had the law **been** stricter, crimes **would have** decreased.* - لو **كانت** القوانين أكثر صرامة، **لكانت** الجريمة قد قللت
+
+
+---
+
+
+## **10. Cleft Sentences for Emphasis**
+
+
+### **It-cleft:**
+- *It is **the judiciary** that protects our rights.* - **السلطة القضائية** هي التي تحمي حقوقنا
+
+
+### **What-cleft:**
+- *What **concerns** me is the water scarcity.* - **ما يقلقني** هو ندرة المياه
+
+
+---
+
+
+## **11. Connectors & Discourse Markers**
+
+
+### **Contrast:**
+- ***Although** Kuwait is small, **it** plays a major diplomatic role.* - **على الرغم من أن** الكويت صغيرة، **إلا أنها** تلعب دوراً دبلوماسياً رئيسياً
+
+
+### **Cause & Effect:**
+- *Deforestation **leads to** desertification.* - إزالة الغابات **تؤدي إلى** التصحر
+- *Due to** migration, diversity **has increased**.* - بسبب الهجرة، **ازداد** التنوع
+
+
+### **Addition:**
+- ***Furthermore**, **moreover**, **in addition** - علاوة على ذلك*
+
+
+### **Conclusion:**
+- *In conclusion, **to sum up**, **ultimately** - في الختام*
+
+
+---
+
+
+## **Practice Exercises**
+
+
+### **Exercise 1: Transform to Passive**
+1. The government **is implementing** new policies. → New policies **are being implemented** by the government.
+2. Volunteers **distributed** aid. → Aid **was distributed** by volunteers.
+
+
+### **Exercise 2: Reported Speech**
+1. "We **must protect** endangered species." → He said that they **had to protect** endangered species.
+2. "Are you **aware** of the problem?" → He asked if I **was aware** of the problem.
+
+
+### **Exercise 3: Conditionals**
+1. If people (**be**) more tolerant, societies (**improve**). → **were**, **would improve**
+2. If the law (**pass**) last year, we (**have**) better protection now. → **had been passed**, **would have**
+
+
+---
+
+
+## **Common Grammar Mistakes to Avoid**
+
+
+| Mistake | Correction | Arabic |
+|---------|------------|--------|
+| *He suggested **to build** more reserves.* | *He suggested **building** more reserves.* | اقترح **بناء** المزيد من المحميات |
+| *The law **must to be** respected.* | *The law **must be** respected.* | القانون **يجب أن يحترم** |
+| *Kuwait **have** many resources.* | *Kuwait **has** many resources.* | الكويت **لديها** العديد من الموارد |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Writing Topics for Grade 12 Kuwait First Term
+
+
+## **Argumentative/Opinion Essays**
+
+
+### **Unit 1: The Law**
+1. "Laws are the foundation of a civilized society." Discuss this statement and explain why legal systems are essential for maintaining order and protecting rights.
+2. Should minor disputes be resolved in court or through alternative methods? Give reasons for your answer.
+3. "Islamic values provide a strong foundation for modern legal systems." To what extent do you agree with this statement? Support your answer with examples from Kuwait.
+4. Is capital punishment an effective deterrent? Argue for or against strict penalties for serious crimes.
+5. Should governments impose stricter laws to protect individual privacy in the digital age?
+
+
+### **Unit 2: Migration**
+6. "Migration brings more benefits than problems to host countries." Do you agree? Discuss the economic and social impacts.
+7. Should developed countries have open-door policies for refugees? Justify your position.
+8. Is it better for skilled workers to emigrate for better opportunities or stay and develop their home countries?
+9. "Cultural diversity through migration enriches society." Discuss this statement with reference to Kuwait.
+
+
+### **Unit 3: Human Values**
+10. "Freedom without responsibility leads to chaos." Discuss the balance between individual rights and societal needs.
+11. Are charitable organizations more effective than governments in helping people in hardships?
+12. "Tolerance is the most important value in modern multicultural societies." Do you agree?
+
+
+### **Unit 4: The Earth at Risk**
+13. Who bears more responsibility for climate change: individuals or governments? Justify your answer.
+14. Should environmental protection take priority over economic development?
+15. Is desertification the most serious environmental threat facing Kuwait? Support your argument with evidence.
+
+
+### **Unit 5: Precious Resources**
+16. "Recycling should be mandatory by law." Argue for or against this statement.
+17. Are desalination plants the best solution for water scarcity in Kuwait?
+18. Should Kuwait invest more in renewable energy despite having oil resources?
+
+
+### **Unit 6: Under Threat**
+19. Is preserving endangered species worth the economic cost? Discuss.
+20. Should land reclamation projects continue despite their environmental impact?
+
+
+---
+
+
+## **Cause & Effect Essays**
+
+
+21. Analyze the causes and effects of desertification in Kuwait and the Arabian Peninsula.
+22. Discuss the causes of water scarcity and its effects on Kuwait's development.
+23. What are the causes of illegal hunting and its effects on biodiversity?
+24. Explain the causes of migration and its effects on both home and host countries.
+25. Analyze the causes of cultural conflicts and their effects on social harmony.
+
+
+---
+
+
+## **Problem-Solution Essays**
+
+
+26. Propose effective solutions to reduce crime rates in modern societies.
+27. How can Kuwait better manage its water resources to overcome scarcity?
+28. Suggest ways to improve the recycling system in Kuwait.
+29. What measures can be taken to protect endangered species in the region?
+30. How can governments balance between welcoming migrants and protecting local workers' rights?
+
+
+---
+
+
+## **Descriptive Essays**
+
+
+31. Describe the legal system in Kuwait and its key features.
+32. Describe the process of migration and the challenges faced by migrants.
+33. Describe the importance of the Arfaj plant and its role in Kuwaiti heritage.
+34. Describe a typical day in the life of a Red Crescent volunteer.
+35. Describe the effects of climate change you have observed in Kuwait.
+
+
+---
+
+
+## **Letter/Email Writing**
+
+
+36. **Formal Letter:** Write to the Minister of Justice suggesting improvements to the legal aid system.
+37. **Informal Email:** Write to a friend who has emigrated, describing how migration has changed your community.
+38. **Formal Letter:** Write to the Environmental Protection Committee expressing your concerns about desertification and suggesting solutions.
+39. **Formal Email:** Apply to volunteer with the Kuwait Red Crescent Society, highlighting your qualifications.
+40. **Letter to Editor:** Write to a newspaper arguing for stricter penalties for environmental crimes.
+
+
+---
+
+
+## **Report Writing**
+
+
+41. Write a report on the effectiveness of Kuwait's recycling initiatives.
+42. Prepare a report on the impact of migration on Kuwait's workforce.
+43. Write a report on the status of endangered species in Kuwait and recommendations for protection.
+44. Report on the water conservation measures implemented in your area.
+45. Write a report evaluating the role of charitable societies in Kuwait.
+
+
+---
+
+
+## **Article Writing**
+
+
+46. Write an article for your school magazine about the importance of human values in modern society.
+47. Write an article titled "Kuwait's Legal System: A Blend of Tradition and Modernity."
+48. Write an article explaining the concept of "sustainable development" to teenagers.
+49. Write an article discussing whether technology helps or harms environmental protection efforts.
+50. Write an article about the experiences of migrants in Kuwait and how to promote integration.
+
+
+---
+
+
+## **Narrative/Story Writing**
+
+
+51. Write a story about a young lawyer who fights for justice in a difficult case.
+52. Narrate the journey of a migrant family seeking a better life.
+53. Write a story from the perspective of an endangered animal losing its habitat.
+54. Tell the story of a volunteer's first experience with the Red Crescent during a crisis.
+55. Write a narrative about a community coming together to solve an environmental problem.
+
+
+---
+
+
+## **Comparison Essays**
+
+
+56. Compare the legal systems in Kuwait and another country you have studied.
+57. Compare the benefits and drawbacks of traditional courts versus mediation for minor disputes.
+58. Compare Kuwait's approach to water management with another Gulf country.
+
+
+---
+
+
+## **Proposal Writing**
+
+
+59. Propose a new community program to help integrate migrants into Kuwaiti society.
+60. Propose a national campaign to raise awareness about desertification and involve youth.
+
+
+---
+
+
+## **Key Vocabulary to Use in Essays**
+
+
+### **Unit 1:** legislation, judiciary, penalty, enforce, innocent, guilty, tolerant, civil, principle, welfare, litigation, grievance, impose, prosecute, adopt, legal system, rights, responsibilities
+
+
+### **Unit 2:** emigrate, migrant, displacement, refuge, foreign, hard-pressed, seek, prosperity, cultural diversity, integration, minority, hardship, minority rights
+
+
+### **Unit 3:** compassion, tolerance, discrimination, empathy, charitable, welfare, human rights, voluntary, vulnerable, enfranchisement, humanitarian, commitment, donation, values
+
+
+### **Unit 4:** desertification, climate change, erosion, drought, harsh conditions, arid, ecosystem, biodiversity, precipitation, treacherous, scarcity, conservation, habitat loss
+
+
+### **Unit 5:** recycling, resources, crisis, machinery, reprocess, collection points, waste management, sustainability, components, incineration, compost, landfill, conservation
+
+
+### **Unit 6:** endangered, extinction, refuge, reservation, hibernate, carnivorous, encroach, conservation, habitat, poaching, illegal hunting, sanctuary, biodiversity, ecosystem
+
+
+---
+
+
+## **Essay Structure Guide**
+
+
+**Introduction:** Hook + Background + Thesis Statement
+**Body Paragraphs:** Topic Sentence + Supporting Details + Examples + Linking Words
+**Conclusion:** Summary + Restate Thesis + Final Thought
+
+
+**Useful Linking Words:**
+- **Addition:** Furthermore, Moreover, In addition, Additionally
+- **Contrast:** However, On the other hand, Conversely, Nevertheless
+- **Cause/Effect:** Consequently, As a result, Therefore, Thus, Hence
+- **Examples:** For instance, For example, Such as, Namely
+- **Conclusion:** In conclusion, To sum up, Ultimately, All in all
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Writing Topics for Grade 12 Kuwait First Term (With Full Examples)
+
+
+Below is a comprehensive list of writing topics organized by unit, followed by **four full one-page model essays** covering different essay types.
+
+
+---
+
+
+## **Complete List of Writing Topics**
+
+
+### **Unit 1: The Law (Argumentative & Discursive)**
+1. Should minor disputes be resolved in court or through mediation?
+2. "Islamic values provide a strong foundation for Kuwait's legal system." Discuss.
+3. Are strict penalties the most effective way to reduce crime?
+4. Is the "culture of blame" destructive to society?
+5. Should digital privacy be protected by stronger laws?
+
+
+### **Unit 2: Migration (Cause & Effect)**
+6. Analyze the causes and effects of migration on Kuwait's economy.
+7. Does cultural diversity through migration enrich or threaten social cohesion?
+8. Should Kuwait implement stricter controls on migrant workers?
+9. The impact of brain drain on developing countries.
+
+
+### **Unit 3: Human Values (Opinion & Persuasive)**
+10. "Freedom without responsibility leads to chaos." Discuss.
+11. Are charitable organizations more effective than governments in helping the needy?
+12. Is tolerance the most important value in modern Kuwaiti society?
+13. Should volunteer work be mandatory for high school graduation?
+
+
+### **Unit 4: The Earth at Risk (Problem-Solution)**
+14. Propose effective solutions to combat desertification in Kuwait.
+15. How can Kuwait balance economic development with environmental protection?
+16. What measures should be taken to preserve endangered local species?
+
+
+### **Unit 5: Precious Resources (Proposal & Report)**
+17. Write a proposal for improving recycling in your neighborhood.
+18. Evaluate Kuwait's water management strategies and suggest improvements.
+19. Should Kuwait invest more in solar energy despite its oil wealth?
+
+
+### **Unit 6: Under Threat (Descriptive & Narrative)**
+20. Describe the environmental challenges facing Kuwait's wetlands.
+21. Write a narrative from the perspective of an endangered animal.
+
+
+---
+
+
+## **Four Full One-Page Model Essays**
+
+
+---
+
+
+### **Essay 1: Argumentative (Unit 1)**
+**Topic:** "Should minor disputes be resolved in court or through alternative methods?"
+
+
+In contemporary Kuwaiti society, the question of whether minor disputes should be settled through formal court proceedings or alternative resolution methods has sparked considerable debate. While some argue that litigation ensures justice and demonstrates a functioning legal system, others contend that it clogs up courts with trivial matters, wasting valuable time and resources. This essay will argue that alternative dispute resolution methods are more appropriate for minor issues, benefiting both individuals and the judiciary.
+
+
+Proponents of court litigation for minor disputes assert that the judicial system exists precisely to provide citizens with access to justice, regardless of the matter's size. They argue that when people bring small claims to court, it showcases a society where everyone's rights are protected equally. Furthermore, the formal structure of a courtroom, with its legally binding decisions, ensures that settlements are enforced. However, this perspective overlooks the substantial drawbacks of this approach. The reality is that minor cases **clog up** the already overburdened courts, creating backlogs that delay more serious **litigation**. Moreover, the **penalty** of high legal fees and the **arduous**, time-consuming process often leaves both parties worse off financially and emotionally.
+
+
+Conversely, alternative methods such as mediation and arbitration offer more efficient solutions. These approaches are less formal, more cost-effective, and typically faster than traditional court proceedings. They encourage **tolerant** dialogue and **compassionate** understanding between parties, fostering reconciliation rather than adversarial confrontation. In Kuwait, where **Islamic values** emphasize community harmony and **consultation** (shura), mediation aligns perfectly with cultural principles. For instance, family disputes or minor property disagreements can be resolved through community leaders or specialized mediation centers, preserving relationships while delivering fair outcomes.
+
+
+In conclusion, while courts must remain accessible to all, directing minor disputes toward alternative resolution methods is more beneficial. This approach would reduce the **judiciary's** burden, save resources, and promote social harmony. Kuwait should strengthen its mediation framework to reflect both modern efficiency and traditional values, ensuring that justice is both served and accessible.
+
+
+**Word Count:** 317 words
+
+
+---
+
+
+### **Essay 2: Cause & Effect (Unit 2)**
+**Topic:** "Analyze the causes and effects of migration on Kuwait."
+
+
+Migration has fundamentally shaped Kuwait's demographic landscape, driven by a combination of economic necessity and humanitarian considerations. Understanding both the causes of this phenomenon and its multifaceted effects is crucial for policy makers. This essay will examine why migrants are drawn to Kuwait and how their presence impacts the nation's economy and society.
+
+
+The primary **cause** of migration to Kuwait is economic opportunity. The country's oil wealth has **precipitated** a **boom** in construction, finance, and service sectors, creating a demand for labor that exceeds the local population's capacity. Migrants **seek** better salaries and a higher standard of living than they can **afford** in their home countries. Additionally, political instability and **hardship** in neighboring regions have **necessitated** that many **displaced** individuals **reside** in Kuwait as refugees. The **unfortunate** reality of **famine** and conflict in some source countries further **compels** people to **emigrate**.
+
+
+The effects of migration are both positive and challenging. **On the positive side**, migrants contribute significantly to Kuwait's economy. They fill essential roles in both **high-tech** industries and manual labor, **improving** productivity and enabling rapid development. **Furthermore**, cultural diversity through migration enriches society, introducing new perspectives, cuisines, and traditions. However, negative effects also **prevail**. The **mass** influx of workers strains infrastructure, leading to traffic congestion and housing shortages. Some **hard-pressed** local citizens feel economic competition, while language barriers and cultural differences sometimes create social **rifts**. **Moreover**, the **disgruntled** migrant population can feel isolated, experiencing **homesickness** and discrimination.
+
+
+In conclusion, migration to Kuwait is primarily caused by economic opportunity and regional instability, producing both beneficial and challenging effects. While migrants are essential to Kuwait's prosperity, addressing infrastructure strain and promoting social integration remains critical for sustainable coexistence.
+
+
+**Word Count:** 309 words
+
+
+---
+
+
+### **Essay 3: Problem-Solution (Unit 5)**
+**Topic:** "How can Kuwait effectively solve its water scarcity challenge?"
+
+
+Water **paucity** represents one of Kuwait's most pressing challenges, **precipitated** by an **arid** climate, **harsh** desert conditions, and a **burgeoning** population. **Although** Kuwait **has** invested heavily in desalination, **unsanctioned** consumption and **unwarranted** waste continue to **deplete** resources. This essay will propose practical solutions to **curtail** consumption and **implement** sustainable management.
+
+
+The first and most critical solution is raising **awareness**. The **prohibitively** high cost of water production is invisible to most consumers, leading to **wasteful** habits. The government **should** launch nationwide media campaigns emphasizing conservation, using social media and school programs to teach children that water is **vital** and **worth** preserving. For instance, showing how **collective points** for greywater recycling can **alleviate** demand would motivate community participation. **Furthermore**, **religious** leaders could **concur** that conservation aligns with Islamic principles of stewardship, making the message more **persuasive**.
+
+
+The second solution involves **municipal** infrastructure upgrades. **Currently**, **the bureaucracy** surrounding **paperwork** for installing water-saving devices discourages homeowners. The government **must** **pass laws** requiring all new buildings to **incorporate** smart irrigation systems and low-flow fixtures. **Additionally**, **industrial** users **who** **misbehave** by **overcultivating** with flood irrigation **should** face **penalties**. **Prohibitively** high fines for commercial waste would **enforce** compliance.
+
+
+Finally, **Kuwait** **ought to** **invest** in **reprocessing** and recycling water. **While** desalination **is** effective, it **is** energy-intensive and **unproductive** for the environment. **Treating** wastewater to **irrigate** parks and farms would **drastically** **cut down on** consumption. **Moreover**, **research** into **atmospheric** water harvesting could **provide** alternative sources.
+
+
+**In conclusion**, **water scarcity** **can** **be** **solved** through a combination of **awareness** campaigns, **legislation**, and **innovative** recycling. **These** **measures** **would** **ensure** **sustainable** **use** for future generations.
+
+
+**Word Count:** 325 words
+
+
+---
+
+
+### **Essay 4: Opinion (Unit 3)**
+**Topic:** "Freedom is a balance between individual rights and societal needs." Discuss.
+
+
+The concept of freedom is often **perceived** as the absolute right to act without constraints. However, this **extravagant** interpretation **leads** to chaos. I firmly believe that true **liberty** **exists** only when individuals **value** both their rights and their responsibilities toward society. This essay will **contend** that **tempered** freedom **is** essential for social harmony.
+
+
+**Primarily**, unrestricted freedom **poses** a threat to **welfare** and security. **Consider** the **principle** of free speech: **while** citizens **have** the right to express opinions, **aggressive** hate speech **incites** violence and **discriminates** against minorities. **Kuwait's** **legislation** wisely **imposes** limits to **protect** vulnerable groups. **Similarly**, the freedom to **use** water **must** **be** **balanced** against community needs; **unwarranted** consumption during shortages **deprives** others. **Without** such **boundaries**, **society** **would** **deteriorate** into conflict.
+
+
+**Moreover**, **responsibility** **is** the **attribute** that gives freedom meaning. The **prophet** Mohammed **taught** that **voluntary** **charitable** work **is** a **principle** of faith. **Thus**, the freedom to **accumulate** wealth **should** **be** **tempered** by the **obligation** to **donate** and **support** the **underprivileged**. **When** citizens **engage** in **compassionate** acts, **they** **prove** that **liberty** and duty **are** not **mutually** exclusive. **Furthermore**, **tolerant** **behavior** in **public** spaces— **refraining** from **imposing** one's views—**demonstrates** respect for others' **rights**.
+
+
+**Critics** argue that **such** limits **infringe** on **personal** **autonomy**. **However**, this **perspective** **ignores** that **complete** freedom **invariably** **infringes** on others. **True** **liberty** **is** not **solitary**; **it** **is** **collective**. **In** conclusion, **freedom** **must** **be** **a** **deliberate** **balance**. **By** **recognizing** that **our** **rights** **end** where **another's** **begin**, **we** **create** **a** **just,** **tolerant** **society** where **all** **can** **flourish**.
+
+
+**Word Count:** 318 words
+
+
+---
+
+
+## **Sample Outlines for Additional Topics**
+
+
+### **Essay 5: Environment (Unit 4)**
+**Topic:** "Propose solutions to combat desertification in Kuwait"
+
+
+**Outline:**
+- **Intro:** Define desertification; state thesis (solutions needed)
+- **Body 1:** Solution 1 - Stop deforestation (strict laws, penalties)
+- **Body 2:** Solution 2 - Modern irrigation (drip systems, awareness)
+- **Body 3:** Solution 3 - Reforestation campaigns (community involvement)
+- **Conclusion:** Summarize; call for action
+
+
+**Key Vocab:** desertification, erosion, arid, harsh, precipitation, reclaim, irrigation, legislation, enforce, penalty, cultivate, ecosystem
+
+
+---
+
+
+### **Essay 6: Human Values (Unit 3)**
+**Topic:** "Are charitable organizations more effective than governments?"
+
+
+**Outline:**
+- **Intro:** Acknowledge both roles; thesis (charities more flexible)
+- **Body 1:** Charities' advantages (speed, community connection, compassion)
+- **Body 2:** Governments' limitations (bureaucracy, red tape, delay)
+- **Body 3:** Need for partnership (not competition)
+- **Conclusion:** Both needed; charities can lead
+
+
+**Key Vocab:** charitable, welfare, humanitarian, bureaucracy, voluntary, compassionate, alleviate, donation, hardship, commitment
+
+
+---
+
+
+### **Essay 7: Migration (Unit 2)**
+**Topic:** "Does cultural diversity enrich Kuwaiti society?"
+
+
+**Outline:**
+- **Intro:** Diversity is reality; thesis (enriches when managed well)
+- **Body 1:** Economic enrichment (skills, labor, innovation)
+- **Body 2:** Cultural benefits (food, languages, perspectives)
+- **Body 3:** Challenges (integration, social cohesion) + solutions
+- **Conclusion:** Managed diversity is strength
+
+
+**Key Vocab:** diverse, migrant, emigrate, foreign, cultural difference, enrich, integrate, tolerance, minority, prosperity
+
+
+---
+
+
+**Note:** Each full essay demonstrates:
+- **Structure:** Clear intro, body paragraphs, conclusion
+- **Vocabulary:** Unit-specific terms (underlined in first essay)
+- **Grammar:** Complex sentences, passive voice, conditionals, modal verbs
+- **Cohesion:** Advanced linking words (furthermore, however, consequently)
+- **Critical thinking:** Balanced arguments, justification, examples

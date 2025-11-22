@@ -1,0 +1,160 @@
+{
+  "autonomous_validation_completed": true,
+  "timestamp": "2025-11-10T01:32:43Z",
+  "overall_status": "FAILED",
+  "validation_results": {
+    "database_integrity": {
+      "total_vocabulary_entries": 463,
+      "grades_covered": 1,
+      "units_covered": 1,
+      "empty_english_words": 0,
+      "empty_arabic_translations": 0,
+      "distribution": [
+        [
+          0,
+          0,
+          463
+        ]
+      ],
+      "samples": [
+        [
+          "- absorb",
+          "يَمتص",
+          0,
+          0
+        ],
+        [
+          "- antioxidant",
+          "مضاد الأكسدة",
+          0,
+          0
+        ],
+        [
+          "- saturated fat",
+          "دهون مشبعة",
+          0,
+          0
+        ],
+        [
+          "- appeal to",
+          "يجذب",
+          0,
+          0
+        ],
+        [
+          "- grilled",
+          "مشوي",
+          0,
+          0
+        ],
+        [
+          "- arthritis",
+          "التهاب المفاصل",
+          0,
+          0
+        ],
+        [
+          "- atmospheric",
+          "جوي",
+          0,
+          0
+        ],
+        [
+          "- iron",
+          "حديد",
+          0,
+          0
+        ],
+        [
+          "- stimulant",
+          "منبه",
+          0,
+          0
+        ],
+        [
+          "- irresponsibly",
+          "بدون مسؤولية",
+          0,
+          0
+        ]
+      ],
+      "integrity_score": 100.0,
+      "validation_passed": true
+    },
+    "platform_files": {
+      "required_files": [
+        "src/services/mysqlService.ts",
+        "src/components/VocabularyGenerator.tsx",
+        ".env.autonomous",
+        "src/tests/autonomous/vocabularyService.test.ts",
+        "package.json"
+      ],
+      "existing_files": [
+        "src/services/mysqlService.ts",
+        ".env.autonomous",
+        "src/tests/autonomous/vocabularyService.test.ts",
+        "package.json"
+      ],
+      "missing_files": [
+        "src/components/VocabularyGenerator.tsx"
+      ],
+      "file_sizes": {
+        "src/services/mysqlService.ts": 6813,
+        ".env.autonomous": 459,
+        "src/tests/autonomous/vocabularyService.test.ts": 785,
+        "package.json": 3626
+      },
+      "service_valid": true,
+      "files_complete": false,
+      "validation_passed": false
+    },
+    "database_queries": {
+      "query_results": [
+        {
+          "name": "get_by_class_unit",
+          "description": "Get vocabulary by class and unit",
+          "passed": true,
+          "execution_time_ms": 5.48,
+          "result_count": 1
+        },
+        {
+          "name": "get_by_class",
+          "description": "Get vocabulary by class",
+          "passed": true,
+          "execution_time_ms": 8.59,
+          "result_count": 1
+        },
+        {
+          "name": "search_vocabulary",
+          "description": "Search vocabulary",
+          "passed": true,
+          "execution_time_ms": 2.89,
+          "result_count": 1
+        },
+        {
+          "name": "get_statistics",
+          "description": "Get vocabulary statistics",
+          "passed": true,
+          "execution_time_ms": 2.79,
+          "result_count": 1
+        }
+      ],
+      "all_queries_passed": true,
+      "validation_passed": true
+    }
+  },
+  "performance_metrics": {
+    "total_vocabulary_entries": 463,
+    "integrity_score": 100.0,
+    "query_execution_times": [
+      5.48,
+      8.59,
+      2.89,
+      2.79
+    ]
+  },
+  "recommendations": [
+    "Platform files incomplete - ensure all required files are present"
+  ],
+  "autonomous_completion": false
+}

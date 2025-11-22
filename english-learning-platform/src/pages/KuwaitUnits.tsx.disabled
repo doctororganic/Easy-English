@@ -1,0 +1,189 @@
+import { useState, useEffect } from 'react'
+import { useParams, useNavigate } from 'react-router-dom'
+import { BookOpen, Clock, TrendingUp, Filter, ArrowLeft } from 'lucide-react'
+import { kuwaitDataService, KuwaitUnit } from '../services/KuwaitDataService'
+import { useCurriculum } from '../contexts/CurriculumContext'
+
+
+
+export function KuwaitUnits() {
+  const { classNumber } = useParams<{ classNumber: string }>()
+  const navigate = useNavigate()
+  const { setCurrentClass, availableUnits, setCurrentUnit } = useCurriculum()
+  
+  const [filteredUnits, setFilteredUnits] = useState<KuwaitUnit[]>([])
+  const [difficultyFilter, setDifficultyFilter] = useState<number | 'all'>('all')
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    const classNum = parseInt(classNumber || '10')
+    const classData = { id: classNum, class_number: classNum, class_name_en: `Grade ${classNum}`, class_name_ar: `الصف ${classNum}`, description: '', academic_year: '2024', total_units: 6, total_vocabulary: 50, is_active: true }
+    setCurrentClass(classData)
+  }, [classNumber, setCurrentClass])
+
+  useEffect(() => {
+    filterUnits()
+  }, [availableUnits, difficultyFilter])
+
+  function filterUnits() {
+    let filtered = [...availableUnits]
+
+    if (difficultyFilter !== 'all') {
+      filtered = filtered.filter(unit => unit.difficulty_level === (difficultyFilter as number))
+    }
+
+    setFilteredUnits(filtered as any)
+  }
+
+  function handleUnitClick(unit: KuwaitUnit) {
+    setCurrentUnit({ unit_number: unit.unit_number, title: unit.unit_name_en, description: unit.description_en })
+    navigate(`/kuwait/class/${classNumber}/unit/${unit.unit_number}`)
+  }
+
+  function getDifficultyColor(level: number): string {
+    const colors = {
+      1: 'bg-green-500',
+      2: 'bg-blue-500',
+      3: 'bg-yellow-500',
+      4: 'bg-orange-500',
+      5: 'bg-red-500'
+    }
+    return colors[level as keyof typeof colors] || 'bg-gray-500'
+  }
+
+  function getDifficultyLabel(level: number): string {
+    const labels = {
+      1: 'Beginner',
+      2: 'Elementary',
+      3: 'Intermediate',
+      4: 'Advanced',
+      5: 'Expert'
+    }
+    return labels[level as keyof typeof labels] || 'Unknown'
+  }
+
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-background flex items-center justify-center">
+        <div className="text-foreground text-xl">Loading units...</div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="min-h-screen bg-background p-8">
+      <div className="max-w-7xl mx-auto">
+        {/* Header */}
+        <div className="mb-8">
+          <button
+            onClick={() => navigate('/kuwait-classes')}
+            className="flex items-center gap-2 text-primary hover:text-foreground mb-4 transition-colors"
+          >
+            <ArrowLeft className="w-5 h-5" />
+            Back to Classes
+          </button>
+          <h1 className="text-4xl font-bold text-foreground mb-2">
+            Class {classNumber} Units
+          </h1>
+          <p className="text-xl text-muted-foreground">
+            {classNumber === '10' ? 'الصف العاشر' : classNumber === '11' ? 'الصف الحادي عشر' : 'الصف الثاني عشر'}
+          </p>
+        </div>
+
+        {/* Filters */}
+        <div className="bg-card rounded-xl p-6 mb-8 border border-border">
+          <div className="max-w-md mx-auto">
+            {/* Difficulty Filter */}
+            <div className="relative">
+              <Filter className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-muted-foreground" />
+              <select
+                value={difficultyFilter}
+                onChange={(e) => setDifficultyFilter(e.target.value === 'all' ? 'all' : parseInt(e.target.value))}
+                className="w-full pl-10 pr-4 py-3 bg-background text-foreground rounded-lg border border-border focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer"
+              >
+                <option value="all">All Difficulty Levels</option>
+                <option value="1">Beginner</option>
+                <option value="2">Elementary</option>
+                <option value="3">Intermediate</option>
+                <option value="4">Advanced</option>
+                <option value="5">Expert</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        {/* Units Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {filteredUnits.map((unit) => (
+            <div
+              key={unit.id}
+              className="bg-card border border-border rounded-xl p-6 shadow-lg hover:shadow-primary/30 transition-all duration-300 cursor-pointer transform hover:scale-105"
+              onClick={() => handleUnitClick(unit)}
+            >
+              {/* Unit Header */}
+              <div className="flex items-start justify-between mb-4">
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-primary font-semibold">Unit {unit.unit_number}</span>
+                    <span className={`px-2 py-1 rounded text-xs text-white ${getDifficultyColor(unit.difficulty_level)}`}>
+                      {getDifficultyLabel(unit.difficulty_level)}
+                    </span>
+                  </div>
+                  <h3 className="text-xl font-bold text-foreground mb-1">
+                    {unit.unit_name_en}
+                  </h3>
+                  <p className="text-secondary text-sm mb-2">
+                    {unit.unit_name_ar}
+                  </p>
+                </div>
+              </div>
+
+              {/* Description */}
+              <p className="text-muted-foreground text-sm mb-4">
+                {unit.description_en}
+              </p>
+
+              {/* Progress Bar */}
+              <div className="mb-4">
+                <div className="flex justify-between text-xs text-muted-foreground mb-1">
+                  <span>Progress</span>
+                  <span>{unit.completion_percentage}%</span>
+                </div>
+                <div className="w-full bg-muted rounded-full h-2">
+                  <div
+                    className="bg-gradient-to-r from-primary to-secondary h-2 rounded-full"
+                    style={{ width: `${unit.completion_percentage}%` }}
+                  ></div>
+                </div>
+              </div>
+
+              {/* Stats */}
+              <div className="flex items-center justify-between text-sm">
+                <div className="flex items-center gap-2 text-foreground">
+                  <BookOpen className="w-4 h-4" />
+                  <span>{unit.vocabulary_count} words</span>
+                </div>
+                <div className="flex items-center gap-2 text-foreground">
+                  <Clock className="w-4 h-4" />
+                  <span>{unit.estimated_hours}h</span>
+                </div>
+              </div>
+
+              {/* CTA */}
+              <button className="w-full mt-4 bg-primary text-primary-foreground font-semibold py-2 rounded-lg hover:opacity-90 transition-opacity">
+                {unit.completion_percentage === 0 ? 'Start Learning' : 'Continue'}
+              </button>
+            </div>
+          ))}
+        </div>
+
+        {/* No Results */}
+        {filteredUnits.length === 0 && (
+          <div className="text-center py-12">
+            <p className="text-xl text-muted-foreground">No units found matching your criteria</p>
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}

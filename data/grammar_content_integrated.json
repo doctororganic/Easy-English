@@ -1,0 +1,3741 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-10",
+    "total_sources": 6,
+    "analysis_type": "enhanced",
+    "content_types": [
+      "grammar_reference",
+      "exercises",
+      "vocabulary",
+      "curriculum_materials"
+    ]
+  },
+  "overview": {
+    "total_unique_topics": 26,
+    "total_unique_vocabulary": 7,
+    "total_questions_analyzed": 315,
+    "grade_distribution": {
+      "grade_1": 25,
+      "grade_10": 41,
+      "grade_11": 4,
+      "grade_12": 1,
+      "grade_7": 1,
+      "grade_2": 3,
+      "grade_3": 4,
+      "grade_4": 1,
+      "grade_6": 1,
+      "grade_5": 1
+    },
+    "most_common_topics": {
+      "questions": 39,
+      "modal_verbs": 30,
+      "can": 25,
+      "will": 23,
+      "superlatives": 15,
+      "should": 15,
+      "tenses": 13,
+      "going to": 12,
+      "could": 10,
+      "must": 9
+    },
+    "most_common_vocabulary": {
+      "Word": 22,
+      "Grammar": 10,
+      "Vocabulary": 9,
+      "voice": 7,
+      "word": 5,
+      "Tense": 2,
+      "sentence": 1
+    }
+  },
+  "topics": {
+    "complete_topic_list": [
+      "can",
+      "comparatives",
+      "conditionals",
+      "could",
+      "going to",
+      "may",
+      "might",
+      "modal_verbs",
+      "must",
+      "past continuous",
+      "past simple",
+      "past_continuous",
+      "prepositions",
+      "prepositions of time",
+      "present continuous",
+      "present perfect",
+      "present perfect continuous",
+      "present_continuous",
+      "present_simple",
+      "questions",
+      "shall",
+      "should",
+      "superlatives",
+      "tenses",
+      "will",
+      "would"
+    ],
+    "topic_frequency": {
+      "tenses": 13,
+      "shall": 4,
+      "can": 25,
+      "questions": 39,
+      "will": 23,
+      "superlatives": 15,
+      "must": 9,
+      "modal_verbs": 30,
+      "should": 15,
+      "past simple": 1,
+      "present_simple": 1,
+      "conditionals": 4,
+      "would": 8,
+      "could": 10,
+      "may": 6,
+      "going to": 12,
+      "might": 2,
+      "comparatives": 2,
+      "past_continuous": 1,
+      "past continuous": 1,
+      "present perfect": 2,
+      "prepositions": 2,
+      "prepositions of time": 1,
+      "present continuous": 1,
+      "present_continuous": 1,
+      "present perfect continuous": 1
+    },
+    "vocabulary_terms": [
+      "Grammar",
+      "Tense",
+      "Vocabulary",
+      "Word",
+      "sentence",
+      "voice",
+      "word"
+    ]
+  },
+  "question_types": {
+    "identified_types": [
+      "reorder",
+      "multiple_choice",
+      "translation",
+      "essay_writing",
+      "grammar_correction",
+      "fill_in_blanks",
+      "complete_sentence"
+    ],
+    "question_type_distribution": {
+      "reorder": 11,
+      "multiple_choice": 279,
+      "translation": 2,
+      "essay_writing": 10,
+      "grammar_correction": 3,
+      "fill_in_blanks": 9,
+      "complete_sentence": 1
+    }
+  },
+  "arabic_translations": {
+    "translation_quality": {
+      "overall_quality": 0.11558669001751312,
+      "has_arabic_content": true,
+      "coverage_percentage": 9.632224168126093
+    },
+    "content_analysis": [
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 22,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 25,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 60,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 46,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 65,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 3,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 3,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 2,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 29,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 25,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 3,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 31,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 26,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 22,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 26,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 25,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 22,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 25,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 22,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 34,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 31,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 29,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 51,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 26,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 26,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 25,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 25,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 48,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 34,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 41,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 32,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 43,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 35,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 39,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 32,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 37,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 29,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 27,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 39,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 27,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 34,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 5,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 27,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 26,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 26,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 26,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 28,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 26,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 25,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 32,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 32,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 36,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 22,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 37,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 35,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 35,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 38,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 22,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 33,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 31,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 3,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 28,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 22,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 28,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 3,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 22,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 15,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 38,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 13,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 17,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 76,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 35,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 45,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 24,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 28,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 36,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 28,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 35,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 9,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 23
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 81
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 27,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 115
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 67
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 49,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 210
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 28,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 131
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 10,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 40,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 120
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 14,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 71
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 12,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 118
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 18,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 204
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 29,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 191
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 8,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 197
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 7,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 20
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 146
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 21,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 134
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 19,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 128
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 29,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 166
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 46,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 158
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 31,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 144
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 1,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 13
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 74,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 145
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 91,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 213
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 159,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 79,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 101,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 137,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 64,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 202
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 62,
+        "arabic_grammar_terms": [
+          "التعبير"
+        ],
+        "arabic_character_count": 210
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 46,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 45,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 36
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 36,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 63,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 47,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 6,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 32
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 39,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 49,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 1185
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 42,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 50
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 12
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 78,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 609
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 74,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 726
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 86,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 664
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 121,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 804
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 33,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 28,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 33,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 33,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 31,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 30,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 37,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 36,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 33,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 41,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 38,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 6
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 37,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 31,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 56,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 68,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 72,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 96,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 105,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 70,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 74,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 77,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 86,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 66,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 75,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 65,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 70,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 27,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 4,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 16
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 20,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 147
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 23,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 117
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 11,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 84
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 16,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 146
+      },
+      {
+        "has_arabic_content": false,
+        "english_arabic_pairs": 0,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 0
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 33,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 33,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      },
+      {
+        "has_arabic_content": true,
+        "english_arabic_pairs": 33,
+        "arabic_grammar_terms": [],
+        "arabic_character_count": 25
+      }
+    ]
+  },
+  "curriculum_mapping": {
+    "curriculum_alignment_score": 0.5714285714285714,
+    "grade_levels_covered": [
+      "grade_1",
+      "grade_10",
+      "grade_11",
+      "grade_12",
+      "grade_7",
+      "grade_2",
+      "grade_3",
+      "grade_4",
+      "grade_6",
+      "grade_5"
+    ],
+    "aligned_topics": [
+      "present continuous",
+      "prepositions of time",
+      "past continuous",
+      "could",
+      "going to",
+      "must",
+      "present perfect continuous",
+      "questions",
+      "will",
+      "tenses",
+      "comparatives",
+      "present perfect",
+      "might",
+      "conditionals",
+      "would",
+      "can",
+      "superlatives",
+      "past_continuous",
+      "present_simple",
+      "should",
+      "may",
+      "past simple",
+      "present_continuous",
+      "shall",
+      "prepositions",
+      "modal_verbs"
+    ],
+    "missing_topics": [
+      "active voice",
+      "active_voice",
+      "adverbs of frequency",
+      "adverbs of manner",
+      "adverbs of place",
+      "adverbs of time",
+      "articles",
+      "communication functions",
+      "comparative adjectives",
+      "complex sentences",
+      "compound sentences",
+      "compound-complex sentences",
+      "coordinating conjunctions",
+      "correlative conjunctions",
+      "definite article",
+      "demonstrative pronouns",
+      "dependent clauses",
+      "descriptive adjectives",
+      "first conditional",
+      "future continuous",
+      "future perfect",
+      "future simple",
+      "indefinite article",
+      "independent clauses",
+      "indirect questions",
+      "noun clauses",
+      "passive voice",
+      "passive_voice",
+      "past perfect",
+      "past perfect continuous",
+      "personal pronouns",
+      "possessive pronouns",
+      "prepositions of movement",
+      "prepositions of place",
+      "present simple",
+      "question tags",
+      "reflexive pronouns",
+      "relative clauses",
+      "second conditional",
+      "simple sentences",
+      "speaking skills",
+      "subordinating conjunctions",
+      "superlative adjectives",
+      "third conditional",
+      "time expressions",
+      "verb tenses",
+      "wh questions",
+      "writing skills",
+      "yes/no questions",
+      "zero article",
+      "zero conditional"
+    ],
+    "extra_topics": []
+  },
+  "recommendations": {
+    "content_completeness": {
+      "coverage_percentage": 152.94117647058823,
+      "missing_topics": [
+        "active voice",
+        "active_voice",
+        "adverbs of frequency",
+        "adverbs of manner",
+        "adverbs of place",
+        "adverbs of time",
+        "articles",
+        "communication functions",
+        "comparative adjectives",
+        "complex sentences",
+        "compound sentences",
+        "compound-complex sentences",
+        "coordinating conjunctions",
+        "correlative conjunctions",
+        "definite article",
+        "demonstrative pronouns",
+        "dependent clauses",
+        "descriptive adjectives",
+        "first conditional",
+        "future continuous",
+        "future perfect",
+        "future simple",
+        "indefinite article",
+        "independent clauses",
+        "indirect questions",
+        "noun clauses",
+        "passive voice",
+        "passive_voice",
+        "past perfect",
+        "past perfect continuous",
+        "personal pronouns",
+        "possessive pronouns",
+        "prepositions of movement",
+        "prepositions of place",
+        "present simple",
+        "question tags",
+        "reflexive pronouns",
+        "relative clauses",
+        "second conditional",
+        "simple sentences",
+        "speaking skills",
+        "subordinating conjunctions",
+        "superlative adjectives",
+        "third conditional",
+        "time expressions",
+        "verb tenses",
+        "wh questions",
+        "writing skills",
+        "yes/no questions",
+        "zero article",
+        "zero conditional"
+      ],
+      "well_covered_topics": [
+        "questions",
+        "modal_verbs",
+        "can",
+        "will",
+        "superlatives"
+      ],
+      "completeness_status": "comprehensive"
+    },
+    "improvement_priorities": [
+      "LOW: Improve Arabic translation coverage"
+    ]
+  }
+}

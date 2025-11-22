@@ -1,0 +1,481 @@
+{
+  "curriculum_overview": {
+    "title": "Kuwait Secondary English Curriculum Mapping",
+    "grades_covered": [10, 11, 12],
+    "academic_structure": "Semester-based system with continuous assessment",
+    "total_assessment_components": 8,
+    "analysis_date": "2025-11-10",
+    "source_materials": [
+      "Secondary Student Handbook 2022-23",
+      "Grade-specific vocabulary and grammar test banks",
+      "Mock exam files for multiple grades",
+      "Unit-specific curriculum materials"
+    ]
+  },
+  
+  "exam_structure": {
+    "primary_components": [
+      {
+        "component": "Vocabulary",
+        "assessment_types": [
+          "Multiple choice questions (4 options)",
+          "Fill-in-the-blank exercises",
+          "Word-definition matching"
+        ],
+        "format": "Bilingual (English with Arabic translations)",
+        "complexity": "Progressive difficulty by grade level"
+      },
+      {
+        "component": "Grammar",
+        "assessment_types": [
+          "Multiple choice questions",
+          "Sentence correction exercises",
+          "Verb form completion",
+          "Conditional statement completion"
+        ],
+        "key_areas": [
+          "Tenses (present, past, future, perfect)",
+          "Conditionals (zero to third conditional)",
+          "Passive voice",
+          "Modal verbs",
+          "Reported speech"
+        ]
+      },
+      {
+        "component": "Language Functions",
+        "assessment_types": [
+          "Contextual response selection",
+          "Conversational appropriateness",
+          "Situation-based language use"
+        ],
+        "focus_areas": [
+          "Expressing opinions",
+          "Making suggestions",
+          "Giving advice",
+          "Expressing agreement/disagreement",
+          "Making plans and arrangements"
+        ]
+      },
+      {
+        "component": "Set Book Questions",
+        "assessment_types": [
+          "Comprehension questions",
+          "Character analysis",
+          "Plot understanding",
+          "Thematic analysis"
+        ],
+        "progression": "Increasing complexity from Grade 10 to 12"
+      },
+      {
+        "component": "Expository Writing",
+        "assessment_types": [
+          "Essay writing",
+          "Paragraph development",
+          "Structured composition"
+        ],
+        "complexity": "Simple to advanced academic writing"
+      },
+      {
+        "component": "Reading Comprehension",
+        "assessment_types": [
+          "Passage analysis",
+          "Main idea identification",
+          "Inference questions",
+          "Vocabulary in context"
+        ],
+        "text_types": [
+          "Fiction passages",
+          "Non-fiction articles",
+          "Academic texts",
+          "Literary excerpts"
+        ]
+      },
+      {
+        "component": "Summary Making",
+        "assessment_types": [
+          "Passage summarization",
+          "Key point identification",
+          "Synthesis exercises"
+        ],
+        "skill_focus": "Comprehension and synthesis abilities"
+      },
+      {
+        "component": "Translation",
+        "assessment_types": [
+          "English to Arabic translation",
+          "Arabic to English translation",
+          "Cultural context translation"
+        ],
+        "bilingual_approach": "Essential component for Kuwait curriculum"
+      }
+    ],
+    
+    "mock_exam_structure": {
+      "total_sections": 8,
+      "question_formats": [
+        "Multiple choice (a, b, c, d)",
+        "Fill in the blank",
+        "Complete the sentence",
+        "Correct the verb form",
+        "Join sentences using specific words",
+        "Add tag questions"
+      ],
+      "difficulty_progression": "Basic to advanced across grades"
+    }
+  },
+  
+  "grade_progression": {
+    "grade_10": {
+      "curriculum_focus": "Foundation building and basic language skills",
+      "unit_range": "Units 7-12 (observed from extracted content)",
+      "key_characteristics": [
+        "Basic vocabulary with Arabic translations",
+        "Simple grammar structures",
+        "Fundamental language functions",
+        "Introduction to reading comprehension",
+        "Basic writing exercises"
+      ],
+      "vocabulary_themes": [
+        "Energy and recycling (Unit 7)",
+        "Technology and innovation (Unit 8)", 
+        "Business and economics (Unit 9)",
+        "Travel and transportation (Unit 10)",
+        "Communication and social skills (Unit 11)",
+        "Aviation and professional topics (Unit 12)"
+      ],
+      "grammar_progression": [
+        "Present and past tenses",
+        "Basic conditionals",
+        "Simple passive voice",
+        "Modal verbs (basic usage)",
+        "Basic reported speech"
+      ],
+      "assessment_characteristics": [
+        "Multiple choice dominance",
+        "Bilingual vocabulary support",
+        "Basic sentence structures",
+        "Simple comprehension questions"
+      ]
+    },
+    
+    "grade_11": {
+      "curriculum_focus": "Intermediate skill development and complexity increase",
+      "unit_structure": "Expanded unit system (Units 1-12)",
+      "key_characteristics": [
+        "Advanced vocabulary expansion",
+        "Complex grammar structures",
+        "Sophisticated language functions",
+        "Enhanced reading comprehension",
+        "Academic writing introduction"
+      ],
+      "vocabulary_progression": [
+        "Specialized academic terms",
+        "Technical vocabulary expansion",
+        "Cultural and literary vocabulary",
+        "Professional and career-related terms"
+      ],
+      "grammar_advancement": [
+        "Perfect tenses (all forms)",
+        "Complex conditionals",
+        "Advanced passive voice",
+        "Modal verbs (all functions)",
+        "Complex reported speech",
+        "Subjunctive mood introduction"
+      ],
+      "assessment_evolution": [
+        "Mixed question types",
+        "Contextual language use",
+        "Critical thinking questions",
+        "Synthesis and analysis tasks"
+      ]
+    },
+    
+    "grade_12": {
+      "curriculum_focus": "Advanced proficiency and exam preparation",
+      "unit_coverage": "Comprehensive unit system (Units 1-12)",
+      "key_characteristics": [
+        "Advanced vocabulary mastery",
+        "Complex grammatical structures",
+        "Sophisticated language functions",
+        "Advanced reading comprehension",
+        "Academic writing proficiency",
+        "Exam-ready skill development"
+      ],
+      "vocabulary_mastery": [
+        "Academic and scholarly vocabulary",
+        "Literary and artistic terminology",
+        "Professional and technical language",
+        "Cultural and historical vocabulary"
+      ],
+      "grammar_excellence": [
+        "All tense forms (active/passive)",
+        "All conditional types",
+        "Complex sentence structures",
+        "Advanced modal usage",
+        "Sophisticated reported speech",
+        "Literary and formal register"
+      ],
+      "exam_preparation": [
+        "Mock exam format familiarity",
+        "Time management skills",
+        "Advanced problem-solving",
+        "Critical analysis abilities"
+      ]
+    }
+  },
+  
+  "unit_organization": {
+    "grade_10_units": {
+      "unit_7": {
+        "theme": "Energy and Environment",
+        "vocabulary_count": 15,
+        "focus_areas": [
+          "Crude oil and fossil fuels",
+          "Energy generation",
+          "Environmental challenges",
+          "Government policies"
+        ],
+        "grammar_focus": "Present perfect tense, environmental vocabulary"
+      },
+      "unit_8": {
+        "theme": "Technology and Innovation",
+        "vocabulary_count": 16,
+        "focus_areas": [
+          "Contact lenses and medical technology",
+          "Software and innovation",
+          "Nanoscience applications",
+          "Current technological trends"
+        ],
+        "grammar_focus": "Adjective forms, technology-related vocabulary"
+      },
+      "unit_9": {
+        "theme": "Economics and Business",
+        "vocabulary_count": 17,
+        "focus_areas": [
+          "Accounting and business terms",
+          "Investment and loans",
+          "Economic concepts",
+          "Business transactions"
+        ],
+        "grammar_focus": "Present tenses in business contexts"
+      },
+      "unit_10": {
+        "theme": "Character and Behavior",
+        "vocabulary_count": 12,
+        "focus_areas": [
+          "Personal qualities",
+          "Behavioral descriptions",
+          "Character traits",
+          "Social values"
+        ],
+        "grammar_focus": "Adjective-adverb relationships"
+      },
+      "unit_11": {
+        "theme": "Communication and Interaction",
+        "vocabulary_count": 14,
+        "focus_areas": [
+          "Professional communication",
+          "Phone and technology use",
+          "Social interactions",
+          "Workplace terminology"
+        ],
+        "grammar_focus": "Present and past tenses in communication"
+      },
+      "unit_12": {
+        "theme": "Aviation and Professional Careers",
+        "vocabulary_count": 16,
+        "focus_areas": [
+          "Aviation terminology",
+          "Professional conduct",
+          "Career development",
+          "Technical skills"
+        ],
+        "grammar_focus": "Complex sentences, professional language"
+      }
+    },
+    
+    "grade_11_units": {
+      "unit_1_to_12": {
+        "structure": "Expanded unit system with advanced themes",
+        "progression": "Increasing complexity in vocabulary and grammar",
+        "key_areas": [
+          "Advanced academic vocabulary",
+          "Complex grammatical structures",
+          "Literary analysis preparation",
+          "Professional communication skills"
+        ]
+      }
+    },
+    
+    "grade_12_units": {
+      "unit_1_to_12": {
+        "structure": "Comprehensive coverage for exam preparation",
+        "focus": "Complete curriculum review and exam readiness",
+        "components": [
+          "All major grammar topics",
+          "Advanced vocabulary mastery",
+          "Literary analysis",
+          "Academic writing",
+          "Mock exam preparation"
+        ]
+      }
+    }
+  },
+  
+  "assessment_methods": {
+    "question_types": {
+      "multiple_choice": {
+        "description": "Four-option multiple choice questions (a, b, c, d)",
+        "usage": "Vocabulary, grammar, comprehension, and analysis questions",
+        "progression": "From basic recall to complex analysis"
+      },
+      "fill_in_blank": {
+        "description": "Complete sentences with appropriate words or phrases",
+        "usage": "Vocabulary usage, grammar application, and contextual understanding",
+        "difficulty": "Progressive complexity by grade level"
+      },
+      "sentence_correction": {
+        "description": "Identify and correct grammatical errors",
+        "usage": "Grammar mastery and error analysis",
+        "focus_areas": [
+          "Verb forms and tenses",
+          "Subject-verb agreement",
+          "Sentence structure",
+          "Punctuation and spelling"
+        ]
+      },
+      "transformation_exercises": {
+        "description": "Convert sentences using specific grammatical rules",
+        "usage": "Grammar practice and structure manipulation",
+        "examples": [
+          "Active to passive voice conversion",
+          "Direct to reported speech",
+          "Affirmative to negative forms"
+        ]
+      },
+      "joining_exercises": {
+        "description": "Combine two sentences using specific words or phrases",
+        "usage": "Grammar application and sentence variety",
+        "connectives_taught": [
+          "instead of",
+          "whereas",
+          "on the other hand",
+          "but",
+          "however"
+        ]
+      },
+      "tag_questions": {
+        "description": "Add appropriate tag questions to statements",
+        "usage": "Grammar understanding and conversation skills",
+        "progression": "Basic to complex sentence structures"
+      },
+      "translation_exercises": {
+        "description": "Translate between English and Arabic",
+        "usage": "Bilingual competency and cultural understanding",
+        "contexts": [
+          "Technical vocabulary",
+          "Cultural concepts",
+          "Professional terminology"
+        ]
+      }
+    },
+    
+    "scoring_methods": {
+      "correct_answers_only": "One point per correct answer",
+      "partial_credit": "Some questions may award partial points",
+      "time_considerations": "Mock exams simulate actual test conditions",
+      "difficulty_weighting": "Higher grade questions carry more complexity"
+    },
+    
+    "feedback_mechanisms": {
+      "answer_keys": "Complete answer keys provided for self-assessment",
+      "model_answers": "Detailed explanations for complex questions",
+      "proficiency_levels": "Basic, intermediate, and advanced classifications",
+      "skill_tracking": "Individual skill development monitoring"
+    }
+  },
+  
+  "curriculum_pedagogy": {
+    "teaching_approach": "Bilingual English instruction with Arabic support",
+    "progression_method": "Spiral curriculum with increasing complexity",
+    "skill_integration": "Integrated approach to all language skills",
+    "cultural_context": "Kuwait-specific cultural and social themes",
+    "assessment_continuity": "Continuous assessment throughout the year",
+    
+    "key_principles": [
+      "Progressive skill development",
+      "Cultural relevance and context",
+      "Bilingual support for comprehension",
+      "Practical application of language skills",
+      "Exam preparation and proficiency certification"
+    ]
+  },
+  
+  "implementation_recommendations": {
+    "instructional_strategies": [
+      "Use bilingual vocabulary lists for comprehension support",
+      "Integrate grammar practice with real-world contexts",
+      "Provide extensive reading and writing practice",
+      "Include cultural content relevant to Kuwait",
+      "Regular assessment and feedback cycles"
+    ],
+    
+    "resource_requirements": [
+      "Bilingual dictionaries and vocabulary resources",
+      "Diverse reading materials at appropriate levels",
+      "Grammar reference materials in both languages",
+      "Audio materials for pronunciation practice",
+      "Technology integration for modern learning"
+    ],
+    
+    "assessment_improvements": [
+      "Standardize question formats across units",
+      "Develop detailed rubrics for subjective assessments",
+      "Implement formative assessment throughout units",
+      "Create comprehensive mock exam preparations",
+      "Track student progress systematically"
+    ],
+    
+    "teacher_preparation": [
+      "Bilingual teaching capability requirements",
+      "Regular professional development in curriculum updates",
+      "Training in modern assessment methods",
+      "Cultural sensitivity and awareness training",
+      "Technology integration skills"
+    ]
+  },
+  
+  "curriculum_gaps_and_opportunities": {
+    "identified_gaps": [
+      "Limited digital integration mentioned in materials",
+      "Inconsistent vocabulary list organization",
+      "Need for more contemporary and diverse texts",
+      "Opportunity for more interactive assessment methods"
+    ],
+    
+    "improvement_opportunities": [
+      "Enhanced digital learning platforms",
+      "More diverse literary texts and cultural content",
+      "Integrated skills assessments rather than isolated testing",
+      "Professional development for teachers",
+      "Parent and community engagement programs"
+    ],
+    
+    "international_alignment_potential": [
+      "CEFR framework integration possibility",
+      "IELTS/TOEFL preparation alignment",
+      "Cambridge English certification pathways",
+      "STEM integration with language learning"
+    ]
+  },
+  
+  "metadata": {
+    "analysis_methodology": "Comprehensive document analysis and content extraction",
+    "data_sources": "Multiple curriculum documents, test banks, and official materials",
+    "validation_status": "Cross-referenced across multiple source materials",
+    "last_updated": "2025-11-10",
+    "version": "1.0",
+    "curriculum_authority": "Kuwait Ministry of Education",
+    "implementation_year": "2022-2023 academic year and beyond"
+  }
+}

@@ -1,0 +1,186 @@
+from fastapi import FastAPI, UploadFile, File, HTTPException, BackgroundTasks
+from fastapi.responses import JSONResponse
+from pydantic import BaseModel
+from typing import List, Optional
+import asyncio
+from pathlib import Path
+import uuid
+
+app = FastAPI(title="PDF Extraction API")
+
+# ==================== MODELS ====================
+
+class DocumentMetadata(BaseModel):
+    title: Optional[str]
+    author: Optional[str]
+    total_pages: int
+    file_size: int
+
+class PageContent(BaseModel):
+    page_number: int
+    text: str
+    word_count: int
+
+class TableData(BaseModel):
+    page_number: int
+    headers: List[str]
+    rows: List[List[str]]
+    structured_data: List[dict]
+
+class AnnotationData(BaseModel):
+    page_number: int
+    type: str
+    author: str
+    contents: str
+    highlighted_text: Optional[str]
+
+class DocumentResponse(BaseModel):
+    document_id: str
+    metadata: DocumentMetadata
+    statistics: dict
+    extracted_at: str
+
+# ==================== ENDPOINTS ====================
+
+@app.post("/api/v1/documents/upload", response_model=DocumentResponse)
+async def upload_pdf(
+    file: UploadFile = File(...),
+    background_tasks: BackgroundTasks = None
+):
+    """
+    Upload and extract PDF content
+    """
+    # Validate file type
+    if not file.filename.endswith('.pdf'):
+        raise HTTPException(status_code=400, detail="Only PDF files allowed")
+    
+    # Save uploaded file
+    file_id = str(uuid.uuid4())
+    file_path = f"/tmp/{file_id}_{file.filename}"
+    
+    with open(file_path, "wb") as f:
+        content = await file.read()
+        f.write(content)
+    
+    # Extract synchronously or add to queue
+    if background_tasks:
+        # Process in background
+        background_tasks.add_task(process_pdf_async, file_path, file_id)
+        return JSONResponse(
+            status_code=202,
+            content={"message": "Processing started", "document_id": file_id}
+        )
+    else:
+        # Process immediately
+        extractor = PDFExtractor(file_path)
+        data = extractor.extract_all()
+        
+        # Save to database
+        doc_id = save_to_database(data)
+        
+        return DocumentResponse(**data)
+
+@app.get("/api/v1/documents/{document_id}")
+async def get_document(document_id: str):
+    """
+    Get document metadata and statistics
+    """
+    doc = get_from_database(document_id)
+    if not doc:
+        raise HTTPException(status_code=404, detail="Document not found")
+    
+    return doc
+
+@app.get("/api/v1/documents/{document_id}/pages/{page_number}")
+async def get_page_content(document_id: str, page_number: int):
+    """
+    Get specific page content
+    """
+    page = get_page_from_database(document_id, page_number)
+    if not page:
+        raise HTTPException(status_code=404, detail="Page not found")
+    
+    return page
+
+@app.get("/api/v1/documents/{document_id}/tables")
+async def get_tables(document_id: str):
+    """
+    Get all tables from document
+    """
+    tables = get_tables_from_database(document_id)
+    return {"tables": tables}
+
+@app.get("/api/v1/documents/{document_id}/annotations")
+async def get_annotations(document_id: str, annotation_type: Optional[str] = None):
+    """
+    Get annotations/notes from document
+    """
+    annotations = get_annotations_from_database(document_id, annotation_type)
+    return {"annotations": annotations}
+
+@app.get("/api/v1/documents/search")
+async def search_documents(
+    q: str,
+    author: Optional[str] = None,
+    page: int = 1,
+    per_page: int = 20
+):
+    """
+    Full-text search across all documents
+    """
+    results = search_in_database(q, author, page, per_page)
+    return {
+        "query": q,
+        "results": results,
+        "page": page,
+        "per_page": per_page
+    }
+
+@app.delete("/api/v1/documents/{document_id}")
+async def delete_document(document_id: str):
+    """
+    Delete document and all associated data
+    """
+    success = delete_from_database(document_id)
+    if not success:
+        raise HTTPException(status_code=404, detail="Document not found")
+    
+    return {"message": "Document deleted successfully"}
+
+# ==================== BATCH PROCESSING ====================
+
+@app.post("/api/v1/documents/batch")
+async def upload_multiple_pdfs(
+    files: List[UploadFile] = File(...),
+    background_tasks: BackgroundTasks = None
+):
+    """
+    Upload multiple PDFs for batch processing
+    """
+    job_id = str(uuid.uuid4())
+    file_paths = []
+    
+    for file in files:
+        if file.filename.endswith('.pdf'):
+            file_path = f"/tmp/{job_id}_{file.filename}"
+            with open(file_path, "wb") as f:
+                content = await file.read()
+                f.write(content)
+            file_paths.append(file_path)
+    
+    # Add to processing queue
+    add_to_queue(job_id, file_paths)
+    
+    return {
+        "job_id": job_id,
+        "files_queued": len(file_paths),
+        "status": "processing"
+    }
+
+@app.get("/api/v1/jobs/{job_id}/status")
+async def get_job_status(job_id: str):
+    """
+    Check batch processing job status
+    """
+    status = get_queue_status(job_id)
+    return status

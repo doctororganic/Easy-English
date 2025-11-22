@@ -1,0 +1,4960 @@
+{
+  "kuwait_curriculum": {
+    "grade_11": {
+      "unit_7": [
+        {
+          "id": "g11_u7_0",
+          "word": "broadcast",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 1,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with broadcast"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: broadcast"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_1",
+          "word": "collectively",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 2,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with collectively"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: collectively"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_2",
+          "word": "digital",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 3,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with digital"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: digital"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_3",
+          "word": "dispatch",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 4,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with dispatch"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: dispatch"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_4",
+          "word": "entertainment",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 5,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with entertainment"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: entertainment"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_5",
+          "word": "evolve",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 6,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with evolve"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: evolve"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_6",
+          "word": "film industry",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 7,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with film industry"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: film industry"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_7",
+          "word": "invention",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 8,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with invention"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: invention"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_8",
+          "word": "set",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 9,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with set"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: set"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_9",
+          "word": "station",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 10,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with station"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: station"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_10",
+          "word": "transistor",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 11,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with transistor"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: transistor"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_11",
+          "word": "video recorder",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 12,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with video recorder"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: video recorder"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_12",
+          "word": "adversely",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 13,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with adversely"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: adversely"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_13",
+          "word": "dedication",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 14,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with dedication"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: dedication"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_14",
+          "word": "deterrent",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 15,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with deterrent"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: deterrent"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_15",
+          "word": "glorify",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 16,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with glorify"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: glorify"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_16",
+          "word": "innumerable",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 17,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with innumerable"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: innumerable"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_17",
+          "word": "remote",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 18,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with remote"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: remote"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_18",
+          "word": "bring about",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 19,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with bring about"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: bring about"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_19",
+          "word": "demonstrate",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 20,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with demonstrate"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: demonstrate"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_20",
+          "word": "disappointing",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 21,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with disappointing"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: disappointing"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_21",
+          "word": "half",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 22,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with half"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: half"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_22",
+          "word": "potential",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 23,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with potential"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: potential"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_23",
+          "word": "prominent",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 24,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with prominent"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: prominent"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_24",
+          "word": "resident",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 25,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with resident"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: resident"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_25",
+          "word": "reveal",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 26,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with reveal"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: reveal"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_26",
+          "word": "telecommunication",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 27,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with telecommunication"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: telecommunication"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_27",
+          "word": "teleprinter",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 28,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with teleprinter"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: teleprinter"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_28",
+          "word": "tension",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 29,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with tension"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: tension"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_29",
+          "word": "transatlantic",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 30,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with transatlantic"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: transatlantic"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_30",
+          "word": "victory",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 31,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with victory"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: victory"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_31",
+          "word": "zealous",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 32,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with zealous"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: zealous"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_32",
+          "word": "consume",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 33,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with consume"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: consume"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_33",
+          "word": "electronic device",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 34,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with electronic device"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: electronic device"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_34",
+          "word": "electronics",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 35,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with electronics"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: electronics"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_35",
+          "word": "portable",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 36,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with portable"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: portable"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u7_36",
+          "word": "rank",
+          "class_number": 11,
+          "unit_number": 7,
+          "order_in_unit": 37,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with rank"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: rank"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        }
+      ],
+      "unit_8": [
+        {
+          "id": "g11_u8_0",
+          "word": "age-appropriate",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 1,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with age-appropriate"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: age-appropriate"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_1",
+          "word": "channel-surf",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 2,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with channel-surf"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: channel-surf"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_2",
+          "word": "comedy",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 3,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with comedy"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: comedy"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_3",
+          "word": "inactivity",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 4,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with inactivity"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: inactivity"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_4",
+          "word": "mentally",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 5,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with mentally"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: mentally"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_5",
+          "word": "miss out on",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 6,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with miss out on"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: miss out on"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_6",
+          "word": "promote",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 7,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with promote"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: promote"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_7",
+          "word": "provoke",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 8,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with provoke"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: provoke"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_8",
+          "word": "tune out",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 9,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with tune out"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: tune out"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_9",
+          "word": "get behind with",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 10,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with get behind with"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: get behind with"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_10",
+          "word": "get down to",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 11,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with get down to"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: get down to"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_11",
+          "word": "get on",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 12,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with get on"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: get on"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_12",
+          "word": "get over",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 13,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with get over"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: get over"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_13",
+          "word": "get through",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 14,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with get through"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: get through"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_14",
+          "word": "occasionally",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 15,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with occasionally"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: occasionally"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_15",
+          "word": "record",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 16,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with record"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: record"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_16",
+          "word": "tune in",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 17,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with tune in"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: tune in"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_17",
+          "word": "convict",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 18,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with convict"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: convict"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_18",
+          "word": "equestrian",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 19,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with equestrian"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: equestrian"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_19",
+          "word": "evidence",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 20,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with evidence"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: evidence"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_20",
+          "word": "newcomer",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 21,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with newcomer"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: newcomer"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_21",
+          "word": "news team",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 22,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with news team"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: news team"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_22",
+          "word": "prosecution",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 23,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with prosecution"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: prosecution"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u8_23",
+          "word": "thriller",
+          "class_number": 11,
+          "unit_number": 8,
+          "order_in_unit": 24,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with thriller"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: thriller"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        }
+      ],
+      "unit_9": [
+        {
+          "id": "g11_u9_0",
+          "word": "capability",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 1,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with capability"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: capability"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_1",
+          "word": "consumers",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 2,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with consumers"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: consumers"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_2",
+          "word": "ENG",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 3,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with ENG"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: ENG"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_3",
+          "word": "high-end",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 4,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with high-end"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: high-end"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_4",
+          "word": "hydraulic",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 5,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with hydraulic"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: hydraulic"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_5",
+          "word": "motion picture",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 6,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with motion picture"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: motion picture"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_6",
+          "word": "nowadays",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 7,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with nowadays"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: nowadays"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_7",
+          "word": "pedestal",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 8,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with pedestal"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: pedestal"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_8",
+          "word": "period drama",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 9,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with period drama"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: period drama"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_9",
+          "word": "stabilizing",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 10,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with stabilizing"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: stabilizing"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_10",
+          "word": "amicably",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 11,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with amicably"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: amicably"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_11",
+          "word": "audience",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 12,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with audience"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: audience"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_12",
+          "word": "beckon away",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 13,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with beckon away"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: beckon away"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_13",
+          "word": "bring up",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 14,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with bring up"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: bring up"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_14",
+          "word": "category",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 15,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with category"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: category"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_15",
+          "word": "characterize",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 16,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with characterize"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: characterize"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_16",
+          "word": "cityscape",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 17,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with cityscape"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: cityscape"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_17",
+          "word": "commentator",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 18,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with commentator"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: commentator"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_18",
+          "word": "court",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 19,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with court"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: court"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_19",
+          "word": "feature",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 20,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with feature"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: feature"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_20",
+          "word": "producer",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 21,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with producer"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: producer"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_21",
+          "word": "screen",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 22,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with screen"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: screen"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_22",
+          "word": "spotlight",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 23,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with spotlight"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: spotlight"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_23",
+          "word": "sprawling",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 24,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with sprawling"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: sprawling"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_24",
+          "word": "basically",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 25,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with basically"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: basically"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_25",
+          "word": "catch",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 26,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with catch"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: catch"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_26",
+          "word": "congested",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 27,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with congested"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: congested"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_27",
+          "word": "fundamentally",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 28,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with fundamentally"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: fundamentally"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_28",
+          "word": "inexpensive",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 29,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with inexpensive"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: inexpensive"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_29",
+          "word": "voice over",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 30,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with voice over"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: voice over"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u9_30",
+          "word": "wholeheartedly",
+          "class_number": 11,
+          "unit_number": 9,
+          "order_in_unit": 31,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with wholeheartedly"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: wholeheartedly"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        }
+      ],
+      "unit_12": [
+        {
+          "id": "g11_u12_0",
+          "word": "aviation",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 1,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with aviation"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: aviation"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_1",
+          "word": "coincide with",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 2,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with coincide with"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: coincide with"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_2",
+          "word": "exemplary",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 3,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with exemplary"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: exemplary"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_3",
+          "word": "gliding",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 4,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with gliding"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: gliding"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_4",
+          "word": "instructor",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 5,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with instructor"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: instructor"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_5",
+          "word": "intensely",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 6,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with intensely"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: intensely"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_6",
+          "word": "notably",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 7,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with notably"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: notably"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_7",
+          "word": "acclaimed",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 8,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with acclaimed"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: acclaimed"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_8",
+          "word": "attendant",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 9,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with attendant"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: attendant"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_9",
+          "word": "cabin",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 10,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with cabin"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: cabin"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_10",
+          "word": "confrontational",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 11,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with confrontational"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: confrontational"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_11",
+          "word": "corporation",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 12,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with corporation"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: corporation"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_12",
+          "word": "courteously",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 13,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with courteously"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: courteously"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_13",
+          "word": "expression",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 14,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with expression"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: expression"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_14",
+          "word": "mumble",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 15,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with mumble"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: mumble"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_15",
+          "word": "resemble",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 16,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with resemble"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: resemble"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_16",
+          "word": "stern",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 17,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with stern"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: stern"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_17",
+          "word": "stunned",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 18,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with stunned"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: stunned"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_18",
+          "word": "altitude",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 19,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with altitude"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: altitude"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_19",
+          "word": "aviate",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 20,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with aviate"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: aviate"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_20",
+          "word": "baby carriage",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 21,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with baby carriage"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: baby carriage"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_21",
+          "word": "buzzing",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 22,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with buzzing"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: buzzing"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_22",
+          "word": "control",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 23,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with control"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: control"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_23",
+          "word": "co-pilot",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 24,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with co-pilot"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: co-pilot"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_24",
+          "word": "custom-built",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 25,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with custom-built"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: custom-built"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_25",
+          "word": "endeavour",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 26,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with endeavour"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: endeavour"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_26",
+          "word": "eyewitness",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 27,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with eyewitness"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: eyewitness"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_27",
+          "word": "fog",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 28,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with fog"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: fog"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_28",
+          "word": "headline",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 29,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with headline"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: headline"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_29",
+          "word": "incident",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 30,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with incident"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: incident"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_30",
+          "word": "radar",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 31,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with radar"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: radar"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_31",
+          "word": "velocity",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 32,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with velocity"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: velocity"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g11_u12_32",
+          "word": "voice-activated",
+          "class_number": 11,
+          "unit_number": 12,
+          "order_in_unit": 33,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with voice-activated"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: voice-activated"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        }
+      ]
+    },
+    "grade_10": {
+      "unit_7": [
+        {
+          "id": "g10_u7_0",
+          "word": "crude oil",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 1,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with crude oil"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: crude oil"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_1",
+          "word": "entirely",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 2,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with entirely"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: entirely"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_2",
+          "word": "finite",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 3,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with finite"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: finite"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_3",
+          "word": "fossil fuel",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 4,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with fossil fuel"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: fossil fuel"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_4",
+          "word": "fractional distillation",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 5,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with fractional distillation"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: fractional distillation"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_5",
+          "word": "polymer",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 6,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with polymer"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: polymer"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_6",
+          "word": "refining",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 7,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with refining"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: refining"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_7",
+          "word": "actually",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 8,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with actually"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: actually"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_8",
+          "word": "appliance",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 9,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with appliance"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: appliance"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_9",
+          "word": "breakdown",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 10,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with breakdown"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: breakdown"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_10",
+          "word": "generate",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 11,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with generate"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: generate"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_11",
+          "word": "last",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 12,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with last"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: last"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_12",
+          "word": "motoring",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 13,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with motoring"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: motoring"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_13",
+          "word": "strong",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 14,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with strong"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: strong"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_14",
+          "word": "asthma",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 15,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with asthma"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: asthma"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_15",
+          "word": "congestion",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 16,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with congestion"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: congestion"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_16",
+          "word": "consult",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 17,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with consult"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: consult"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_17",
+          "word": "diminish",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 18,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with diminish"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: diminish"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_18",
+          "word": "end up with",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 19,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with end up with"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: end up with"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_19",
+          "word": "government",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 20,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with government"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: government"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_20",
+          "word": "hazardous",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 21,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with hazardous"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: hazardous"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_21",
+          "word": "irreversible",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 22,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with irreversible"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: irreversible"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_22",
+          "word": "motorist",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 23,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with motorist"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: motorist"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_23",
+          "word": "procure",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 24,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with procure"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: procure"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_24",
+          "word": "recently",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 25,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with recently"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: recently"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_25",
+          "word": "self-employed",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 26,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with self-employed"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: self-employed"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_26",
+          "word": "smog",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 27,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with smog"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: smog"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_27",
+          "word": "squander",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 28,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with squander"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: squander"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u7_28",
+          "word": "waste",
+          "class_number": 10,
+          "unit_number": 7,
+          "order_in_unit": 29,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with waste"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: waste"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        }
+      ],
+      "unit_8": [
+        {
+          "id": "g10_u8_0",
+          "word": "contact lens",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 1,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with contact lens"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: contact lens"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_1",
+          "word": "cure-all",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 2,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with cure-all"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: cure-all"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_2",
+          "word": "currently",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 3,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with currently"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: currently"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_3",
+          "word": "draw",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 4,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with draw"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: draw"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_4",
+          "word": "gold-coated",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 5,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with gold-coated"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: gold-coated"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_5",
+          "word": "innovate",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 6,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with innovate"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: innovate"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_6",
+          "word": "instantly",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 7,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with instantly"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: instantly"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_7",
+          "word": "latest",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 8,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with latest"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: latest"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_8",
+          "word": "micro-robot",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 9,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with micro-robot"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: micro-robot"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_9",
+          "word": "nanoshell",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 10,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with nanoshell"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: nanoshell"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_10",
+          "word": "satnav",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 11,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with satnav"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: satnav"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_11",
+          "word": "shock",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 12,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with shock"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: shock"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_12",
+          "word": "sophisticated",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 13,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with sophisticated"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: sophisticated"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_13",
+          "word": "tumour",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 14,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with tumour"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: tumour"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_14",
+          "word": "bifocal",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 15,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with bifocal"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: bifocal"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_15",
+          "word": "frequent",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 16,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with frequent"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: frequent"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_16",
+          "word": "instigate",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 17,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with instigate"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: instigate"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_17",
+          "word": "legible",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 18,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with legible"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: legible"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_18",
+          "word": "obedient",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 19,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with obedient"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: obedient"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_19",
+          "word": "patient",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 20,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with patient"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: patient"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_20",
+          "word": "reputation",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 21,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with reputation"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: reputation"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_21",
+          "word": "software",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 22,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with software"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: software"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_22",
+          "word": "spot",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 23,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with spot"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: spot"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_23",
+          "word": "anniversary",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 24,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with anniversary"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: anniversary"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_24",
+          "word": "heart rate",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 25,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with heart rate"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: heart rate"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_25",
+          "word": "recharge",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 26,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with recharge"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: recharge"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_26",
+          "word": "remind",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 27,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with remind"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: remind"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_27",
+          "word": "terminal",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 28,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with terminal"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: terminal"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_28",
+          "word": "torso",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 29,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with torso"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: torso"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_29",
+          "word": "transmit",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 30,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with transmit"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: transmit"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_30",
+          "word": "trespass",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 31,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with trespass"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: trespass"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_31",
+          "word": "wearer",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 32,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with wearer"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: wearer"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_32",
+          "word": "accounting",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 33,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with accounting"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: accounting"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_33",
+          "word": "barter",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 34,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with barter"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: barter"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_34",
+          "word": "confidentiality",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 35,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with confidentiality"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: confidentiality"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_35",
+          "word": "economics",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 36,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with economics"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: economics"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_36",
+          "word": "insurance",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 37,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with insurance"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: insurance"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_37",
+          "word": "invest",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 38,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with invest"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: invest"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_38",
+          "word": "investment",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 39,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with investment"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: investment"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_39",
+          "word": "loan",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 40,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with loan"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: loan"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_40",
+          "word": "management",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 41,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with management"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: management"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_41",
+          "word": "transaction",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 42,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with transaction"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: transaction"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_42",
+          "word": "billionaire",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 43,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with billionaire"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: billionaire"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_43",
+          "word": "charitable",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 44,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with charitable"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: charitable"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_44",
+          "word": "inherit",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 45,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with inherit"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: inherit"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_45",
+          "word": "philanthropic",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 46,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with philanthropic"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: philanthropic"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u8_46",
+          "word": "tax return",
+          "class_number": 10,
+          "unit_number": 8,
+          "order_in_unit": 47,
+          "difficulty_level": 2,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with tax return"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: tax return"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        }
+      ],
+      "unit_9": [
+        {
+          "id": "g10_u9_0",
+          "word": "auction",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 1,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with auction"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: auction"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_1",
+          "word": "complimentary",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 2,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with complimentary"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: complimentary"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_2",
+          "word": "login",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 3,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with login"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: login"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_3",
+          "word": "shipping",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 4,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with shipping"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: shipping"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_4",
+          "word": "tax",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 5,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with tax"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: tax"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_5",
+          "word": "affluent",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 6,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with affluent"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: affluent"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_6",
+          "word": "evil",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 7,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with evil"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: evil"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_7",
+          "word": "extinct",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 8,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with extinct"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: extinct"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_8",
+          "word": "generosity",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 9,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with generosity"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: generosity"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_9",
+          "word": "gross",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 10,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with gross"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: gross"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_10",
+          "word": "in this sense",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 11,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with in this sense"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: in this sense"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_11",
+          "word": "profit",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 12,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with profit"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: profit"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_12",
+          "word": "spur",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 13,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with spur"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: spur"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u9_13",
+          "word": "success",
+          "class_number": 10,
+          "unit_number": 9,
+          "order_in_unit": 14,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with success"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: success"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        }
+      ],
+      "unit_10": [
+        {
+          "id": "g10_u10_0",
+          "word": "composure",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 1,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with composure"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: composure"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_1",
+          "word": "constancy",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 2,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with constancy"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: constancy"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_2",
+          "word": "enjoin",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 3,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with enjoin"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: enjoin"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_3",
+          "word": "gratefulness",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 4,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with gratefulness"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: gratefulness"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_4",
+          "word": "injustice",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 5,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with injustice"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: injustice"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_5",
+          "word": "insolence",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 6,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with insolence"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: insolence"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_6",
+          "word": "self-restraint",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 7,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with self-restraint"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: self-restraint"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_7",
+          "word": "border",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 8,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with border"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: border"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_8",
+          "word": "drop off",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 9,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with drop off"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: drop off"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_9",
+          "word": "pick up",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 10,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with pick up"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: pick up"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_10",
+          "word": "register",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 11,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with register"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: register"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_11",
+          "word": "re-load",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 12,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with re-load"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: re-load"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_12",
+          "word": "set off",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 13,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with set off"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: set off"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_13",
+          "word": "smuggle",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 14,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with smuggle"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: smuggle"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_14",
+          "word": "sudden",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 15,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with sudden"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: sudden"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_15",
+          "word": "touch down",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 16,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with touch down"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: touch down"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_16",
+          "word": "turn up",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 17,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with turn up"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: turn up"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_17",
+          "word": "crazily",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 18,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with crazily"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: crazily"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_18",
+          "word": "dreadful",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 19,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with dreadful"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: dreadful"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_19",
+          "word": "emotive",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 20,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with emotive"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: emotive"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_20",
+          "word": "knock off",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 21,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with knock off"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: knock off"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_21",
+          "word": "monotonous",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 22,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with monotonous"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: monotonous"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_22",
+          "word": "overtake",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 23,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with overtake"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: overtake"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_23",
+          "word": "recuperate",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 24,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with recuperate"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: recuperate"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_24",
+          "word": "stacks of",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 25,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with stacks of"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: stacks of"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_25",
+          "word": "ASAP",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 26,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with ASAP"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: ASAP"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_26",
+          "word": "colleague",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 27,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with colleague"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: colleague"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_27",
+          "word": "current",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 28,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with current"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: current"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_28",
+          "word": "impromptu",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 29,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with impromptu"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: impromptu"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_29",
+          "word": "rearrange",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 30,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with rearrange"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: rearrange"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_30",
+          "word": "starvation",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 31,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with starvation"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: starvation"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_31",
+          "word": "unreliable",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 32,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with unreliable"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: unreliable"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_32",
+          "word": "urgent",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 33,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with urgent"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: urgent"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_33",
+          "word": "well-sealed",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 34,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with well-sealed"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: well-sealed"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_34",
+          "word": "activate",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 35,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with activate"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: activate"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_35",
+          "word": "band",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 36,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with band"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: band"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_36",
+          "word": "conference call",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 37,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with conference call"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: conference call"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_37",
+          "word": "deadline",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 38,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with deadline"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: deadline"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u10_38",
+          "word": "flash",
+          "class_number": 10,
+          "unit_number": 10,
+          "order_in_unit": 39,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with flash"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: flash"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        }
+      ],
+      "unit_11": [
+        {
+          "id": "g10_u11_0",
+          "word": "frequency",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 1,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with frequency"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: frequency"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_1",
+          "word": "handy",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 2,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with handy"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: handy"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_2",
+          "word": "harmony",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 3,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with harmony"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: harmony"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_3",
+          "word": "hassle",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 4,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with hassle"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: hassle"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_4",
+          "word": "portable",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 5,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with portable"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: portable"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_5",
+          "word": "slide",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 6,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with slide"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: slide"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_6",
+          "word": "unlock",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 7,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with unlock"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: unlock"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_7",
+          "word": "upgrade",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 8,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with upgrade"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: upgrade"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_8",
+          "word": "alarm",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 9,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with alarm"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: alarm"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_9",
+          "word": "answerphone",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 10,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with answerphone"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: answerphone"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_10",
+          "word": "briefly",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 11,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with briefly"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: briefly"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_11",
+          "word": "confident",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 12,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with confident"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: confident"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_12",
+          "word": "next of kin",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 13,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with next of kin"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: next of kin"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_13",
+          "word": "ring",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 14,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with ring"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: ring"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_14",
+          "word": "tone",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 15,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with tone"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: tone"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        },
+        {
+          "id": "g10_u11_15",
+          "word": "tutor",
+          "class_number": 10,
+          "unit_number": 11,
+          "order_in_unit": 16,
+          "difficulty_level": 3,
+          "category": "vocabulary",
+          "examples": [
+            "Example sentence with tutor"
+          ],
+          "synonyms": [],
+          "translations": {
+            "ar": "عربي: tutor"
+          },
+          "ai_generated": false,
+          "source": "kuwait_pdf_extraction"
+        }
+      ]
+    },
+    "ielts_supplement": [
+      "abundant",
+      "alleviate",
+      "ambiguous",
+      "apathy",
+      "benevolent",
+      "boast",
+      "candid",
+      "catastrophic",
+      "conscientious",
+      "controversial",
+      "deteriorate",
+      "diverse",
+      "eloquent",
+      "emphasize",
+      "enhance",
+      "fluctuate",
+      "fragile",
+      "generate",
+      "grateful",
+      "hypothetical",
+      "implement",
+      "impulsive",
+      "inevitable",
+      "intricate",
+      "mitigate",
+      "noteworthy",
+      "optimistic",
+      "outdated",
+      "pragmatic",
+      "predominantly",
+      "rejuvenate",
+      "reluctant",
+      "resilient",
+      "scalable",
+      "significant",
+      "skeptical",
+      "sustainable",
+      "vulnerable",
+      "ameliorate",
+      "conspicuous",
+      "exemplary",
+      "imperative",
+      "perspicacious",
+      "ubiquitous",
+      "ephemeral",
+      "conundrum",
+      "paradigm",
+      "juxtapose",
+      "eclectic",
+      "pragmatic",
+      "sagacious",
+      "tenacious",
+      "venerable",
+      "enervating",
+      "conflagrate",
+      "ephemeral",
+      "indolent",
+      "lugubrious",
+      "mellifluous",
+      "nefarious",
+      "obstinate",
+      "pernicious",
+      "quintessential",
+      "redolent",
+      "sanguine",
+      "taciturn",
+      "ubiquitous",
+      "vociferous",
+      "wistful",
+      "xenophobic",
+      "yachting",
+      "zealous"
+    ]
+  }
+}

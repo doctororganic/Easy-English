@@ -1,0 +1,12 @@
+Remove MiniMax Notifications - Bookmarklet Code:
+
+javascript:(function(){const elements=document.querySelectorAll('*');elements.forEach(el=>{if(el.textContent&&(el.textContent.includes('MiniMax')||el.textContent.includes('Created by')||el.textContent.includes('Made by'))){el.remove();}});})();
+
+How to add bookmarklet:
+1. Create a new bookmark
+2. Name it "Remove MiniMax"
+3. Copy the code above (starting with "javascript:")
+4. Paste it in the URL/location field
+5. Save the bookmark
+
+To use: Click the bookmark while on any page to remove MiniMax notifications instantly.

@@ -1,0 +1,428 @@
+import { Routes, Route, Link, useNavigate } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { supabase } from './lib/supabase'
+import { useAuth } from './contexts/AuthContext'
+import { AuthModal } from './components/AuthModal'
+import { ProgressDashboard } from './components/ProgressDashboard'
+import { AIVisualContent } from './components/AIVisualContent'
+import { KuwaitClasses } from './pages/KuwaitClasses'
+import { KuwaitUnits } from './pages/KuwaitUnits'
+import { KuwaitVocabulary } from './pages/KuwaitVocabulary'
+import { GrammarQuiz } from './pages/GrammarQuiz'
+import { VocabularyLearning } from './pages/VocabularyLearning'
+import { Goals } from './pages/Goals'
+import { SetBookReading } from './pages/SetBookReading'
+import { ProgressTrackingPage } from './pages/ProgressTrackingPage'
+import { BookOpen, Volume2, FileText, GraduationCap, Search, Download, Play, Pause, RotateCw, User, LogOut, TrendingUp, Image, Home, Target, BookMarked, Moon, Sun } from 'lucide-react'
+import './App.css'
+
+function HomePage({ isDarkMode, toggleTheme }: { isDarkMode: boolean, toggleTheme: () => void }) {
+  const { user, signOut } = useAuth()
+  const navigate = useNavigate()
+  const [activeTab, setActiveTab] = useState('topics')
+  const [topics, setTopics] = useState<any[]>([])
+  const [vocabulary, setVocabulary] = useState<any[]>([])
+  const [selectedTopic, setSelectedTopic] = useState<any | null>(null)
+  const [searchQuery, setSearchQuery] = useState('')
+  const [categoryFilter, setCategoryFilter] = useState('All')
+  const [difficultyFilter, setDifficultyFilter] = useState('All')
+  const [isPlaying, setIsPlaying] = useState(false)
+  const [speechSpeed, setSpeechSpeed] = useState(1.0)
+  const [repeatCount, setRepeatCount] = useState(1)
+  const [showAuthModal, setShowAuthModal] = useState(false)
+
+  useEffect(() => {
+    fetchTopics()
+    fetchVocabulary()
+  }, [])
+
+  const fetchTopics = async () => {
+    const { data, error } = await supabase
+      .from('conversation_topics')
+      .select('*')
+      .order('id', { ascending: true })
+    
+    if (data) setTopics(data)
+    if (error) console.error('Error fetching topics:', error)
+  }
+
+  const fetchVocabulary = async () => {
+    const { data, error } = await supabase
+      .from('vocabulary')
+      .select('*')
+      .order('word', { ascending: true})
+    
+    if (data) setVocabulary(data)
+    if (error) console.error('Error fetching vocabulary:', error)
+  }
+
+  const saveProgress = async (topicId?: number, vocabularyId?: number) => {
+    if (!user) return
+
+    try {
+      await supabase.from('user_progress').insert({
+        user_id: user.id,
+        topic_id: topicId,
+        vocabulary_id: vocabularyId,
+        completed: true,
+        last_practiced_at: new Date().toISOString()
+      })
+    } catch (error) {
+      console.error('Error saving progress:', error)
+    }
+  }
+
+  const speakText = (text: string) => {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel()
+      
+      const utterance = new SpeechSynthesisUtterance(text)
+      utterance.rate = speechSpeed
+      utterance.lang = 'en-US'
+      
+      let timesSpoken = 0
+      const speak = () => {
+        if (timesSpoken < repeatCount) {
+          window.speechSynthesis.speak(utterance)
+          timesSpoken++
+        }
+      }
+      
+      utterance.onend = () => {
+        if (timesSpoken < repeatCount) {
+          speak()
+        } else {
+          setIsPlaying(false)
+        }
+      }
+      
+      setIsPlaying(true)
+      speak()
+    }
+  }
+
+  const stopSpeaking = () => {
+    window.speechSynthesis.cancel()
+    setIsPlaying(false)
+  }
+
+  const filteredTopics = topics.filter(topic => {
+    const matchesSearch = topic.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                         topic.description.toLowerCase().includes(searchQuery.toLowerCase())
+    const matchesCategory = categoryFilter === 'All' || topic.category === categoryFilter
+    const matchesDifficulty = difficultyFilter === 'All' || topic.difficulty_level === difficultyFilter
+    return matchesSearch && matchesCategory && matchesDifficulty
+  })
+
+  const filteredVocabulary = vocabulary.filter(word => {
+    const matchesSearch = word.word.toLowerCase().includes(searchQuery.toLowerCase())
+    const matchesCategory = categoryFilter === 'All' || word.category === categoryFilter
+    const matchesDifficulty = difficultyFilter === 'All' || word.difficulty_level === difficultyFilter
+    return matchesSearch && matchesCategory && matchesDifficulty
+  })
+
+  return (
+    <div className="min-h-screen bg-background">
+      {/* Navigation Header */}
+      <nav className="bg-card/80 backdrop-blur-md border-b border-border sticky top-0 z-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16">
+            <div className="flex items-center gap-8">
+              <div className="flex items-center gap-2">
+                <GraduationCap className="w-8 h-8 text-primary" />
+                <span className="text-xl font-bold text-foreground">English Learning</span>
+              </div>
+              
+              {/* Quick Links */}
+              <div className="hidden md:flex gap-4">
+                <button
+                  onClick={() => navigate('/')}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Home
+                </button>
+                <button
+                  onClick={() => navigate('/kuwait-classes')}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Kuwait Classes
+                </button>
+                <button
+                  onClick={() => navigate('/grammar-quiz')}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Grammar Quiz
+                </button>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-4">
+              {/* Theme Toggle */}
+              <button
+                onClick={toggleTheme}
+                className="p-2 rounded-lg bg-card border border-border hover:bg-accent transition-colors"
+                title={isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+              >
+                {isDarkMode ? <Sun className="w-5 h-5 text-foreground" /> : <Moon className="w-5 h-5 text-foreground" />}
+              </button>
+              
+              {user ? (
+                <div className="flex items-center gap-3">
+                  <span className="text-muted-foreground text-sm hidden sm:inline">{user.email}</span>
+                  <button
+                    onClick={() => signOut()}
+                    className="flex items-center gap-2 px-4 py-2 bg-destructive text-destructive-foreground rounded-lg hover:opacity-90 transition-opacity"
+                  >
+                    <LogOut className="w-4 h-4" />
+                    <span className="hidden sm:inline">Sign Out</span>
+                  </button>
+                </div>
+              ) : (
+                <button
+                  onClick={() => setShowAuthModal(true)}
+                  className="flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:opacity-90 transition-opacity"
+                >
+                  <User className="w-4 h-4" />
+                  <span className="hidden sm:inline">Sign In</span>
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      {/* Main Content */}
+      <div className="p-8">
+        <div className="max-w-7xl mx-auto">
+          {/* Hero Section */}
+          <div className="text-center mb-12">
+            <h1 className="text-5xl font-bold text-foreground mb-4">
+              Kuwait Secondary School English Platform
+            </h1>
+            <p className="text-xl text-primary mb-2">
+              Comprehensive English Learning for Classes 10, 11, 12
+            </p>
+            <p className="text-lg text-muted-foreground">
+              منصة اللغة الإنجليزية للمرحلة الثانوية الكويتية
+            </p>
+          </div>
+
+          {/* Grade Selection Boxes - Direct Access */}
+          <div className="mb-12">
+            <h2 className="text-3xl font-bold text-foreground text-center mb-6">
+              Select Your Grade
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto mb-12">
+              <div
+                onClick={() => navigate('/kuwait/class/10')}
+                className="bg-card rounded-2xl p-8 shadow-xl hover:shadow-2xl border-2 border-primary transition-all cursor-pointer transform hover:scale-105"
+              >
+                <div className="flex justify-center mb-4">
+                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-4xl font-bold text-primary-foreground">10</span>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-bold text-foreground text-center mb-2">
+                  Grade 10
+                </h3>
+                <p className="text-primary text-center font-semibold">
+                  الصف العاشر
+                </p>
+              </div>
+
+              <div
+                onClick={() => navigate('/kuwait/class/11')}
+                className="bg-card rounded-2xl p-8 shadow-xl hover:shadow-2xl border-2 border-primary transition-all cursor-pointer transform hover:scale-105"
+              >
+                <div className="flex justify-center mb-4">
+                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-4xl font-bold text-primary-foreground">11</span>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-bold text-foreground text-center mb-2">
+                  Grade 11
+                </h3>
+                <p className="text-primary text-center font-semibold">
+                  الصف الحادي عشر
+                </p>
+              </div>
+
+              <div
+                onClick={() => navigate('/kuwait/class/12')}
+                className="bg-card rounded-2xl p-8 shadow-xl hover:shadow-2xl border-2 border-primary transition-all cursor-pointer transform hover:scale-105"
+              >
+                <div className="flex justify-center mb-4">
+                  <div className="w-20 h-20 bg-primary rounded-full flex items-center justify-center">
+                    <span className="text-4xl font-bold text-primary-foreground">12</span>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-bold text-foreground text-center mb-2">
+                  Grade 12
+                </h3>
+                <p className="text-primary text-center font-semibold">
+                  الصف الثاني عشر
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Feature Cards */}
+          <h2 className="text-3xl font-bold text-foreground text-center mb-6">
+            Additional Learning Tools
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <div
+              onClick={() => navigate('/vocabulary-learning/12/1')}
+              className="bg-card rounded-2xl p-8 shadow-xl hover:shadow-2xl border border-border transition-all cursor-pointer transform hover:scale-105"
+            >
+              <div className="flex justify-center mb-4">
+                <BookMarked className="w-16 h-16 text-secondary" />
+              </div>
+              <h3 className="text-2xl font-bold text-foreground text-center mb-2">
+                Vocabulary Learning
+              </h3>
+              <p className="text-muted-foreground text-center">
+                Interactive flashcards with bilingual support
+              </p>
+            </div>
+
+            <div
+              onClick={() => navigate('/grammar-quiz')}
+              className="bg-card rounded-2xl p-8 shadow-xl hover:shadow-2xl border border-border transition-all cursor-pointer transform hover:scale-105"
+            >
+              <div className="flex justify-center mb-4">
+                <FileText className="w-16 h-16 text-secondary" />
+              </div>
+              <h3 className="text-2xl font-bold text-foreground text-center mb-2">
+                AI Grammar Quiz
+              </h3>
+              <p className="text-muted-foreground text-center">
+                Practice with 40+ grammar topics and auto-grading
+              </p>
+            </div>
+
+            <div
+              onClick={() => navigate('/set-book/12/1')}
+              className="bg-card rounded-2xl p-8 shadow-xl hover:shadow-2xl border border-border transition-all cursor-pointer transform hover:scale-105"
+            >
+              <div className="flex justify-center mb-4">
+                <BookOpen className="w-16 h-16 text-secondary" />
+              </div>
+              <h3 className="text-2xl font-bold text-foreground text-center mb-2">
+                Set Book Reading
+              </h3>
+              <p className="text-muted-foreground text-center">
+                Read passages with translation and discussion
+              </p>
+            </div>
+
+            <div
+              onClick={() => navigate('/goals')}
+              className="bg-card rounded-2xl p-8 shadow-xl hover:shadow-2xl border border-border transition-all cursor-pointer transform hover:scale-105"
+            >
+              <div className="flex justify-center mb-4">
+                <Target className="w-16 h-16 text-secondary" />
+              </div>
+              <h3 className="text-2xl font-bold text-foreground text-center mb-2">
+                My Goals
+              </h3>
+              <p className="text-muted-foreground text-center">
+                Set and track your learning objectives
+              </p>
+            </div>
+
+            <div
+              onClick={() => navigate('/progress')}
+              className="bg-card rounded-2xl p-8 shadow-xl hover:shadow-2xl border border-border transition-all cursor-pointer transform hover:scale-105"
+            >
+              <div className="flex justify-center mb-4">
+                <TrendingUp className="w-16 h-16 text-secondary" />
+              </div>
+              <h3 className="text-2xl font-bold text-foreground text-center mb-2">
+                Progress Tracking
+              </h3>
+              <p className="text-muted-foreground text-center">
+                View analytics and download reports
+              </p>
+            </div>
+          </div>
+
+          {/* Tab Navigation */}
+          <div className="flex flex-wrap gap-2 mb-8">
+            {['topics', 'vocabulary', 'progress', 'ai-visual'].map((tab) => (
+              <button
+                key={tab}
+                onClick={() => setActiveTab(tab)}
+                className={`px-6 py-3 rounded-lg font-semibold transition-all ${
+                  activeTab === tab
+                    ? 'bg-primary text-primary-foreground shadow-lg'
+                    : 'bg-card text-muted-foreground hover:bg-accent hover:text-accent-foreground border border-border'
+                }`}
+              >
+                {tab === 'topics' && 'Topics'}
+                {tab === 'vocabulary' && 'Vocabulary'}
+                {tab === 'progress' && 'Progress'}
+                {tab === 'ai-visual' && 'AI Visual'}
+              </button>
+            ))}
+          </div>
+
+          {/* Tab Content - Placeholder for existing functionality */}
+          {activeTab === 'progress' && user && <ProgressDashboard />}
+          {activeTab === 'ai-visual' && <AIVisualContent />}
+          
+          {activeTab === 'topics' && (
+            <div className="text-center text-foreground text-xl">
+              Topics module - existing functionality
+            </div>
+          )}
+          
+          {activeTab === 'vocabulary' && (
+            <div className="text-center text-foreground text-xl">
+              Vocabulary module - existing functionality
+            </div>
+          )}
+        </div>
+      </div>
+
+      {showAuthModal && <AuthModal isOpen={showAuthModal} onClose={() => setShowAuthModal(false)} />}
+    </div>
+  )
+}
+
+function App() {
+  // Global theme management
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const saved = localStorage.getItem('theme')
+    return saved === 'dark' || (!saved && true) // Default to dark mode
+  })
+
+  useEffect(() => {
+    // Apply theme class on mount and when theme changes
+    document.documentElement.classList.toggle('dark', isDarkMode)
+    document.documentElement.classList.toggle('light', !isDarkMode)
+  }, [isDarkMode])
+
+  const toggleTheme = () => {
+    const newMode = !isDarkMode
+    setIsDarkMode(newMode)
+    localStorage.setItem('theme', newMode ? 'dark' : 'light')
+  }
+
+  return (
+    <Routes>
+      <Route path="/" element={<HomePage isDarkMode={isDarkMode} toggleTheme={toggleTheme} />} />
+      <Route path="/kuwait-classes" element={<KuwaitClasses />} />
+      <Route path="/kuwait/class/:classNumber" element={<KuwaitUnits />} />
+      <Route path="/kuwait/class/:classNumber/unit/:unitNumber" element={<KuwaitVocabulary />} />
+      <Route path="/grammar-quiz" element={<GrammarQuiz />} />
+      <Route path="/vocabulary-practice" element={<KuwaitClasses />} />
+      <Route path="/vocabulary-learning/:classNumber/:unitNumber" element={<VocabularyLearning />} />
+      <Route path="/goals" element={<Goals />} />
+      <Route path="/set-book/:classNumber/:unitNumber" element={<SetBookReading />} />
+      <Route path="/progress" element={<ProgressTrackingPage />} />
+    </Routes>
+  )
+}
+
+export default App

@@ -1,0 +1,26 @@
+{
+  "analysis_status": "completed",
+  "analysis_type": "enhanced",
+  "data_sources_processed": 6,
+  "total_grammar_topics": 26,
+  "total_vocabulary_terms": 7,
+  "total_questions_analyzed": 315,
+  "curriculum_alignment": 0.5714285714285714,
+  "translation_quality": 0.11558669001751312,
+  "content_completeness": 152.94117647058823,
+  "grade_levels": [
+    "grade_1",
+    "grade_10",
+    "grade_11",
+    "grade_12",
+    "grade_7",
+    "grade_2",
+    "grade_3",
+    "grade_4",
+    "grade_6",
+    "grade_5"
+  ],
+  "top_recommendations": [
+    "LOW: Improve Arabic translation coverage"
+  ]
+}
