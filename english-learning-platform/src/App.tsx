@@ -29,6 +29,11 @@ const ListenAndLearnPage = lazy(() =>
     default: module.ListenAndLearnPage 
   }))
 )
+const ExpertCompanionPage = lazy(() => 
+  import('./components/expert-companion/ExpertCompanionPage').then(module => ({ 
+    default: module.ExpertCompanionPage 
+  }))
+)
 import { Button } from './components/ui/button'
 import { LanguageProvider, useLanguage, navigationLabels, getLocalizedText } from './contexts/LanguageContext'
 import { CurriculumProvider } from './contexts/CurriculumContext'
@@ -86,7 +91,8 @@ function AppContent() {
     { path: '/grammar', label: getLocalizedText('Grammar', 'القواعد', language) },
     { path: '/writing', label: getLocalizedText('Writing', 'الكتابة', language) },
     { path: '/functional', label: getLocalizedText('Functional', 'اللغة الوظيفية', language) },
-    { path: '/listen-learn', label: getLocalizedText('Listen & Learn', 'الاستماع والتعلم', language) }
+    { path: '/listen-learn', label: getLocalizedText('Listen & Learn', 'الاستماع والتعلم', language) },
+    { path: '/expert-companion', label: getLocalizedText('Expert Companion', 'الخبير', language) }
   ]
 
   return (
@@ -126,6 +132,9 @@ function AppContent() {
               </Link>
               <Link to="/listen-learn" className="text-muted-foreground hover:text-foreground transition-colors font-medium cursor-pointer">
                 {getLocalizedText('Listen & Learn', 'الاستماع والتعلم', language)}
+              </Link>
+              <Link to="/expert-companion" className="text-muted-foreground hover:text-foreground transition-colors font-medium cursor-pointer">
+                {getLocalizedText('Expert Companion', 'الخبير', language)}
               </Link>
             </div>
 
@@ -196,6 +205,9 @@ function AppContent() {
                 <Link to="/listen-learn" onClick={() => setMobileMenuOpen(false)} className="text-muted-foreground hover:text-foreground transition-colors font-medium py-2 text-left cursor-pointer">
                   {getLocalizedText('Listen & Learn', 'الاستماع والتعلم', language)}
                 </Link>
+                <Link to="/expert-companion" onClick={() => setMobileMenuOpen(false)} className="text-muted-foreground hover:text-foreground transition-colors font-medium py-2 text-left cursor-pointer">
+                  {getLocalizedText('Expert Companion', 'الخبير', language)}
+                </Link>
               </div>
             </div>
           )}
@@ -219,6 +231,7 @@ function AppContent() {
             <Route path="/writing" element={<WritingTopicsPage />} />
             <Route path="/functional" element={<FunctionalLanguagePage />} />
             <Route path="/listen-learn" element={<ListenAndLearnPage />} />
+            <Route path="/expert-companion" element={<ExpertCompanionPage />} />
             
             {/* Kuwait Curriculum Routes - Temporarily disabled for testing */}
             {/* <Route path="/kuwait-classes" element={<KuwaitClasses />} />
