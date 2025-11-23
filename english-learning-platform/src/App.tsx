@@ -1,19 +1,34 @@
 import { Routes, Route, useNavigate, useParams, Link } from 'react-router-dom'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, lazy, Suspense } from 'react'
 import { GraduationCap, Moon, Sun, Menu, X, Globe } from 'lucide-react'
 import { KuwaitHubHome } from './components/kuwait-hub/KuwaitHubHome'
-import { VocabularyLearningPage } from './components/kuwait-hub/VocabularyLearningPage'
 
-import { GrammarQuizPage } from './components/kuwait-hub/GrammarQuizPage'
-import { WritingTopicsPage } from './components/kuwait-hub/WritingTopicsPage'
-
-import { FunctionalLanguagePage } from './components/kuwait-hub/FunctionalLanguagePage'
-// Removed unused imports for unwanted sections
-// import { ProgressDashboardPage } from './components/kuwait-hub/ProgressDashboardPage'
-// import { SampleExamPage } from './components/kuwait-hub/SampleExamPage'
-// import { FileUploadPage } from './components/kuwait-hub/FileUploadPage'
-// import { VisualLearningPage } from './components/kuwait-hub/VisualLearningPage'
-import { ListenAndLearnPage } from './components/kuwait-hub/ListenAndLearnPage'
+// Lazy load components for better performance and code splitting
+const VocabularyLearningPage = lazy(() => 
+  import('./components/kuwait-hub/VocabularyLearningPage').then(module => ({ 
+    default: module.VocabularyLearningPage 
+  }))
+)
+const GrammarQuizPage = lazy(() => 
+  import('./components/kuwait-hub/GrammarQuizPage').then(module => ({ 
+    default: module.GrammarQuizPage 
+  }))
+)
+const WritingTopicsPage = lazy(() => 
+  import('./components/kuwait-hub/WritingTopicsPage').then(module => ({ 
+    default: module.WritingTopicsPage 
+  }))
+)
+const FunctionalLanguagePage = lazy(() => 
+  import('./components/kuwait-hub/FunctionalLanguagePage').then(module => ({ 
+    default: module.FunctionalLanguagePage 
+  }))
+)
+const ListenAndLearnPage = lazy(() => 
+  import('./components/kuwait-hub/ListenAndLearnPage').then(module => ({ 
+    default: module.ListenAndLearnPage 
+  }))
+)
 import { Button } from './components/ui/button'
 import { LanguageProvider, useLanguage, navigationLabels, getLocalizedText } from './contexts/LanguageContext'
 import { CurriculumProvider } from './contexts/CurriculumContext'
@@ -189,20 +204,28 @@ function AppContent() {
 
       {/* Main Content */}
       <main>
-        <Routes>
-          <Route path="/" element={<KuwaitHubHome />} />
-          <Route path="/vocabulary" element={<VocabularyLearningPage />} />
-
-          <Route path="/grammar" element={<GrammarQuizPage />} />
-          <Route path="/writing" element={<WritingTopicsPage />} />
-          <Route path="/functional" element={<FunctionalLanguagePage />} />
-          <Route path="/listen-learn" element={<ListenAndLearnPage />} />
-          
-          {/* Kuwait Curriculum Routes - Temporarily disabled for testing */}
-          {/* <Route path="/kuwait-classes" element={<KuwaitClasses />} />
-          <Route path="/kuwait/class/:classNumber" element={<KuwaitUnits />} />
-          <Route path="/kuwait/class/:classNumber/unit/:unitNumber" element={<KuwaitVocabulary />} /> */}
-        </Routes>
+        <Suspense fallback={
+          <div className="min-h-screen flex items-center justify-center">
+            <div className="text-center">
+              <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
+              <p className="text-muted-foreground">Loading...</p>
+            </div>
+          </div>
+        }>
+          <Routes>
+            <Route path="/" element={<KuwaitHubHome />} />
+            <Route path="/vocabulary" element={<VocabularyLearningPage />} />
+            <Route path="/grammar" element={<GrammarQuizPage />} />
+            <Route path="/writing" element={<WritingTopicsPage />} />
+            <Route path="/functional" element={<FunctionalLanguagePage />} />
+            <Route path="/listen-learn" element={<ListenAndLearnPage />} />
+            
+            {/* Kuwait Curriculum Routes - Temporarily disabled for testing */}
+            {/* <Route path="/kuwait-classes" element={<KuwaitClasses />} />
+            <Route path="/kuwait/class/:classNumber" element={<KuwaitUnits />} />
+            <Route path="/kuwait/class/:classNumber/unit/:unitNumber" element={<KuwaitVocabulary />} /> */}
+          </Routes>
+        </Suspense>
       </main>
 
       {/* Footer */}

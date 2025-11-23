@@ -144,7 +144,7 @@ export function VocabularyLearningPage() {
         utterance.volume = 0.8;
         window.speechSynthesis.speak(utterance);
       } else {
-        console.log('Playing audio for:', textToSpeak);
+        // Audio playback initiated
       }
     } catch (error) {
       console.error('Error playing audio:', error);

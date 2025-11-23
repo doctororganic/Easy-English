@@ -39,18 +39,8 @@ export function SetbookQuestionsPage({ initialGrade = 0 }: SetbookQuestionsPageP
   const debugLogger = useDebugLifecycle('SetbookQuestionsPage');
   const debugNavigate = useDebugNavigation(navigate, 'SetbookQuestionsPage');
 
-  // Debug logging
-  console.log('SetbookQuestionsPage render:', {
-    initialGrade,
-    selectedGrade,
-    selectedUnit,
-    activeTab,
-    locationPathname: location.pathname
-  });
-
   // Update state when initialGrade prop changes
   useEffect(() => {
-    console.log('SetbookQuestionsPage: initialGrade changed to', initialGrade);
     if (initialGrade > 0) {
       setSelectedGrade(initialGrade);
       const newUnits = getUnitsByGrade(initialGrade);
@@ -73,15 +63,6 @@ export function SetbookQuestionsPage({ initialGrade = 0 }: SetbookQuestionsPageP
   const units = getUnitsByGrade(selectedGrade);
   const selectedUnitData = units.find(unit => unit.id === selectedUnit);
 
-  // Debug data loading
-  console.log('SetbookQuestionsPage data:', {
-    gradeData,
-    availableGrades,
-    units,
-    selectedUnitData,
-    selectedGrade,
-    totalQuestions: gradeData ? gradeData.units.reduce((total, unit) => total + unit.questions.length, 0) : 0
-  });
 
   const toggleQuestionExpansion = (questionId: number) => {
     const newExpanded = new Set(expandedQuestions);
@@ -95,8 +76,6 @@ export function SetbookQuestionsPage({ initialGrade = 0 }: SetbookQuestionsPageP
 
   const selectGrade = (grade: number) => {
     debugLogger.logEvent('selectGrade:click', { grade, currentSelectedGrade: selectedGrade });
-    
-    console.log('SetbookQuestionsPage: Selecting grade', grade);
     // Update local state immediately for better UX
     setSelectedGrade(grade);
     const newUnits = getUnitsByGrade(grade);

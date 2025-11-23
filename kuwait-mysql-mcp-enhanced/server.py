@@ -783,12 +783,13 @@ def backup_database(config: Dict[str, Any], backup_path: str) -> Dict[str, Any]:
         backup_dir = Path(backup_path).parent
         backup_dir.mkdir(parents=True, exist_ok=True)
         
+        # Security: Use MYSQL_PWD environment variable instead of command line argument
+        # This prevents password from appearing in process list
         dump_cmd = [
             "mysqldump",
             f"--host={config['host']}",
             f"--port={config['port']}",
             f"--user={config['user']}",
-            f"--password={config['password']}",
             "--single-transaction",
             "--routines",
             "--triggers", 
@@ -797,13 +798,17 @@ def backup_database(config: Dict[str, Any], backup_path: str) -> Dict[str, Any]:
             config['database']
         ]
         
+        # Set password via environment variable (more secure)
+        env = os.environ.copy()
+        env["MYSQL_PWD"] = config['password']
+        
         with open(backup_path, 'w', encoding='utf-8') as backup_file:
             result = subprocess.run(
                 dump_cmd,
                 stdout=backup_file,
                 stderr=subprocess.PIPE,
                 text=True,
-                env={**os.environ, "MYSQL_PWD": config['password']}
+                env=env
             )
         
         if result.returncode == 0:
